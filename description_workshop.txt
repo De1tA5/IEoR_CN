@@ -42,3 +42,7 @@ Infernal Eclipse of Ragnarok——诸神黄昏：炼狱蚀光 已经内置汉化
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3429647408] 旧神之猎汉化补全 [/url]
 [/list]
 
+[h1] =已知问题= [/h1]
+[olist]
+[*]Thrower Unification（跨模组投手融合） —— 投掷武器职业标签无法汉化（短时间内无法解决）
+[/olist]
