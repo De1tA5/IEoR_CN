@@ -1,1 +1,21 @@
-Modify this file with a description of your mod.
+This is a Chinese-translation Mod for Infernal Eclipse of Ragnarok and other related mods
+这是诸神黄昏：炼狱蚀光以及其他相关模组的汉化mod
+
+=介绍=
+Infernal Eclipse of Ragnarok——诸神黄昏：炼狱蚀光 已经内置汉化
+但因为存在模组更新和汉化更新不同步的问题
+故此制作该汉化补丁
+
+=制作者信息= 
+Pudd1ng——主汉化
+三杯伍迪——维护
+
+=包含模组= 
+Infernal Eclipse of Ragnarok——诸神黄昏：炼狱蚀光  
+WHummus' Calamity/Thorium Balancing——WHummus的灾厄&瑟银平衡模组
+Infernal Eclipse of Ragnarok: Weapon DLC——诸神黄昏：炼狱蚀光 武器DLC
+Thrower Unification——跨模组投手融合
+Homeward Ragnarok——旅人黄昏
+Infernum SOTS Sanctuary WorldGen Adjuster——暗影奥秘世界生成调整
+
+
