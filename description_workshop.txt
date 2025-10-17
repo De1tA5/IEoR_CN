@@ -1,4 +1,4 @@
-[h1]诸神黄昏：炼狱蚀光系列汉化补丁[/h1]
+[h1]诸神黄昏：炼狱蚀光系列模组汉化补丁[/h1]
 
 [h1] =介绍= [/h1]
 Infernal Eclipse of Ragnarok——诸神黄昏：炼狱蚀光 已经内置汉化
@@ -31,8 +31,8 @@ Infernal Eclipse of Ragnarok——诸神黄昏：炼狱蚀光 已经内置汉化
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]补全炼狱模式中文字体缺失
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3430216891] Revengeance+ 汉化 [/url]提供更多模组复仇模式AI
-[*][https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok/zh] 炼狱蚀光系列官方中文Wiki [/url]仍在更新维护中，部分内容可能已过时或未汉化
-[*][https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok] 炼狱蚀光系列英文Wiki [/url]
+[*][url=https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok/zh] 炼狱蚀光系列官方中文Wiki [/url]仍在更新维护中，部分内容可能已过时或未汉化
+[*][url=https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok] 炼狱蚀光系列英文Wiki [/url]
 
 [h2] 其他中大型模组汉化 [/h2] 
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2825151264] 灾厄 [/url]
