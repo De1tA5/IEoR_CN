@@ -1,0 +1,480 @@
+Items: {
+	TwoPaths: {
+		DisplayName: Two Paths
+		Tooltip:
+			'''
+			Grants 4 soul essence on direct hit
+			Left click to deal full damage in a larger radius
+			Right click to consume mana and summon white scythes that slash the enemy
+			'''
+	}
+
+	TheParallel: {
+		Tooltip: ""
+		DisplayName: The Parallel
+	}
+
+	SuperShotgun: {
+		Tooltip:
+			'''
+			Right click stabs with the shotgun's blade, dealing melee damage
+			'What? Never seen a blade on a shotgun before?'
+			'''
+		DisplayName: Triggerblade
+	}
+
+	BellBallad: {
+		DisplayName: Ballad of Bells
+		Tooltip: ""
+	}
+
+	BirbSaxophone: {
+		DisplayName: Birb Call
+		Tooltip: "'Call upon the Bumblebirb's power!'"
+	}
+
+	DeepSeaDrawl: {
+		DisplayName: Deep Sea Drawl
+		Tooltip:
+			'''
+			A husk of it's former strength, it's parts scattered throughout the world
+			For just a moment, you swear you see a glimmer in the acidic bubbles that surround you
+			'''
+	}
+
+	DeathsWhisper: {
+		Tooltip: ""
+		DisplayName: Death's Whisper
+	}
+
+	BrimstoneHarp: {
+		Tooltip: ""
+		DisplayName: Brimstone Harp
+	}
+
+	NecroticChorus: {
+		DisplayName: Necrotic Chorus
+		Tooltip:
+			'''
+			Summons wisps that home onto foes
+			Right click for an alternate blood spit attack
+			'''
+	}
+
+	DeusFlute: {
+		DisplayName: Starwind Flute
+		Tooltip: ""
+	}
+
+	CorrodedCane: {
+		DisplayName: Corroded Cane
+		Tooltip: ""
+	}
+
+	Weapons: {
+		Rogue: {
+			OcramKnife: {
+				Tooltip: Stealth strikes summon extra demon scythes that home on foes as they speed up
+				DisplayName: Dagger of the Forgotten
+			}
+		}
+	}
+
+	TheBlight: {
+		DisplayName: The Blight
+		Tooltip: ""
+	}
+
+	GrandThunderWhip: {
+		Tooltip:
+			'''
+			5 summon tag damage
+			Electrifies foes on hit
+			'''
+		DisplayName: Grand Thunder Whip
+	}
+
+	DukeSynth: {
+		DisplayName: Viral Wisdom
+		Tooltip: "'It is finally here!'"
+	}
+
+	SearingSpearTip: {
+		Tooltip: Spear weapons will release hydrogen sulfide that burns foes on contact.
+		DisplayName: Searing Spear Tip
+	}
+
+	ArcticSpearTip: {
+		DisplayName: Arctic Spear Tip
+		Tooltip: Spear weapons will release a cryonic spear tip that is unaffected by gravity and pierces 5 times
+	}
+
+	DeepSeaDrawlShard1: {
+		DisplayName: Mouthpiece Shard
+		Tooltip:
+			'''
+			The Mouthpiece of the Restored Drawl
+			Permafrost once told stories of his encounters with the Lizhard tribe
+			Perhaps he may know something
+			'''
+	}
+
+	DeepSeaDrawlShard2: {
+		DisplayName: Bell Shard
+		Tooltip:
+			'''
+			The Bell of the Restored Drawl
+			In an attempt to keep others from this power, the mouthpiece was sealed in the dungeon
+			It is heard that the key was tossed to the blue depths below
+			'''
+	}
+
+	DeepSeaDrawlShard3: {
+		DisplayName: Body Shard
+		Tooltip:
+			'''
+			The Body of the Restored Drawl
+			A grand forge of soul will be the finishing touch to restore it's power
+			Make haste, the waves will soon crash at your call
+			'''
+	}
+
+	Legacy: {
+		DisplayName: Ocram's Roar
+		Tooltip: ""
+	}
+
+	RestoredDeepSeaDrawl: {
+		DisplayName: Restored Deep Sea Drawl
+		Tooltip:
+			'''
+			Summons a sharknado that throws aquatic debris at foes
+			You can only have one sharknado active at a time
+			Right click for an alternate typhoon attack that uses 2 inspiration
+			'''
+	}
+
+	SulphuricShanty: {
+		DisplayName: Sulphuric Shanty
+		Tooltip: ""
+	}
+
+	ExecutionersSword: {
+		DisplayName: Executioner's Sword
+		Tooltip:
+			'''
+			Left click to swing the sword, restoring 5 life on hit
+			Right click to throw the sword, embedding itself into the hit enemy
+			When the sword is embedded it will release light and dark energy
+			Light energy will home onto nearby allies and heal life equal to bonus healing
+			Dark energy will home onto nearby enemies, dealing damage
+			Only one sword can be thrown at a time
+			Empowered to execute the Death Penalty
+			'Confiscation.... and DEATH!'
+			'''
+	}
+
+	ButchersBloodmaker: {
+		DisplayName: Butcher's Bloodmaker
+		Tooltip:
+			'''
+			Fires a spread of bullets and a bolt of lightly homing blood
+			Right click to consume 50 life, entering a Blood Rage for 10 seconds
+			Blood Rage increases the bloodmaker's damage by 25% and causes blood bolts to inflict burning blood on hit
+			'''
+	}
+
+	NukeWhistle: {
+		Tooltip: "'Legalise nuclear songs'"
+		DisplayName: Intercontinental Ballistic Whistle
+	}
+
+	ListoftheDamned: {
+		DisplayName: List of the Damned
+		Tooltip: Fires a spread of 6 souls that burst forward after some time, dealing double damage
+	}
+
+	AirPodShawty: {
+		DisplayName: AirPod Shawty
+		Tooltip:
+			'''
+			Left click to consume inspiration and fire an AirPod that bursts into sound on hit
+			AirPod damage is increased with the ammo consumed
+			Right click to fire a buckshot of bullets from your ammo, not granting empowerments
+			These bullets will scale off of bard reforges and ranged boosts
+			"Airpod shawty ima catch a body lookin real sussy"
+			'''
+	}
+
+	AcidBelcher: {
+		DisplayName: Acid Belcher
+		Tooltip: ""
+	}
+
+	ForeverHungry: {
+		DisplayName: Forever Hungry
+		Tooltip: Hungries make splashes of blood on bounce
+	}
+
+	BottleOfSouls: {
+		DisplayName: Bottle of Souls
+		Tooltip:
+			'''
+			Releases souls of night and light from the jar
+			Souls of night home into enemies and deal damage, inflicting shadowflame
+			Souls of light home in and heal teammates equal to bonus healing
+			'''
+	}
+
+	SandSlasher: {
+		DisplayName: Shanty of the Former Seas
+		Tooltip: Creates small sandnados on bounce
+	}
+
+	DeepseaTrident: {
+		DisplayName: Serpentine Fork
+		Tooltip: ""
+	}
+
+	Stick: {
+		DisplayName: The Ultimate Stick of Supreme Power and Infinite Destruction
+		Tooltip:
+			'''
+			Sharpness V
+			Breach IV
+			Fire Aspect II
+			Unbreaking III
+			Mending
+			'This enchanted stick is totally legit'
+			'''
+	}
+
+	NeonRipper: {
+		DisplayName: Neon Ripper
+		Tooltip:
+			'''
+			Grants 3 soul essence on direct hit
+			Hitting enemies will generate electrifying nanobots
+			Right Click to throw the scythe, which will curve on it's way back
+			'''
+	}
+
+	PlasmaOcarina: {
+		Tooltip:
+			'''
+			Shoots a spread of 3 plasma beams 
+			Hold right click to charge a large damaging sound wave
+			[c/1FFBFF:'I once tried creating instruments that had to power to deal damage.]
+			[c/1FFBFF:This happens to be one of them, however these weapons were never mass produced]
+			[c/1FFBFF:because the Tyrant's army couldn't play them']
+			'''
+		DisplayName: Plasma Ocarina
+	}
+
+	Infrariff: {
+		DisplayName: Infrariff
+		Tooltip:
+			'''
+			Creates a lightshow of infared waves that will damage enemies on contact
+			'The microwave lightshow guitar, you know the one'
+			'''
+	}
+
+	Defibrillanator: {
+		DisplayName: Defibrillanator
+		Tooltip:
+			'''
+			Shoots overcharged bolts of lightning foward
+			Right click to shoot healing bolts
+			'''
+	}
+
+	ArckaneStaff: {
+		Tooltip: Creates an overloaded bolt of fluctuating elements
+		DisplayName: Arckane Staff
+	}
+
+	MystickStaff: {
+		DisplayName: Mystick Staff
+		Tooltip:
+			'''
+			Creates an supercharged bolt of every known element
+			'How much more do you need!?'
+			'''
+	}
+
+	GloomSwitch: {
+		DisplayName: Gloom Switch
+		Tooltip:
+			'''
+			A rapid fire SMG that fires a bouncing cursed flame every 15 shots
+			Right Click to consume 200 mana, entering a Dark Rush for 10 seconds
+			Dark Rush increases movement speed by 25% and tightens shot spread while the gun is held
+			'''
+	}
+
+	AuricBrimfireCrosier: {
+		Tooltip:
+			'''
+			Shoots balls of brimstone magic in a star pattern
+			'You think the witch is the only one who can cast those spells?'
+			'''
+		DisplayName: Auric Brimfire Crosier
+	}
+
+	CataclysmicGauntletVoid: {
+		DisplayName: Cataclysmic Gauntlet
+		Tooltip:
+			'''
+			Empowers you punches with brimstone energy for short-range high-damage barrages
+			Has a special effect when the Catastrophic Longblade is in the next slot next to this item
+			"'Cataclysm!'"
+			'''
+	}
+
+	CataclysmicGauntlet: {
+		DisplayName: Cataclysmic Gauntlet
+		Tooltip:
+			'''
+			Empowers you punches with brimstone energy for short-range high-damage barrages
+			Has a special effect when the Catastrophic Longblade is in the next slot next to this item
+			"'Cataclysm!'"
+			'''
+	}
+
+	CatastrophicLongbladeVoid: {
+		DisplayName: Catastrophic Longblade
+		Tooltip:
+			'''
+			Shoots a catastrophic brimstone energy beam forward
+			Has a special effect when the Cataclysmic Gauntlet is in the next slot next to this item
+			'''
+	}
+
+	CatastrophicLongblade: {
+		DisplayName: Catastrophic Longblade
+		Tooltip:
+			'''
+			Shoots a catastrophic brimstone energy beam forward
+			Has a special effect when the Cataclysmic Gauntlet is in the next slot next to this item
+			'''
+	}
+}
+
+Projectiles: {
+	TwoPathsPro.DisplayName: Two Paths
+	BlackExplosion.DisplayName: Black Explosion
+
+	Magic: {
+		WhiteScythe.DisplayName: White Scythe
+		HealingLightningArc.DisplayName: Healing Lightning Arc
+	}
+
+	TwoPathsPro2.DisplayName: Two Paths
+	TheParallellPro.DisplayName: The Parallell
+	BellBalladEleum.DisplayName: Ballad of Bells Eleum
+	BellBalladHavoc.DisplayName: Ballad of Bells Havoc
+	BellBalladSunlight.DisplayName: Ballad of Bells Sunlight
+	BellBalladSunlightLaser.DisplayName: Ballad of Bells Laser
+	BellBalladEleumBolt.DisplayName: Ballad of Bells Frost Bolt
+	BellBalladHavocSlash.DisplayName: Ballad of Bells Brimstone Slash
+	SulfurSpirit.DisplayName: Sulfur Spirit
+	DeepSeaDrawlPro.DisplayName: Deep Sea Drawl
+	HomingPlankton.DisplayName: Homing Plankton
+	DeathsWhisperPro.DisplayName: Death's Whisper
+	BrimstoneHarpPro.DisplayName: Brimstone Harp Skull
+	BirbSaxophonePro.DisplayName: Red Lightning Feather
+	NecroticChorusPro.DisplayName: Necrotic Chorus
+	NecroticChorusWisp.DisplayName: Necrotic Chorus Wisp
+	DeusFlutePro.DisplayName: Deus Flute Pro
+	DeusFluteStar.DisplayName: Deus Flute Star
+	CorrodedCanePro.DisplayName: Corroded Cane
+	CorrodedCaneShark.DisplayName: Sulphurous Sharkron
+	OcramKnifeProSickle.DisplayName: Ocram Knife Pro Sickle
+	OcramKnifeProBolt.DisplayName: Ocram Knife Pro Bolt
+	OcramKnifePro.DisplayName: Ocram Knife Pro
+	TheBlightProSickle.DisplayName: The Blight Pro Sickle
+	TheBlightProServantLaser.DisplayName: The Blight Pro Servant Laser
+	TheBlightProServant.DisplayName: The Blight Pro Servant
+	TheBlightProScythe.DisplayName: The Blight Pro Scythe
+	GrandThunderWhipProjectile.DisplayName: Grand Thunder Whip Projectile
+	SulfurExplosionPro.DisplayName: Sulfur Explosion Pro
+	HydrogenSulfideProj.DisplayName: Hydrogen Sulfide Proj
+	LegacyProBolt.DisplayName: Legacy Pro Bolt
+	LegacyProSickle.DisplayName: Legacy Pro Sickle
+	MiniScourge.DisplayName: Mini Scourge
+	DrawlEel.DisplayName: Drawl Eel
+	DrawlIsopod.DisplayName: Drawl Isopod
+	DrawlStarfish.DisplayName: Drawl Starfish
+	DrawlStarfishShard.DisplayName: Drawl Starfish Shard
+	OurSharknado.DisplayName: Our Sharknado
+	DarkEnergyProj.DisplayName: Dark Energy Proj
+	ExecutionersSwordPro.DisplayName: Executioners Sword Pro
+	LightEnergyProj.DisplayName: Light Energy Proj
+	LightSlashPro.DisplayName: Light Slash Pro
+	CryonicSpearTip.DisplayName: Cryonic Spear Tip
+	SuperShotgunStab.DisplayName: Super Shotgun Stab
+	ExecutionersSwordSlashPro.DisplayName: Executioners Sword Slash Pro
+	ExecutionersSwordLightEnergy.DisplayName: Executioners Sword Light Energy
+	ExecutionersSwordDarkEnergy.DisplayName: Executioners Sword Dark Energy
+	BloodShotFriendly.DisplayName: Blood Shot Friendly
+	NukePro.DisplayName: Nuke Pro
+	NukeMissile.DisplayName: Nuke Missile
+	ListoftheDamnedSoul_Orange.DisplayName: List of the Damned Soul Orange
+	ListoftheDamnedSoul_Cyan.DisplayName: List of the Damned Soul Cyan
+	AirPod.DisplayName: AirPod
+	AirPodNote.DisplayName: AirPod Note
+	BouncingHungry.DisplayName: Bouncing Hungry
+	HealingSoul.DisplayName: Healing Soul
+	DamagingSoul.DisplayName: Damaging Soul
+	ForeverHungryBlood.DisplayName: Forever Hungry Blood
+	AcidBelcherPro.DisplayName: Acid Belcher Pro
+	SandSlasherSandnado.DisplayName: Sand Slasher Sandnado
+	SandSlasher_Projectile.DisplayName: Sand Slasher Projectile
+	DeepseaTrident_Projectile.DisplayName: Deepsea Trident Projectile
+	Nanodroid.DisplayName: Nanodroid
+	NeonRipperPro.DisplayName: Neon Ripper Pro
+	InfrariffProjectile.DisplayName: Infrariff Projectile
+	InfrariffLaser.DisplayName: Infrariff Laser
+	ColoredExplosion.DisplayName: Colored Explosion
+	Misc.BardPulseRiffleShot.DisplayName: Bard Pulse Riffle Shot
+	Staff_Projectile.DisplayName: Staff_ Projectile
+	ArckaneStaffPro.DisplayName: Arckane Staff Pro
+	MystickStaffPro.DisplayName: Mystick Staff Pro
+	HealerBrimstoneBarrage.DisplayName: Healer Brimstone Barrage
+	SupremeCataclysmFist.DisplayName: Supreme Cataclysm Fist
+	SupremeCatastropheSlash.DisplayName: Supreme Catastrophe Slash
+	SharknadoBolt.DisplayName: Sharknado Bolt
+}
+
+Buffs: {
+	DefaultSummonTag: {
+		DisplayName: Default Summon Tag
+		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.DefaultSummonTag.Description
+	}
+
+	SwordStuckBuff: {
+		DisplayName: Sword Stuck
+		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.SwordStuckBuff.Description
+	}
+
+	BloodRageBuff: {
+		DisplayName: Blood Rage
+		Description: Increases bloodmaker damage by 25% and couses blood bolts to inflict burning blood on hit
+	}
+}
+
+ItemTooltip: {
+	DuesFluteLore: They had found the source of the Astral Infection, and in a attempt to destroy it they used the Starcore on the infected altar.
+	DuesFluteLore2: However, the altar had an unexpected reaction... two lights had started bouncing off each other heading the direction of the sky, opening a rift above it
+	DuesFluteLore3: What came out of it was truly something out of this world, but they appreciation had to be cut short as the servant of the stars rushed towards them.
+	UniversalLore1: Kos had made his final stand. Used all of his tricks up his sleeve. He had lost to them. However, it doesn't mean Eclipse had lost.
+	UniversalLore2: Using every inch of power he had remaining in his soul, he summoned the true god slayer: The Devourer of Gods.
+	ParallelLore1: To his expectation, they had slew the Storm Weaver. But Kos had another trick up his sleeve.
+	ParallelLore2: Suddenly, with no warning, Kos had transported everyone to the mirror realm and called upon his second servant: Signus.
+	TwoSideLore1: They overcame Ragnarok. They dismantled Eclipse. They survived the Slime Monsoon.
+	TwoSideLore2: They stood at the brink of infinity, which only then Ren asked them "which path will you choose?"
+	NeonRipperLore1: After the defeat of the Goliath, Erelian decided to repurpose some of the armor plating it wore.
+	NeonRipperLore2: In doing so he created two weapons: the first of which being a sycthe that could absorb aura, much like Kami's ability.
+	PBGBardALore2: In doing so he created two weapons: the second of which being a guitar that shot colorful microwaves.
+}

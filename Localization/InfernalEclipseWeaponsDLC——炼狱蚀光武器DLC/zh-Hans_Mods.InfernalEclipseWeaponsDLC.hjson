@@ -1,0 +1,498 @@
+Items: {
+	TwoPaths: {
+		DisplayName: 神冥歧径
+		Tooltip:
+			'''
+			直接击中会获得4层灵魂精华
+			左键驱动镰刀造成大范围伤害
+			右键消耗魔力，召唤洁白之镰斩击敌人
+			'''
+	}
+
+	TheParallel: {
+		Tooltip: ""
+		DisplayName: 平行音律
+	}
+
+	SuperShotgun: {
+		Tooltip:
+			'''
+			右键使用刺刀突刺，造成近战伤害
+			“怎么？没见过带刺刀的霰弹枪？”
+			'''
+		DisplayName: 刺刃霰弹枪
+	}
+
+	BellBallad: {
+		DisplayName: 颂铃之歌
+		Tooltip: ""
+	}
+
+	BirbSaxophone: {
+		DisplayName: 啼羽萨克斯
+		Tooltip: “召唤癫痫鸟之力！”
+	}
+
+	DeepSeaDrawl: {
+		DisplayName: 深水腔调
+		Tooltip:
+			'''
+			往日力量的残躯，如今零散于世间各处
+			在那环绕你的酸液气泡中，你仿佛一瞬间看见了微光
+			'''
+	}
+
+	DeathsWhisper: {
+		Tooltip: ""
+		DisplayName: 殁亡笛语
+	}
+
+	BrimstoneHarp: {
+		Tooltip: ""
+		DisplayName: 硫火竖琴
+	}
+
+	NecroticChorus: {
+		DisplayName: 死灵合唱团
+		Tooltip:
+			'''
+			召唤追踪的幽光
+			右键发动血液喷射攻击
+			'''
+	}
+
+	DeusFlute: {
+		DisplayName: 流星风笛
+		Tooltip: ""
+	}
+
+	CorrodedCane: {
+		DisplayName: 酸朽藤杖
+		Tooltip: ""
+	}
+
+	Weapons: {
+		Rogue: {
+			OcramKnife: {
+				Tooltip: 潜伏攻击会召唤加速时追踪的恶魔镰刀
+				DisplayName: 忘却匕首
+			}
+		}
+	}
+
+	TheBlight: {
+		DisplayName: 枯萎之镰
+		Tooltip: 直接命中会获得1层灵魂精华
+	}
+
+	GrandThunderWhip: {
+		Tooltip:
+			'''
+			5点召唤标记伤害
+			命中敌人时造成带电减益
+			'''
+		DisplayName: 惊雷鞭
+	}
+
+	DukeSynth: {
+		DisplayName: 病毒智慧律动键盘
+		Tooltip: “它终将现世，以节拍感染众生！”
+	}
+
+	SearingSpearTip: {
+		Tooltip: 长矛类武器会释放硫磺毒气，触碰时灼烧敌人
+		DisplayName: 炙焱矛尖
+	}
+
+	ArcticSpearTip: {
+		DisplayName: 冰封矛尖
+		Tooltip: 长矛武器会释放出一支不受重力影响的寒冰矛尖，可连续穿刺5次
+	}
+
+	DeepSeaDrawlShard1: {
+		DisplayName: 吹嘴残片
+		Tooltip:
+			'''
+			原版腔调的吹口
+			永冻曾经讲述过他与蜥蜴人部族的邂逅
+			或许他知道些什么
+			'''
+	}
+
+	DeepSeaDrawlShard2: {
+		DisplayName: 管口残片
+		Tooltip:
+			'''
+			原版腔调的管口
+			为了防止他人获取这股力量，吹口被封印在地牢之中
+			据说开启它的钥匙被抛入了幽蓝的深渊
+			'''
+	}
+
+	DeepSeaDrawlShard3: {
+		DisplayName: 管体残片
+		Tooltip:
+			'''
+			原版腔调的管体
+			一座宏伟的灵魂熔炉将成为恢复其力量的最后一笔
+			快些吧，潮汐即将因你的召唤而汹涌
+			'''
+	}
+
+	Legacy: {
+		DisplayName: 奥库瑞姆的咆哮
+		Tooltip: ""
+	}
+
+	RestoredDeepSeaDrawl: {
+		DisplayName: 原版深海腔调
+		Tooltip:
+			'''
+			召唤鲨龙卷，将海洋残骸投向敌人
+			场上同时仅可存在一个鲨龙卷
+			右键可释放台风攻击，消耗2点灵感
+			'''
+	}
+
+	SulphuricShanty: {
+		DisplayName: 硫海船歌
+		Tooltip: ""
+	}
+
+	ExecutionersSword: {
+		DisplayName: 行刑者之剑
+		Tooltip:
+			'''
+			左键挥动长剑，命中时回复5点生命值
+			右键投掷长剑，将其嵌入敌人之中
+			长剑处于嵌入状态时会释放出光暗能量
+			光辉能量会追踪附近的友方，并治疗等同于额外治疗量的生命值
+			暗影能量会追踪附近的敌人，造成伤害
+			一次只能投掷一把长剑
+			授权执行死刑
+			“没收...并处以极刑！”
+			'''
+	}
+
+	ButchersBloodmaker: {
+		DisplayName: 血铸屠夫铳
+		Tooltip:
+			'''
+			发射散射子弹与一枚带轻微追踪效果的血弹
+			右键消耗50点生命，进入持续10秒的血怒状态
+			血怒状态下血铸枪伤害提高25%，且血弹命中时会施加血液沸腾减益
+			'''
+	}
+
+	NukeWhistle: {
+		Tooltip: “核歌曲自由！”
+		DisplayName: 洲际弹道口哨
+	}
+
+	ListoftheDamned: {
+		DisplayName: 诅咒者簿录
+		Tooltip: 发射6个灵魂，短暂延迟后向前飞射，造成双倍伤害
+	}
+
+	AirPodShawty: {
+		DisplayName: AirPod美眉
+		Tooltip:
+			'''
+			可快速连发两次，然后需要重新装填
+			左键消耗灵感，发射一个AirPod，命中后爆发声波
+			AirPod伤害随消耗弹药提升
+			右键发射一发霰弹，不提供咒音增幅
+			子弹受乐师重铸前缀与远程伤害加成影响
+			“噢baby情话多说一点，想我就多看一眼~”
+			'''
+	}
+
+	AcidBelcher: {
+		DisplayName: 酸液喷喉
+		Tooltip: ""
+	}
+
+	ForeverHungry: {
+		DisplayName: 永恒之饥
+		Tooltip: 饿鬼在弹跳时会迸溅血液
+	}
+
+	BottleOfSouls: {
+		DisplayName: 载魂瓶
+		Tooltip:
+			'''
+			释放瓶中的暗影之魂与光明之魂
+			暗影之魂会追击敌人并造成伤害，施加暗影焰
+			光明之魂会追击队友并进行治疗，治疗量等于你的额外治疗值
+			'''
+	}
+
+	SandSlasher: {
+		DisplayName: 昔海之谣
+		Tooltip: 反弹时演奏出小型沙龙卷
+	}
+
+	DeepseaTrident: {
+		DisplayName: 蛇之叉
+		Tooltip: ""
+	}
+
+	Stick: {
+		DisplayName: 终极毁天灭地至尊神棍
+		Tooltip:
+			'''
+			锋利 V
+			破甲 IV
+			火焰附加 II
+			耐久 III
+			经验修补
+			“这附魔木棍绝对靠谱”
+			'''
+	}
+
+	NeonRipper: {
+		DisplayName: 霓虹裂镰
+		Tooltip:
+			'''
+			直接击中会获得3层灵魂精华
+			攻击敌人会释放带电的纳米机器人
+			右键投掷镰刀，它会以弧线轨迹返回
+			'''
+	}
+
+	PlasmaOcarina: {
+		Tooltip:
+			'''
+			发射三道等离子光束
+			右键蓄力以释放高伤害的音波
+			[c/1FFBFF:我曾尝试制造过能造成伤害的乐器]
+			[c/1FFBFF:这正是其中之一，然而这些武器从未量产]
+			[c/1FFBFF:因为暴君的军队根本不会演奏它们]
+			'''
+		DisplayName: 等离子陶笛
+	}
+
+	Infrariff: {
+		DisplayName: 红外电吉他
+		Tooltip:
+			'''
+			演奏时释放红外灯效，触碰敌人造成伤害
+			“那把微波灯光秀吉他，你懂我意思”
+			'''
+	}
+
+	Defibrillanator: {
+		DisplayName: 雷击除颤器
+		Tooltip:
+			'''
+			向前发射过载的闪电弹
+			右键发射治疗电击弹
+			'''
+	}
+
+	ArckaneStaff: {
+		Tooltip: 释放一枚过载的元素能量弹
+		DisplayName: 奥能法杖
+	}
+
+	MystickStaff: {
+		DisplayName: 秘能法杖
+		Tooltip:
+			'''
+			释放一枚汇聚所有已知元素的超能能量弹
+			“你还想要多少啊！？”
+			'''
+	}
+
+	GloomSwitch: {
+		DisplayName: 幽冥扳机
+		Tooltip:
+			'''
+			一把速射冲锋枪，每15发会射出一簇弹跳的诅咒焰
+			右键消耗200法力，进入10秒的暗影冲击
+			暗影冲击期间移动速度提高25%，且持枪时射击散布减小
+			'''
+	}
+
+	AuricBrimfireCrosier: {
+		Tooltip:
+			'''
+			以星形轨迹释放硫火魔法
+			“你以为只有那位魔女才能施展这些法术吗？”
+			'''
+		DisplayName: 金辉狱火杖
+	}
+
+	CataclysmicGauntletVoid: {
+		DisplayName: 灾祸拳套
+		Tooltip:
+			'''
+			硫火之力灌注双拳，释放近距离高伤害连击
+			当灾难长刃在相邻的快捷栏内时，可触发特殊效果 
+			“灾祸！”
+			'''
+	}
+
+	CataclysmicGauntlet: {
+		DisplayName: 灾祸拳套
+		Tooltip:
+			'''
+			硫火之力灌注双拳，释放近距离高伤害连击
+			当灾难长刃在相邻的快捷栏内时，可触发特殊效果
+			“灾祸！”
+			'''
+	}
+
+	CatastrophicLongbladeVoid: {
+		DisplayName: 灾难长刃
+		Tooltip:
+			'''
+			当灾祸拳套在相邻的快捷栏内时，可触发特殊效果
+			向前斩出宛若浩劫的硫火刃光
+			'''
+	}
+
+	CatastrophicLongblade: {
+		DisplayName: 灾难长刃
+		Tooltip:
+			'''
+			当灾祸拳套在相邻的快捷栏内时，可触发特殊效果
+			向前斩出宛若浩劫的硫火刃光
+			'''
+	}
+}
+
+Projectiles: {
+	TwoPathsPro.DisplayName: 神冥歧径
+	BlackExplosion.DisplayName: 暗黑爆破
+
+	Magic: {
+		WhiteScythe.DisplayName: 洁白之镰
+		HealingLightningArc.DisplayName: 治疗性电弧
+	}
+
+	TwoPathsPro2.DisplayName: 神冥歧径
+	TheParallellPro.DisplayName: 平行音律
+	BellBalladEleum.DisplayName: 怜钟之歌
+	BellBalladHavoc.DisplayName: 乱钟之歌
+	BellBalladSunlight.DisplayName: 耀钟之歌
+	BellBalladSunlightLaser.DisplayName: 炽钟之歌
+	BellBalladEleumBolt.DisplayName: 霜钟之歌
+	BellBalladHavocSlash.DisplayName: 炎钟之歌
+	SulfurSpirit.DisplayName: 硫魂
+	DeepSeaDrawlPro.DisplayName: 深水腔调
+	HomingPlankton.DisplayName: 追踪浮游体
+	DeathsWhisperPro.DisplayName: 殁亡笛语
+	BrimstoneHarpPro.DisplayName: 硫焰琴骨
+	BirbSaxophonePro.DisplayName: 赤霆之羽
+	NecroticChorusPro.DisplayName: 死灵合唱团
+	NecroticChorusWisp.DisplayName: 亡歌幽焰
+	DeusFlutePro.DisplayName: 流星风笛
+	DeusFluteStar.DisplayName: 风笛流星
+	CorrodedCanePro.DisplayName: 酸朽藤杖
+	CorrodedCaneShark.DisplayName: 硫海鲨灵
+	OcramKnifeProSickle.DisplayName: 奥库瑞姆斩击
+	OcramKnifeProBolt.DisplayName: 奥库瑞姆飞弹
+	OcramKnifePro.DisplayName: 奥库瑞姆匕首
+	TheBlightProSickle.DisplayName: 枯萎斩击
+	TheBlightProServantLaser.DisplayName: 枯萎奴仆激光
+	TheBlightProServant.DisplayName: 枯萎奴仆
+	TheBlightProScythe.DisplayName: 枯萎之镰
+	GrandThunderWhipProjectile.DisplayName: 惊雷鞭
+	SulfurExplosionPro.DisplayName: 硫爆
+	HydrogenSulfideProj.DisplayName: 硫氢毒弹
+	LegacyProBolt.DisplayName: 奥库瑞姆咆哮飞弹
+	LegacyProSickle.DisplayName: 奥库瑞姆咆哮斩击
+	MiniScourge.DisplayName: 迷你灾虫
+	DrawlEel.DisplayName: 鳗鱼腔调
+	DrawlIsopod.DisplayName: 等足虫腔调
+	DrawlStarfish.DisplayName: 海星腔调
+	DrawlStarfishShard.DisplayName: 海星碎片
+	OurSharknado.DisplayName: 友方鲨龙卷
+	DarkEnergyProj.DisplayName: 暗能量
+	ExecutionersSwordPro.DisplayName: 行刑者之剑
+	LightEnergyProj.DisplayName: 光能
+	LightSlashPro.DisplayName: 光斩
+	CryonicSpearTip.DisplayName: 寒冰矛尖
+	SuperShotgunStab.DisplayName: 霰弹枪戳刺
+	ExecutionersSwordSlashPro.DisplayName: 行刑者之斩
+	ExecutionersSwordLightEnergy.DisplayName: 行刑者之剑光辉能量
+	ExecutionersSwordDarkEnergy.DisplayName: 行刑者之剑暗影能量
+	BloodShotFriendly.DisplayName: 血液射击
+	NukePro.DisplayName: 核打击
+	NukeMissile.DisplayName: 核弹头
+	ListoftheDamnedSoul_Orange.DisplayName: 橙色咒魂
+	ListoftheDamnedSoul_Cyan.DisplayName: 青色咒魂
+	AirPod.DisplayName: AirPod
+	AirPodNote.DisplayName: AirPod音符
+	BouncingHungry.DisplayName: 弹跳饿鬼
+	HealingSoul.DisplayName: 治疗之魂
+	DamagingSoul.DisplayName: 伤害之魂
+	ForeverHungryBlood.DisplayName: 永恒之饥血滴
+	AcidBelcherPro.DisplayName: 酸液喷喉
+	SandSlasherSandnado.DisplayName: 昔海之谣沙龙卷
+	SandSlasher_Projectile.DisplayName: 昔海之音
+	DeepseaTrident_Projectile.DisplayName: 深海三叉戟
+	Nanodroid.DisplayName: 纳米机兵
+	NeonRipperPro.DisplayName: 霓虹裂镰
+	InfrariffProjectile.DisplayName: 红外电音
+	InfrariffLaser.DisplayName: 红外激光
+	ColoredExplosion.DisplayName: 绚光爆破
+	Misc.BardPulseRiffleShot.DisplayName: 吟游律动脉冲
+	Staff_Projectile.DisplayName: 魔法飞弹
+	ArckaneStaffPro.DisplayName: 奥能法杖
+	MystickStaffPro.DisplayName: 秘能法杖
+	HealerBrimstoneBarrage.DisplayName: 牧师硫火弹幕
+	SupremeCataclysmFist.DisplayName: 至尊灾祸之拳
+	SupremeCatastropheSlash.DisplayName: 至尊灾难之刃
+	SharknadoBolt.DisplayName: 鲨龙卷飞弹
+}
+
+Buffs: {
+	DefaultSummonTag: {
+		DisplayName: 召唤标记
+		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.DefaultSummonTag.Description
+	}
+
+	SwordStuckBuff: {
+		DisplayName: 剑刃贯体
+		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.SwordStuckBuff.Description
+	}
+
+	BloodRageBuff: {
+		DisplayName: 血怒
+		Description: 血铸武器伤害提高25%，血弹命中时附加血液沸腾减益
+	}
+}
+
+ItemTooltip: {
+	DuesFluteLore: 他们找到了星辉瘟疫的源头。为了将其毁灭，他们将星核献奉于被污染的祭坛之上。
+	DuesFluteLore2: 然而，祭坛却作出了意想不到的反应……两道光辉相互碰撞，直冲苍穹，在头顶撕开一条裂隙。
+	DuesFluteLore3: 异界之物从裂隙中涌出。在他们惊叹之际，星辰的仆从已经迎面冲来。
+	UniversalLore1: 柯斯的最后一击消散了，招数已尽，败局已定。但是蚀光会拒绝落败。
+	UniversalLore2: 榨干灵魂中仅存的余力，他召唤出了真正的弑神凶灵——神明吞噬者。
+	ParallelLore1:
+		'''
+		正如他所料，他们击败了风暴编织者。
+		但柯斯还有一计。
+		'''
+	ParallelLore2:
+		'''
+		忽然间，在没有任何预警的情况下，众人被传送至镜像领域。
+		他的第二位仆从现身于虚无之中——神之使徒，西格纳斯
+		'''
+	TwoSideLore1:
+		'''
+		祂征服了诸神黄昏。
+		祂瓦解了蚀光会。
+		'''
+	TwoSideLore2:
+		'''
+		祂挺过了史莱姆季风。 
+		当祂立于无穷的边缘，
+		仁问：“你将行何路？”
+		'''
+	NeonRipperLore1: 在击败歌莉娅之后，埃雷利安决定重新利用它身上残留的部分装甲
+	NeonRipperLore2: 借此他打造了两件武器：第一件是一柄能够吸收灵气的镰刀，正如卡米的能力一般。
+	PBGBardALore2: 借此他打造了两件武器：第二件是一把能够射出炫彩光波的吉他。
+}

@@ -1,0 +1,180 @@
+DefaultStealthStrikeTooltip: 潜伏攻击增加75%伤害和75%速度
+DefaultStealthStrikeTooltipDamage: 潜伏攻击增加75%伤害
+DefaultStealthStrikeTooltipVelocity: 潜伏攻击增加75%速度
+CrumblingStrikeTooltip: 潜伏攻击会造成额外伤害并施加5秒粉碎减益
+CrunchStrikeTooltip: 潜伏攻击会造成额外伤害并施加5秒碎甲减益
+
+ThoriumStealthStrike: {
+	CactusNeedle: 潜伏攻击会发射出3个为一束的针刺
+	IcyTomahawk: 潜伏攻击会发射4个速度不同的投斧，投斧会存在更久且穿透更强
+	ZephyrRuin: 潜伏攻击会发射更强大且必定暴击的投矛
+	ClockworkBomb: 潜伏攻击会产生更大且持续时间更久的立场
+	SoulBomb: 潜伏攻击在引爆时释放一阵追踪的灵魂
+	PlayingCard: 潜伏攻击会发射出5张爆炸性的追踪卡片
+	Soulslasher: 潜伏攻击命中敌人后会继续追踪攻击
+	WhiteDwarfCutter: 潜伏攻击的每次命中都会产生伤害为目标最大生命值0.1%的白色闪光
+	CaptainsPoignard: 潜伏攻击会一次性发射6把匕首，并使你的攻速增加10秒
+	SoftServeSunderer: 潜伏攻击会在被击中的敌人的上方释放锥刺雨
+	ShadeShuriken: 潜伏攻击会发射一枚更大更快且穿透更强的手里剑
+	LodestoneJav: 潜伏攻击会使被击中的敌怪释放土壤喷发，并造成剥离减益
+	ValadiumThrowingAxe: 潜伏攻击在首次命中时，会在目标周围召唤一圈战斧飞向被击中的敌人
+	ChlorophyteTomahawk: 潜伏攻击持续时间更长，穿透更强，并在持续期间内持续生成追踪的孢子
+	DraculaFang: 潜伏攻击会投掷出4个吸血獠牙
+	WackWrench: 潜伏攻击会扔出一个巨大扳手能够穿透物块并在攻击敌人时停留在原地
+	EnchantedKnife: 潜伏攻击命中时会召唤一颗星星从天而降攻击命中的敌人
+	GoblinWarSpear: 潜伏攻击会在命中时破碎成3-4个紫杉木碎片，并施加穿刺减益
+	MeteoriteClusterBomb: 潜伏攻击会分裂成一群和自己相同的炸弹，形成递归群组
+	AquaiteKnife: 潜伏攻击会在被击中的敌人处向外释放高穿透的冲击波
+	SteelThrowingAxe: 潜伏攻击投掷出3把钢投斧，并使命中的敌人眩晕
+	DurasteelThrowingSpear: 潜伏攻击投出3把高穿透的耐钢投矛，并使命中的敌人眩晕
+	FireAxe:
+		'''
+		“最好用这个东西来避免裂隙……”
+		潜伏攻击会召唤出一把幽灵火焰战斧劈砍命中的敌怪
+		'''
+	TerraKnife:
+		'''
+		左键快速扔出泰拉匕首
+		右键扔出一把穿刺泰拉小刀，持续伤害选中的目标
+		潜伏攻击会同时投掷匕首和小刀，小刀在命中目标时发起一连串斩击
+		'''
+	GelGlove:
+		'''
+		扔出可以在表面反弹的凝胶球
+		可以通过蓄力来增加伤害，反弹次数和大小
+		潜伏攻击在飞行过程中向附近敌人发射手里剑
+		'''
+	TidalWave:
+		'''
+		“以潮汐之怒扫除你的敌人……”
+		扔出一个大型水之手里剑，会释放微型海波
+		潜伏攻击会产生一道可以聚拢附近敌怪的伤害性浪潮
+		'''
+}
+
+DamageClasses: {
+	UnitedModdedThrower: {
+		DisplayName: {
+			0: 投手伤害
+			1: 盗贼伤害
+			2: 恶念伤害
+			3: 动能伤害
+			Thrower: 投手伤害
+			Rogue: 盗贼伤害
+			Malevolent: 恶念伤害
+			Kinetic: 动能伤害
+			thrower: 投手伤害
+			rogue: 盗贼伤害
+			malevolent: 恶念伤害
+			kinetic: 动能伤害
+		}
+	}
+}
+
+CustomName: "{0}伤害"
+ClassTag: -{0}职业-
+
+Configs: {
+	ThrowerModConfig: {
+		DisplayName: 投手模组配置文件
+
+		Headers: {
+			General: 通用标题
+			ColoredDamageType: 伤害类型染色
+			ClassTag: 职业标签
+		}
+
+		Vanilla: {
+			Label: 原版
+			Tooltip: 开关对所有使用原版投掷者职业伤害机制的模组的职业合并功能（主要包括瑟银模组）
+		}
+
+		Calamity: {
+			Label: 灾厄
+			Tooltip: 开关对灾厄模组中盗贼职业的合并功能
+		}
+
+		Vitality: {
+			Label: 万灵
+			Tooltip: 开关对万灵模组中鲜血猎人职业的合并功能
+		}
+
+		SacredTools: {
+			Label: 亚巴顿之影（原圣域）
+			Tooltip: 开关对亚巴顿之影模组中刺客职业的合并功能
+		}
+
+		TooltipOverride: {
+			Label: 职业名称&物品信息覆盖
+			Tooltip: 允许你调整伤害类型的名称，可以使用任意一种受支持的名称，或者是自定义名称
+		}
+
+		R: {
+			Label: 红色
+			Tooltip: ""
+		}
+
+		G: {
+			Label: 绿色
+			Tooltip: ""
+		}
+
+		B: {
+			Label: 蓝色
+			Tooltip: ""
+		}
+
+		StealthStrikes: {
+			Label: 潜伏攻击
+			Tooltip:
+				'''
+				开关非灾厄投手武器的潜伏攻击
+				此选项在未启用灾厄模组时无效
+				'''
+		}
+
+		CustomTooltipOverride: {
+			Label: 自定义物品信息调整
+			Tooltip:
+				'''
+				允许你为融合后的投手职业使用自定义名称
+				输入你想使用的职业伤害名称
+				'''
+		}
+
+		ThoriumClassTag: {
+			Label: 职业标签
+			Tooltip: 开关物品工具提示顶部的职业标签
+		}
+
+		TagR: {
+			Label: 标签 红色
+			Tooltip: ""
+		}
+
+		TagG: {
+			Label: 标签 绿色
+			Tooltip: ""
+		}
+
+		TagB: {
+			Label: 标签 蓝色
+			Tooltip: ""
+		}
+	}
+
+	TooltipOverrideStyle: {
+		Tooltip: ""
+		Thrower.Label: 投手
+		Rogue.Label: 盗贼
+		Malevolent.Label: 恶念
+		Kinetic.Label: 动能
+		Custom.Label: 自定义
+	}
+}
+
+Projectiles: {
+	FireAxeStealthPro.DisplayName: 消防斧绝赞潜伏中
+	RogueSpectreBlast.DisplayName: 幽影冲击
+	TidalWaveWhirlpool.DisplayName: 海潮涡流
+}
