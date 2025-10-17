@@ -1,5 +1,4 @@
-[h1] This is a Chinese-translation Mod for Infernal Eclipse of Ragnarok and other related mods [/h1]
-这是诸神黄昏：炼狱蚀光以及其他相关模组的汉化mod
+[h1]诸神黄昏：炼狱蚀光系列汉化补丁[/h1]
 
 [h1] =介绍= [/h1]
 Infernal Eclipse of Ragnarok——诸神黄昏：炼狱蚀光 已经内置汉化
