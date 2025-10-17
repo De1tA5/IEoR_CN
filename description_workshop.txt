@@ -4,7 +4,8 @@
 [h1] =介绍= [/h1]
 Infernal Eclipse of Ragnarok——诸神黄昏：炼狱蚀光 已经内置汉化
 但因为存在模组更新和汉化更新不同步的问题
-故此制作该汉化补丁
+故制作该汉化补丁
+此模组会第一时间更新相关汉化，官方汉化一般会在下个版本跟进
 [url=https://github.com/De1tA5/IEoR_CN] 开源汉化库 [/url]
 
 硬编码部分汉化使用——[url=https://github.com/TigerChenzzz/TerrariaTigerForceLocalizationLib] TigerForceLocalizationLib [/url] 
@@ -22,15 +23,17 @@ Infernal Eclipse of Ragnarok——诸神黄昏：炼狱蚀光 已经内置汉化
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3452171528] WHummus' Calamity/Thorium Balancing——WHummus的灾厄&瑟银平衡模组[/url]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3485175010] Infernal Eclipse of Ragnarok: Weapon DLC——诸神黄昏：炼狱蚀光 武器DLC[/url]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3535746309] Thrower Unification——跨模组投手融合[/url]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3557455275] Homeward Ragnarok——旅人黄昏[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3557455275] Homeward Ragnarok——旅人黄昏（炼狱蚀光-旅人归途兼容模组）[/url]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3556808030] Infernum SOTS Sanctuary WorldGen Adjuster——暗影奥秘世界生成调整[/url]
 [/olist] 
 [/code] 
 
-[h1] =相关模组= [/h1]
+[h1] =相关链接= [/h1]
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]补全炼狱模式中文字体缺失
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3430216891] Revengeance+ 汉化 [/url]提供更多模组复仇模式AI
+[*][https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok/zh] 炼狱蚀光系列官方中文Wiki [/url]仍在更新维护中，部分内容可能已过时或未汉化
+[*][https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok] 炼狱蚀光系列英文Wiki [/url]
 
 [h2] 其他中大型模组汉化 [/h2] 
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2825151264] 灾厄 [/url]
@@ -44,5 +47,5 @@ Infernal Eclipse of Ragnarok——诸神黄昏：炼狱蚀光 已经内置汉化
 
 [h1] =已知问题= [/h1]
 [olist]
-[*]Thrower Unification（跨模组投手融合） —— 投掷武器职业标签无法汉化（短时间内无法解决）
+[*]Thrower Unification（跨模组投手融合） —— 投掷武器职业标签无法汉化（短时间内无法解决，建议您使用自定义的中文职业名称以解决此问题）
 [/olist]
