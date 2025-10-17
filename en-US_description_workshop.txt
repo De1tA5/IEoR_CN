@@ -1,0 +1,42 @@
+[h1] This is a Chinese-translation Mod for Infernal Eclipse of Ragnarok and other related mods [/h1]
+You do not need this if you don't want to play IEoR in Chinese :D
+
+[h1] =Introduction= [/h1]
+Infernal Eclipse of Ragnarok already has built-in Chinese support.
+This mod aims to solve the issue that localization updates with IEoR's update, thus translation bug fixing may not be timely.
+[url=https://github.com/De1tA5/IEoR_CN] GitHub Repository [/url]
+
+For some of the hard-coded texts, we use[url=https://github.com/TigerChenzzz/TerrariaTigerForceLocalizationLib] TigerForceLocalizationLib [/url] to translate them
+
+[h1] =Developers= [/h1]
+[list]
+[*]Pudd1ng——Localizer
+[*]三杯伍迪——Maintenance & Homeward Ragnarok Localizer
+[/list]
+
+[h1] =Translated Mods= [/h1]
+[code]
+[olist]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686] Infernal Eclipse of Ragnarok[/url] 
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3452171528] WHummus' Calamity/Thorium Balancing[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3485175010] Infernal Eclipse of Ragnarok: Weapon DLC[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3535746309] Thrower Unification[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3557455275] Homeward Ragnarok[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3556808030] Infernum SOTS Sanctuary WorldGen Adjuster[/url]
+[/olist] 
+[/code] 
+
+[h1] =Relevant Mods= [/h1]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] Infernum Chinese Intros Fonts Patch [/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3430216891] Revengeance+ Localization [/url]
+
+[h2] Other Mod Translations [/h2] 
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2825151264] Calamity [/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3055383223] Thorium & Addons [/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3355517847] Fargo Series [/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3016919117] Secrets of the Shadows [/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2987222010] Spooky [/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3162500097] Consolaria [/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3429647408] Hunt of the Old God [/url]
+[/list]
