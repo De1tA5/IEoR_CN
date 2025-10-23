@@ -43,11 +43,24 @@ ItemTooltip: {
 	Playtester: -测试者物品-
 	Contributor: -贡献者物品-
 	SBeamUsage: 长按左键，发射神话魔法伤害的光束
+	NBeamUsage: 长按左键，发射寰宇死光，造成神话魔法伤害
+	MBeamUsage: 长按左键，发射星流解离炮，造成神话远程伤害
 	SFlight: 长按右键获得快速无限飞行能力
+	StarlitForgeExtra: 更令人称奇的是，它甚至可以复制某些物品
 	ScytheThrow:
 		'''
 		右键投掷镰刀，它会以弧线轨迹返回
-		投掷镰刀的伤害降低20%
+		投掷镰刀的伤害降低10%
+		'''
+	PhoenixStaff:
+		'''
+		右键喷射火焰流，对敌怪造成神圣之怒减益
+		受影响的敌怪在减益持续时间内受到的伤害增加15%
+		'''
+	HolyGlare:
+		'''
+		被镰刀命中的敌人会受到神圣之怒减益
+		受影响的敌怪在减益持续时间内受到的伤害增加15%
 		'''
 	SandstonePortalDeviceInfo:
 		'''
@@ -238,6 +251,13 @@ ItemTooltip: {
 			'''
 		GildedVoid: 激活时的虚空消耗值增加3
 		CalSoaringNerf: "[灾厄]：不再允许无限飞行"
+		MonsterCharm: 战斗中你的盔甲穿透，防御和生命恢复会随时间增加
+		GreedierRing:
+			'''
+			增加5%采矿速度和5%暴击率
+			受伤时会产生钱币，并且在死亡时不会丢失钱币
+			开采方块时有概率掉落奖励资源，如钱币和泥沙
+			'''
 	}
 
 	AmmoConversion.Mycelium: 发射真菌弹幕
@@ -259,6 +279,8 @@ ItemTooltip: {
 		Amidias: 阿米迪亚斯
 		CalClone: 灾厄之影
 		Cultist: 拜月教邪教徒
+		ND: 无名之神
+		Mars: 玛尔斯
 	}
 
 	AstrageldonRelic: {
@@ -1088,6 +1110,52 @@ Items: {
 		DisplayName: 空白的恶魔秘典
 		Tooltip: ""
 	}
+
+	InfernalTwilight: {
+		DisplayName: 炼狱暮光
+		Tooltip:
+			'''
+			感谢整个团队，所有贡献者，测试员，支持我们的每一个人，
+			启发我们的伙伴，以及游玩本模组并让它延续下去的所有玩家！
+			这幅画的空间不足以容纳整个团队
+			长按SHIFT键以查看完整致谢名单
+			'''
+	}
+
+	AbandonedWorkshop: {
+		DisplayName: 废弃的作坊
+		Tooltip: 哥布林工匠的作坊残骸。也许他可以帮助你修复它？
+	}
+
+	PrimordialOrchid: {
+		DisplayName: 起源之兰
+		Tooltip: 一株融入原初之光的兰花，生长于永恒花园
+	}
+
+	TinkerersRepairBlueprints: {
+		DisplayName: 工匠的修复蓝图
+		Tooltip:
+			'''
+			当我被绑起来时，其他哥布林似乎弄丢了我的工坊，
+			我现在担心某个克苏鲁怪兽已经占有了它……
+			如果你能将其击杀并取回我被毁的工坊，这个东西会帮助你修复它！
+			'''
+	}
+
+	NebulaGigabeam: {
+		DisplayName: 寰宇死光
+		Tooltip: ""
+	}
+
+	ExoDisintegrator: {
+		DisplayName: 星流解离炮
+		Tooltip: ""
+	}
+
+	MenuMusicBox: {
+		DisplayName: 音乐盒 (诸神黄昏：炼狱蚀光主题曲)
+		Tooltip: 播放“Teardrops of Dragonfir” 作者：PFungi
+	}
 }
 
 Projectiles: {
@@ -1117,6 +1185,11 @@ Projectiles: {
 	CelestialBeam.DisplayName: 天界光束
 	CelestialIlluminationStar.DisplayName: 星界陨辉
 	DemonicRune.DisplayName: 恶魔小灰猫符文
+	ThoriumHeavyScytheSpark.DisplayName: 瑟银重镰火花
+	NebulaBeam.DisplayName: 寰宇死光
+	NebulaChargeUp.DisplayName: 寰宇充能
+	DisintegratorBeam.DisplayName: 解离炮
+	DisintegratorChargeUp.DisplayName: 解离炮充能
 }
 
 DiaryTooltip:
@@ -1156,6 +1229,7 @@ Configs: {
 			BalanceChanges: 模组平衡修改
 			Miscellaneous: 融合
 			MultiplayerAdjustments: 多人游戏调整
+			Main: 主要
 		}
 
 		ThoriumBalanceChangess: {
@@ -1349,6 +1423,11 @@ Configs: {
 		ColoredRelics: {
 			Label: 圣物上色
 			Tooltip: ""
+		}
+
+		ForceMenu: {
+			Label: 锁定标题页
+			Tooltip: 将诸神黄昏：炼狱蚀光标题页设为默认主题
 		}
 	}
 
@@ -1587,6 +1666,7 @@ Tiles: {
 	CultistMusicBoxTile.MapEntry: 拜月教邪教徒音乐盒
 	GolemMusicBoxTile.MapEntry: 石巨人音乐盒
 	ProphecyMusicBoxTile.MapEntry: 预言音乐盒
+	MenuMusicBoxTile.MapEntry: 主题曲音乐盒
 }
 
 NPCs: {
