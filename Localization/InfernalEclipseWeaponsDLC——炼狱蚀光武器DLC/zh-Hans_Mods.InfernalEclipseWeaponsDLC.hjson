@@ -77,6 +77,15 @@ Items: {
 				Tooltip: 潜伏攻击会召唤加速时追踪的恶魔镰刀
 				DisplayName: 忘却匕首
 			}
+
+			MothwingDagger: {
+				DisplayName: 蛾翼短刀
+				Tooltip:
+					'''
+					投掷一把带有轻度追踪效果的翼刃
+					潜伏攻击在飞行途中与命中时会生成追踪的荧光飞弹
+					'''
+			}
 		}
 	}
 
@@ -285,8 +294,8 @@ Items: {
 		DisplayName: 雷击除颤器
 		Tooltip:
 			'''
-			向前发射过载的闪电弹
-			右键发射治疗电击弹
+			向前发射过载的追踪闪电弹
+			右键消耗法力值发射治疗电击弹
 			'''
 	}
 
@@ -358,6 +367,17 @@ Items: {
 			'''
 			当灾祸拳套在相邻的快捷栏内时，可触发特殊效果
 			向前斩出宛若浩劫的硫火刃光
+			'''
+	}
+
+	BarrenGarden: {
+		DisplayName: 霜莲寒苑
+		Tooltip:
+			'''
+			左键发射追踪且穿透的花瓣散射，花瓣有治愈效果
+			右键召唤一朵巨大的冰莲，交替释放造成伤害与治疗的能量
+			同一时间只能存在一朵冰莲，持续时间为30秒
+			“冷彻心肺，如坠冰渊”
 			'''
 	}
 }
@@ -446,6 +466,12 @@ Projectiles: {
 	SupremeCataclysmFist.DisplayName: 至尊灾祸之拳
 	SupremeCatastropheSlash.DisplayName: 至尊灾难之刃
 	SharknadoBolt.DisplayName: 鲨龙卷飞弹
+	BarrenGardenHealingPro.DisplayName: 霜莲寒苑治疗弹幕
+	BarrenGardenLotus.DisplayName: 寒苑霜莲
+	BarrenGardenPro.DisplayName: 霜莲寒苑弹幕
+	BarrenGardenProHoming.DisplayName: 霜莲寒苑追踪弹幕
+	MothwingDaggerPro.DisplayName: 蛾翼短刀
+	IlluminantBolt.DisplayName: 荧光飞弹
 }
 
 Buffs: {
