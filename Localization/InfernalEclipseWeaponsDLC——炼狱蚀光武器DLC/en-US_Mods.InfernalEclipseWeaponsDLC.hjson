@@ -77,6 +77,15 @@ Items: {
 				Tooltip: Stealth strikes summon extra demon scythes that home on foes as they speed up
 				DisplayName: Dagger of the Forgotten
 			}
+
+			MothwingDagger: {
+				DisplayName: Mothwing Dagger
+				Tooltip:
+					'''
+					Throws a lightly homing winged dagger
+					Stealth strikes create homing illuminant bolts as they travel and on hit
+					'''
+			}
 		}
 	}
 
@@ -198,6 +207,7 @@ Items: {
 		DisplayName: AirPod Shawty
 		Tooltip:
 			'''
+			Can fire 2 shots quickly before needing to reload
 			Left click to consume inspiration and fire an AirPod that bursts into sound on hit
 			AirPod damage is increased with the ammo consumed
 			Right click to fire a buckshot of bullets from your ammo, not granting empowerments
@@ -284,8 +294,8 @@ Items: {
 		DisplayName: Defibrillanator
 		Tooltip:
 			'''
-			Shoots overcharged bolts of lightning foward
-			Right click to shoot healing bolts
+			Shoots overcharged bolts of homing lightning foward
+			Right click to shoot healing bolts, consuming just mana
 			'''
 	}
 
@@ -357,6 +367,17 @@ Items: {
 			'''
 			Shoots a catastrophic brimstone energy beam forward
 			Has a special effect when the Cataclysmic Gauntlet is in the next slot next to this item
+			'''
+	}
+
+	BarrenGarden: {
+		DisplayName: Barren Garden
+		Tooltip:
+			'''
+			Left click to fire a spread of homing, piercing and healing petals
+			Right click to summon a large frozen lotus that will fire alternating damaging and healing energies
+			Only one frozen lotus may be active at a time and they last for 30 seconds
+			'It's so cold it feels like my lungs are bursting'
 			'''
 	}
 }
@@ -445,6 +466,12 @@ Projectiles: {
 	SupremeCataclysmFist.DisplayName: Supreme Cataclysm Fist
 	SupremeCatastropheSlash.DisplayName: Supreme Catastrophe Slash
 	SharknadoBolt.DisplayName: Sharknado Bolt
+	BarrenGardenHealingPro.DisplayName: Barren Garden Healing Pro
+	BarrenGardenLotus.DisplayName: Barren Garden Lotus
+	BarrenGardenPro.DisplayName: Barren Garden Pro
+	BarrenGardenProHoming.DisplayName: Barren Garden Pro Homing
+	MothwingDaggerPro.DisplayName: Mothwing Dagger Pro
+	IlluminantBolt.DisplayName: Illuminant Bolt
 }
 
 Buffs: {
