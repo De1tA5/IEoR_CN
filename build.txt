@@ -1,6 +1,6 @@
 displayName = [C/7658ad:诸神][C/9375c7:黄昏：][C/cf93db:炼狱][C/e6a3e0:蚀光-][C/c073c7:汉化][C/b15cb8:补丁]
 author = 三杯伍迪&Pudding
-version = 0.0.1.2
+version = 0.0.1.3
 side = Client
-sortAfter = InfernalEclipseWeaponsDLC,InfernalEclipseAPI,HomewardRagnarok,ThrowerUnification,WHummusMultiModBalancing,InfernumSOTSSanctuaryAdjuster
+sortAfter = InfernalEclipseWeaponsDLC,InfernalEclipseAPI,HomewardRagnarok,ThrowerUnification,WHummusMultiModBalancing,InfernumSOTSSanctuaryAdjuster,ThoriumModzhcn,RagnarokMod
 dllReferences = TigerForceLocalizationLib
