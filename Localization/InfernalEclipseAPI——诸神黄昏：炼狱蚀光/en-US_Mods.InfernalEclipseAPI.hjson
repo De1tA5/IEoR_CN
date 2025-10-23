@@ -43,11 +43,24 @@ ItemTooltip: {
 	Playtester: - Playtester Item -
 	Contributor: - Contributor Item -
 	SBeamUsage: Hold left click to charge a beam that deals mythic magic damage
+	NBeamUsage: Hold Left-Click to release a Nebula Gigabam that deals mythic magic damage
+	MBeamUsage: Hold Left-Click to release a Exo Disintegrator beam that deals mythic ranged damage
 	SFlight: Holding right click grants fast, unlimited flight
+	StarlitForgeExtra: Even more curiously, it can even duplicate some items
 	ScytheThrow:
 		'''
 		Right Click to throw the Scythe, which will curve on it's way back
 		Thrown Scythes will deal 10% reduced damage
+		'''
+	PhoenixStaff:
+		'''
+		Right click to spew a stream of flames that inflict 'Holy Glare'
+		All damage done against holy glared enemies is increased by 15%
+		'''
+	HolyGlare:
+		'''
+		Enemies hit with the scythe will be inflicted with 'Holy Glare'
+		All damage done against holy glared enemies is increased by 15%
 		'''
 	SandstonePortalDeviceInfo:
 		'''
@@ -187,7 +200,7 @@ ItemTooltip: {
 		ScytheScale: Grows in strength until the fall of the Devourer
 		ScytheSummon: Has reduced damage if any summons are active
 		ScytheSummonOn: Damage reduced while summons are active
-		OneirophobiaSummon: Hold right click to summon the Ludic Instrument to fight for you
+		OneirophobiaSummon: Hold right click to summon the Lucid Instrument to fight for you
 		SoulEssence: Gains soul essence rapidly
 		Magneto: Increases pickup range of rogue items on the ground
 		Bone:
@@ -238,6 +251,13 @@ ItemTooltip: {
 			'''
 		GildedVoid: Increases void drain by 3 while active
 		CalSoaringNerf: "[Calamity]: No longer allows infinite flight"
+		MonsterCharm: While in combat, your armor penetration, defense, and life recovery increase over time
+		GreedierRing:
+			'''
+			Increases mining speed by 5% and critical strike chance by 5%
+			Generate coins when hurt or when void is gained and don't lose coins upon death
+			Mining blocks has a chance to drop bonus resources, such as coins and silt
+			'''
 	}
 
 	AmmoConversion.Mycelium: Fires barrages of Mycelium
@@ -246,6 +266,7 @@ ItemTooltip: {
 		5: Also increases life regen by 5
 		10: Also increases life regen by 10
 		FasterIvory: Allows for Ivory Flares to activate twice as fast while wearing the White Dwarf Armor
+		GelDash: Allows the ability to dash and enhances other dashes
 	}
 
 	MythicTooltips: {
@@ -258,6 +279,8 @@ ItemTooltip: {
 		Amidias: Amidias'
 		CalClone: Shadow of Calamitas'
 		Cultist: The Lunatic Cultist's
+		ND: The Deity's
+		Mars: Mars'
 	}
 
 	AstrageldonRelic: {
@@ -416,10 +439,12 @@ Lore: {
 		'''
 	Pharoah:
 		'''
-		There was once a Pharaoh in the deserts here.
-		This sandy kingdom was his, and he ruled over it with a golden fist.
-		It is a shame his curse claimed his life; I had a feeling he would have made a formidable ally in my army.
-		Now all that remains is his buried tomb.
+		The product of yet another folly of the greed towards godhood.
+		Younger of the royal brothers, heir to the throne of the oasis.
+		Though unlike his accursed and vile older sibling, his heart was pure, yet he still faced a saddening fate.
+		The meddling of souls had poisoned his crypt into a pestilence, casting him in a deep painful slumber.
+		His followers and royal assistants tried to save him, but it was too late.
+		Try to mourn after this victory. He was too young to suffer the consequences of his lineage.
 		'''
 	Advisor:
 		'''
@@ -522,7 +547,7 @@ Items: {
 			Full: The Stellar Sabre is fully awaked, and its maximum power is unleashed!
 		}
 
-		Lore: Even after everything, there was still one person Xander refused to attack...
+		Lore: "'Even after everything, there was still one person Xander refused to attack...'"
 	}
 
 	ExoSights: {
@@ -1088,6 +1113,52 @@ Items: {
 		DisplayName: Empty Demonic Tome
 		Tooltip: ""
 	}
+
+	InfernalTwilight: {
+		DisplayName: Infernal Twilight
+		Tooltip:
+			'''
+			Thanks to the entire team, all of our contributors, our playtesters, everyone who supported,
+			the people who inspired us, and those who all play the mod and keep it alive!
+			The confines of this painting is not enough to fit the entire team
+			Hold SHIFT to see the full list of credits
+			'''
+	}
+
+	AbandonedWorkshop: {
+		DisplayName: Abandoned Workshop
+		Tooltip: The remains of the Goblin Tinker's workshop. Perhaps he can help you repair it?
+	}
+
+	PrimordialOrchid: {
+		DisplayName: Primordial Orchid
+		Tooltip: An orchid infused with the Primordial Light, found growing in the Eternal Garden
+	}
+
+	TinkerersRepairBlueprints: {
+		DisplayName: Tinkerers Repair Blueprints
+		Tooltip:
+			'''
+			When I was tied up the other goblins seem to have lost my workshop, 
+			and I now fear that one of the beasts of Cthulhu has it...
+			If you manage to slay one and get my ruined workshop, this will help you repair it!
+			'''
+	}
+
+	NebulaGigabeam: {
+		DisplayName: Nebula Gigabeam
+		Tooltip: ""
+	}
+
+	ExoDisintegrator: {
+		DisplayName: Exo Disintegrator
+		Tooltip: ""
+	}
+
+	MenuMusicBox: {
+		DisplayName: Music Box (Infernal Eclipse of Ragnarok Title)
+		Tooltip: Plays 'Teardrops of Dragonfire' by PFungi
+	}
 }
 
 Projectiles: {
@@ -1117,6 +1188,11 @@ Projectiles: {
 	CelestialBeam.DisplayName: Celestial Beam
 	CelestialIlluminationStar.DisplayName: Celestial Illumination Star
 	DemonicRune.DisplayName: Demonic Little Grey Cat Rune
+	ThoriumHeavyScytheSpark.DisplayName: Thorium Heavy Scythe Spark
+	NebulaBeam.DisplayName: Nebula Beam
+	NebulaChargeUp.DisplayName: Nebula Charge Up
+	DisintegratorBeam.DisplayName: Disintegrator Beam
+	DisintegratorChargeUp.DisplayName: Disintegrator Charge Up
 }
 
 DiaryTooltip:
@@ -1156,6 +1232,7 @@ Configs: {
 			BalanceChanges: Mod Balance Changes
 			Miscellaneous: Miscellaneous
 			MultiplayerAdjustments: Multiplayer Adjustments
+			Main: Main
 		}
 
 		ThoriumBalanceChangess: {
@@ -1311,8 +1388,9 @@ Configs: {
 			Label: Enable Interlude 4
 			Tooltip:
 				'''
-				Enables/Disables the 4th Interlude theme will play after both the Exo Mechs & Supreme Calamitas have been defeated.
-				This song will override Their Fabricator & Acceptance when it plays
+				Enables/Disables the 4th Interlude theme. 
+				This interlude will play after both the Exo Mechs & Supreme Calamitas have been defeated.
+				This song will override Their Fabricator & Acceptance when it plays.
 				'''
 		}
 
@@ -1328,27 +1406,32 @@ Configs: {
 
 		MultiplayerBossRespawnTimer: {
 			Label: Multiplayer Boss Respawn Timer
-			Tooltip: ""
+			Tooltip: How long it takes to respawn during a boss fight.
 		}
 
 		MinimumDifficultyToPreventRespawns: {
 			Label: Minimum Difficulty To Prevent Respawns
-			Tooltip: ""
+			Tooltip: The minmum difficulty to apply the respawn prevention system.
 		}
 
 		MultiplayerRespawnsAllowed: {
 			Label: Multiplayer Respawns Allowed
-			Tooltip: ""
+			Tooltip: The number of respawns allowed during boss fights.
 		}
 
 		NerfThoriumMulticlass: {
 			Label: Nerf Thorium Multiclass
-			Tooltip: ""
+			Tooltip: Adds some systems to prevent Bard & Healer from multiclassing and getting too strong.
 		}
 
 		ColoredRelics: {
 			Label: Colored Relics
-			Tooltip: ""
+			Tooltip: Toggles this mod's colored relics.
+		}
+
+		ForceMenu: {
+			Label: Force Menu Theme
+			Tooltip: Forces the Infernal Eclipse of Ragnarok Menu theme to be selected on mod load.
 		}
 	}
 
@@ -1587,6 +1670,7 @@ Tiles: {
 	CultistMusicBoxTile.MapEntry: Cultist Music Box Tile
 	GolemMusicBoxTile.MapEntry: Golem Music Box Tile
 	ProphecyMusicBoxTile.MapEntry: Prophecy Music Box Tile
+	MenuMusicBoxTile.MapEntry: Menu Music Box Tile
 }
 
 NPCs: {
