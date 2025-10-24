@@ -1,0 +1,132 @@
+Buffs: {
+	BrokenOath: {
+		DisplayName: 破碎之誓
+		Description: 光辉伤害减半。“首先，不要伤害” - 希波克拉底誓言
+	}
+}
+
+Configs: {
+	WHummusConfigs: {
+		DisplayName: WHummus模组配置
+
+		ThoriumBossesReworkedBossScalingMessage: {
+			Label: Thorium Bosses Reworked 的 Boss 调整警告信息
+			Tooltip: 开关进入世界时在聊天栏中显示的警告信息
+		}
+
+		RadiantMultiClassNerf: {
+			Label: 牧师跨职业伤害惩罚
+			Tooltip: 在你造成其他职业伤害后的10秒内，减少你造成的光辉伤害
+		}
+
+		MultiModShieldMerges: {
+			Label: 跨模组盾牌系列融合
+			Tooltip: 融合了受支持模组的盾牌系列的合成树和效果
+		}
+
+		AutoFlawlessFix: {
+			Tooltip: 自动将化境前缀应用到非灾厄投手物品上，因为这些物品无法重铸
+			Label: 自动化境重铸 (Debug)
+		}
+
+		MultiModToothMerges: {
+			Label: 跨模组鲨牙项链系列融合
+			Tooltip: 融合了受支持模组的鲨牙项链系列的合成树和效果
+		}
+
+		MultiModFlowerMerges: {
+			Label: 跨模组魔力花系列融合
+			Tooltip: 融合了受支持模组的魔力花系列的合成树和效果
+		}
+
+		ThrowerRogueMerge: {
+			Label: 融合盗贼和投手伤害
+			Tooltip: 将投手和盗贼职业融合为一个职业，对重铸修饰语和潜伏条的伤害加成效果进行了适配
+		}
+
+		MultiModRogueMerges: {
+			Tooltip: 融合了受支持模组的盗贼（投手）饰品的合成树和效果
+			Label: 跨模组盗贼饰品融合
+		}
+
+		MultiModSummonerMerges: {
+			Tooltip: 融合了受支持模组的召唤师饰品的合成树和效果
+			Label: 跨模组召唤师饰品融合
+		}
+
+		MultiModTunerMerges: {
+			Tooltip: 融合了受支持模组的乐师（吟游诗人）饰品的合成树和效果
+			Label: 跨模组乐师饰品融合
+		}
+
+		MultiModHealerMerges: {
+			Tooltip: 融合了受支持模组的牧师饰品的合成树和效果
+			Label: 跨模组牧师饰品融合
+		}
+
+		MultiModQuiverMerges: {
+			Tooltip: 融合了受支持模组的箭袋系列的合成树和效果
+			Label: 跨模组箭袋系列融合
+		}
+
+		MultiModMeleeMerges: {
+			Tooltip: 融合了受支持模组的近战手套系列的合成树和效果
+			Label: 跨模组近战饰品融合
+		}
+
+		RagnarokWarningMessage: {
+			Tooltip: 开关进入世界时在聊天栏中显示的警告信息
+			Label: 显示Ragnarok平衡修改内容冲突警告
+		}
+
+		MultiModShoeMerges: {
+			Tooltip: 融合了受支持模组的鞋子系列的合成树和效果
+			Label: 跨模组鞋子系列融合
+		}
+
+		BardMultiClassNerf: {
+			Tooltip: 在你使用了非吟游诗人武器后，移除你的所有咒音增幅
+			Label: 吟游诗人跨职业伤害惩罚
+		}
+	}
+}
+
+Config: {
+	ChatWarnings: 聊天信息警告
+	MultiModMergeOptions: 跨模组合成树融合
+	ClassChanges: 职业融合重做
+	DebugOptions: Debug调试功能
+}
+
+DamageClasses.MergedThrowerRogue.DisplayName: 盗贼伤害
+
+ItemTooltips: {
+	ScytheThrow:
+		'''
+		右键投掷镰刀，它会以弧线轨迹返回
+		投掷镰刀的伤害降低10%
+		'''
+	PhoenixStaff:
+		'''
+		右键喷射火焰流，对敌怪造成神圣之怒减益
+		受影响的敌怪在减益持续时间内受到的伤害增加15%
+		'''
+	HolyGlare:
+		'''
+		被镰刀命中的敌人会受到神圣之怒减益
+		受影响的敌怪在减益持续时间内受到的伤害增加15%
+		'''
+}
+
+Projectiles: {
+	RogueSpectreBlast.DisplayName: 幽影冲击
+	BountifulHarvestStinger.DisplayName: 丰收尖刺
+	PlayerBrimstoneFireblast.DisplayName: 硫火爆焰
+	PlayerBrimstoneBarrage.DisplayName: 硫火弹幕
+	RadioMicPro.DisplayName: 无线麦克风音律
+	RadioMicShadowBurst.DisplayName: 无线麦克风阴影爆发
+	TidalWaveWhirlpool.DisplayName: 海潮涡流
+	FireAxeSS.DisplayName: 消防斧绝赞潜伏中
+	PlayerBrimstoneGigablast.DisplayName: 巨型硫火爆焰
+	ThoriumHeavyScytheSpark.DisplayName: 瑟银重镰火花
+}

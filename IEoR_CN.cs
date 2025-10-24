@@ -12,7 +12,6 @@ namespace IEoR_CN
     //HomewardRagnarok¡ªÂÃÈË¹éÍ¾&ÖîÉñ»Æ»è¼æÈÝ
     public class HomewardRagnarok : ModSystem
     {
-
         public override void PostSetupContent()
         {
             if (ModLoader.HasMod("HomewardRagnarok"))
@@ -22,6 +21,19 @@ namespace IEoR_CN
             }
 
         }
+    }
+    //WHummusMultiModBalancing¡ªWHummusµÄÔÖ¶ò&ÉªÒøÆ½ºâ
+    public class WHummusMultiModBalancing:ModSystem
+    {
+        public override void PostSetupContent()
+        {
+            if (ModLoader.HasMod("WHummusMultiModBalancing")) 
+            {
+                TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "WHummusMultiModBalancing", false);
+            }
+            base.PostSetupContent();
+        }
+
 
     }
 }
