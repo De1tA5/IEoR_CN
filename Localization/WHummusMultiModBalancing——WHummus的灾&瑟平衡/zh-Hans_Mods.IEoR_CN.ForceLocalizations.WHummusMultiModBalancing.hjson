@@ -366,7 +366,7 @@ WhummusGlobalItem: {
 
 		5: {
 			// OldString: Allows for Ivory Flares to proc twice as fast while wearing the White Dwarf Armor
-			NewString: 穿戴全套白矮星盔甲时，象牙状火焰的触发速度翻倍
+			NewString: 在装备白矮星护甲时，象牙状火焰的触发速度提升至两倍
 		}
 
 		6: {
@@ -864,7 +864,7 @@ SoulAnchorChange: {
 
 		4: {
 			// OldString: "' for 20 seconds"
-			NewString: "，持续20秒"
+			NewString: ，持续20秒
 		}
 
 		5: {
@@ -2367,8 +2367,8 @@ RogueAccessoryChanges: {
 				''' */
 			NewString:
 				'''
-				增加6%投掷暴击率
-				连续造成两次投掷暴击会产生暗影闪电并短暂增加投掷速度
+				投掷暴击率提高6%
+				连续两次投掷暴击将释放暗影闪电，并短暂提升投掷速度
 				这个效果有2秒冷却时间
 				'''
 		}
@@ -2902,7 +2902,7 @@ OmniSpeakerAccessoryChanges: {
 			NewString:
 				'''
 				增加15%音波伤害
-				增加8%的音波演奏速度,音波暴击率,和灵感值恢复速度
+				增加8%的音波演奏速度,音波暴击率和灵感值恢复速度
 				'''
 		}
 

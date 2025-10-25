@@ -36,4 +36,18 @@ namespace IEoR_CN
 
 
     }
+    //InfernalEclipseAPI¡ª¡ªÖîÉñ»Æ»è£ºÁ¶ÓüÊ´¹â
+    public class InfernalEclipseAPI : ModSystem
+    {
+        public override void PostSetupContent()
+        {
+            if (ModLoader.HasMod("InfernalEclipseAPI"))
+            {
+                TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "InfernalEclipseAPI", false);
+            }
+            base.PostSetupContent();
+        }
+
+
+    }
 }
