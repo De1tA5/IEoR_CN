@@ -30,8 +30,9 @@ Infernal Eclipse of Ragnarok——诸神黄昏：炼狱蚀光 已经内置汉化
 
 [h1] =相关链接= [/h1]
 [list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]补全炼狱模式中文字体缺失
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3430216891] Revengeance+ 汉化 [/url]提供更多模组复仇模式AI
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url] 补全炼狱模式中文字体缺失
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3430216891] Revengeance+ 汉化 [/url] 提供更多模组复仇模式AI
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3554145193] Abyssal Subworld 旅人深渊子世界 [/url] 解决深渊错位的问题（补丁已包含该汉化）
 [*][url=https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok/zh] 炼狱蚀光中文Wiki [/url]
 
 [h2] 其他中大型模组汉化 [/h2] 
@@ -47,4 +48,5 @@ Infernal Eclipse of Ragnarok——诸神黄昏：炼狱蚀光 已经内置汉化
 [h1] =已知问题= [/h1]
 [olist]
 [*]Thrower Unification（跨模组投手融合） —— 投掷武器职业标签无法汉化（短时间内无法解决，建议您使用自定义的中文职业名称以解决此问题）
+[*]同时安装 炼狱蚀光和旅人黄昏 导致旅人深渊和瑟银深渊生成错误 —— 安装上述旅人深渊子世界mod
 [/olist]

@@ -18,7 +18,7 @@ namespace IEoR_CN.HomewardRagnarokTranslator
 				#region HomewardRagnarok.Mods.BossChecklist.CoJBCLKeyChanger
 				TranslatorLoad.LocalizeByTypeFullName("HomewardRagnarok.Mods.BossChecklist.CoJBCLKeyChanger", "IL_EditBossChecklistKeys", new ()
 				{
-					{"史莱姆之神：再临","Slime God: Rematch"},
+					{"史莱姆之神： 再临","Slime God: Rematch"},
 				});
 				#endregion HomewardRagnarok.Mods.BossChecklist.CoJBCLKeyChanger
 
