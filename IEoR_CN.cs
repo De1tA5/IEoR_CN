@@ -47,7 +47,27 @@ namespace IEoR_CN
             }
             base.PostSetupContent();
         }
-
-
+    }
+    //BlueMoon¡ª¡ªÄ§·¨ÔÂÁÁ
+    public class BlueMoon : ModSystem 
+    {
+        public override void PostSetupContent()
+        {
+            if (ModLoader.HasMod("BlueMoon")) 
+            {
+                TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "BlueMoon", false);
+            }
+        }
+    }
+    //CalamityAmmunitions¡ª¡ªÔÖ¶òµ¯Ò©¸½¼Ó
+    public class CalamityAmmunitions : ModSystem
+    {
+        public override void PostSetupContent()
+        {
+            if (ModLoader.HasMod("CalamityAmmunitions"))
+            {
+                TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "CalamityAmmunitions", false);
+            }
+        }
     }
 }

@@ -1,0 +1,100 @@
+Items: {
+	BlueMedallion: {
+		Tooltip: 夜晚召唤稀有的蔚蓝月亮
+		DisplayName: 蔚蓝勋章
+	}
+
+	CherryAmulet: {
+		Tooltip: 夜晚召唤可爱的樱花月亮
+		DisplayName: 樱花护符
+	}
+
+	HarvestLantern: {
+		Tooltip: 夜晚召唤欢乐的丰收月亮
+		DisplayName: 丰收灯笼
+	}
+
+	HarvestMoonMusicBox: {
+		Tooltip: ""
+		DisplayName: 丰收月亮音乐盒
+	}
+
+	CherryMoonMusicBox: {
+		Tooltip: ""
+		DisplayName: 樱花月亮音乐盒
+	}
+
+	BlueMoonMusicBox: {
+		Tooltip: ""
+		DisplayName: 蔚蓝月亮音乐盒
+	}
+
+	MintRing: {
+		Tooltip: 夜晚召唤清新的薄荷月亮
+		DisplayName: 薄荷戒指
+	}
+
+	MintMoonMusicBox: {
+		Tooltip: ""
+		DisplayName: 薄荷月亮音乐盒
+	}
+
+	SapphireRing: {
+		DisplayName: 蓝玉之戒
+		Tooltip: 赋予「月亮赋能」增益
+	}
+
+	TopazRing: {
+		DisplayName: 黄玉之戒
+		Tooltip: 赋予「丰收之祝」增益
+	}
+
+	AmethystRing: {
+		DisplayName: 紫晶之戒
+		Tooltip: 赋予「花之祝福」增益
+	}
+
+	EmeraldRing: {
+		DisplayName: 翡翠之戒
+		Tooltip: 赋予「薄荷清香」增益
+	}
+
+	MoonsRing: {
+		DisplayName: 月之戒
+		Tooltip: 提升金币掉落量、生命恢复、伤害与移动速度
+	}
+}
+
+Buffs: {
+	BountifulHarvestBuff: {
+		DisplayName: 丰收之祝
+		Description: 丰收月亮的祝福充实了你的口袋，敌人为你掉落更多的硬币。
+	}
+
+	FloralBlessingBuff: {
+		DisplayName: 花之祝福
+		Description: 拥抱樱花月亮的治愈光环，你的伤口迅速愈合。
+	}
+
+	LunarEmpowermentBuff: {
+		DisplayName: 月亮赋能
+		Description: 月亮赐予你一些好运。
+	}
+
+	MintyFreshnessBuff: {
+		DisplayName: 薄荷清香
+		Description: 薄荷月亮闪耀的光芒增强了你的力量。你会造成更多伤害且移动得更快。
+	}
+
+	MoonsRingBuff: {
+		DisplayName: 月光和鸣
+		Description: 你受到了四种天体之月的祝福。
+	}
+}
+
+Tiles: {
+	HarvestMoonMusicBoxTile.MapEntry: 丰收月亮音乐盒
+	CherryMoonMusicBoxTile.MapEntry: 樱花月亮音乐盒
+	BlueMoonMusicBoxTile.MapEntry: 蔚蓝月亮音乐盒
+	MintMoonMusicBoxTile.MapEntry: 薄荷月亮音乐盒
+}

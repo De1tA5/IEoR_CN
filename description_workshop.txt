@@ -25,6 +25,9 @@ Infernal Eclipse of Ragnarok——诸神黄昏：炼狱蚀光 已经内置汉化
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3535746309] Thrower Unification——跨模组投手融合[/url]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3557455275] Homeward Ragnarok——旅人黄昏（炼狱蚀光-旅人归途兼容模组）[/url]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3556808030] Infernum SOTS Sanctuary WorldGen Adjuster——暗影奥秘世界生成调整[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3030483105] Enchanted Moons——魔法月亮[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985966860] Music Display——曲目显示[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3164029586] MCA: More calamity ammunitions——额外灾厄弹药[/url]
 [/olist] 
 [/code] 
 

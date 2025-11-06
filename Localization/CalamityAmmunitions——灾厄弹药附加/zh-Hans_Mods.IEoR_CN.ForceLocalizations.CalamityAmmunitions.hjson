@@ -1,0 +1,99 @@
+AmmoPlayer: {
+	OnEnterWorld: {
+		1: {
+			/* OldString:
+				'''
+				No way your actually playing the nowhere near popular, more calamity ammunitions mod????
+				Just so you know, this mod is nowhere near finished,
+				Anywayss- you should just have fun!
+				''' */
+			NewString:
+				'''
+				不会吧，你真的在玩那个冷门到不行的“更多灾厄弹药”mod？？？
+				先跟你说好，这个mod还远没做完呢
+				不过嘛——玩得开心就好！
+				'''
+		}
+	}
+
+	*ctor: {
+		1: {
+			// OldString: CalamityAmmunitions/boing
+			// NewString: CalamityAmmunitions/boing
+		}
+	}
+}
+
+Ammo: {
+	ClockworkArrow: {
+		get_LocalizationCategory: {
+			1: {
+				// OldString: Items.Ammo
+				// NewString: Items.Ammo
+			}
+		}
+	}
+
+	PlagueArrowItem: {
+		get_LocalizationCategory: {
+			1: {
+				// OldString: Items.Ammo
+				// NewString: Items.Ammo
+			}
+		}
+	}
+
+	ShadowBulletProj: {
+		get_Texture: {
+			1: {
+				// OldString: CalamityAmmunitions/Ammo/ShadowspecBullet
+				// NewString: CalamityAmmunitions/Ammo/ShadowspecBullet
+			}
+		}
+	}
+}
+
+ShadowTrail: {
+	Draw: {
+		1: {
+			// OldString: RainbowRod
+			// NewString: RainbowRod
+		}
+	}
+}
+
+TextureRegistry: {
+	get_ShadowBulletGlow: {
+		1: {
+			// OldString: CalamityAmmunitions/Ammo/ShadowspecBullet
+			// NewString: CalamityAmmunitions/Ammo/ShadowspecBullet
+		}
+	}
+
+	get_ShadowHand: {
+		1: {
+			// OldString: CalamityAmmunitions/ShadowClaw
+			// NewString: CalamityAmmunitions/ShadowClaw
+		}
+	}
+}
+
+Projectiles: {
+	PlagueArrowProj: {
+		get_LocalizationCategory: {
+			1: {
+				// OldString: Projectiles.Ranged
+				// NewString: Projectiles.Ranged
+			}
+		}
+	}
+
+	ShadowClawProj: {
+		get_Texture: {
+			1: {
+				// OldString: CalamityAmmunitions/ShadowClaw
+				// NewString: CalamityAmmunitions/ShadowClaw
+			}
+		}
+	}
+}

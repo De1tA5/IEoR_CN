@@ -1,3 +1,5 @@
-Version：0.0.1.8
--修复 正式契约 改动后文本显示错误的问题
+Version：0.0.1.9
+-增加 Enchanted Moons 的汉化补充
+-增加 MCA: More calamity ammunitions 的汉化补充
+-增加 Music Display 的汉化
 
