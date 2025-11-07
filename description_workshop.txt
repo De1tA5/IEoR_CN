@@ -43,14 +43,6 @@
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3554145193] Abyssal Subworld 深渊子世界 [/url] 解决深渊错位的问题
 [*][url=https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok/zh] 炼狱蚀光中文Wiki [/url] 未完成，欢迎编辑
 [*][url=https://github.com/De1tA5/IEoR_CN] 开源汉化库 [/url]
-
-[h2] 其他中大型模组汉化 [/h2] 
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2825151264] 灾厄 [/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3055383223] 瑟银&更多附属 [/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3355517847] Fargo系列汉化合集 [/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3016919117] 暗影奥秘 [/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3162500097] Consolariacn [/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3429647408] 旧神之猎汉化补全 [/url]
 [/list]
 
 [h1] =已知问题= [/h1]
