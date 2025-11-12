@@ -1,5 +1,3 @@
-Version：0.0.1.9
--增加 Enchanted Moons 的汉化补充
--增加 MCA: More calamity ammunitions 的汉化补充
--增加 Music Display 的汉化
+Version：0.0.1.10
+-修复 圣魂之证 无限飞行文本错误的问题
 

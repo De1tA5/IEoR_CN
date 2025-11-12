@@ -14,10 +14,11 @@ using Terraria.Localization;
 
 namespace IEoR_CN.Localizationfix
 {
-    [JITWhenModsEnabled()]
+    //增加正式契约文本
+    [JITWhenModsEnabled("SOTSBardHealer", "InfernalEclipseAPI")]
     public class SealedContract_Fix:GlobalItem
     {
-        public int Delaytime = 0;
+        //public int Delaytime = 0;
 
        
         public override bool IsLoadingEnabled(Mod mod)
@@ -42,26 +43,14 @@ namespace IEoR_CN.Localizationfix
 
         private Mod SOTSBardHealer
         {
-            get {
+            get
+            {
                 Mod sotshb;
                 ModLoader.TryGetMod("SOTSBardHealer", out sotshb);
                 return sotshb;
-            
+
             }
         }
-        public static class ReflectionCache
-        {
-
-            private static readonly ConcurrentDictionary<string, PropertyInfo> _propertyCache
-                = new ConcurrentDictionary<string, PropertyInfo>();
-
-            public static PropertyInfo GetProperty(Type type, string propertyName)
-            {
-                var key = $"{type.FullName}.{propertyName}";
-                return _propertyCache.GetOrAdd(key, _ => type.GetProperty(propertyName));
-            }
-        }
-
         public override bool InstancePerEntity => true;
 
         const BindingFlags all = BindingFlags.Public | BindingFlags.Instance;
@@ -142,9 +131,7 @@ namespace IEoR_CN.Localizationfix
                         }
                     }
                 }
-
             }
-        }
-        
+        } 
     }
 }
