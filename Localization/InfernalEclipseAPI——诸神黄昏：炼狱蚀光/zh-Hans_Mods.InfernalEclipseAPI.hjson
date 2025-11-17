@@ -69,6 +69,13 @@ ItemTooltip: {
 		在激活通往失落竞技场的传送门后才可使用
 		'''
 	SandstonePortalDeviceInfoMP: 在激活通往失落竞技场的门户后，召唤无邦封臣 <- currently unsued in API
+	/* GoldenBatRework:
+		'''
+		+30% coins from enemies
+		You constantly generate coins over time
+		'You're not greedy... you're batshit insane!'
+		Revengeance drop
+		''' */
 
 	MergedCraftingTreeTooltip: {
 		Gilded: 耀刃之翼效果
@@ -1246,7 +1253,7 @@ Configs: {
 		CalamityBalanceChanges: {
 			Tooltip:
 				'''
-				对部分数值过低或过高的灾厄物品进行调整  
+				对部分数值过低或过高的灾厄及其附属的物品进行调整  
 				同时修改部分跨模组的合成配方以保持平衡
 				'''
 			Label: 灾厄平衡修改
@@ -1325,11 +1332,7 @@ Configs: {
 
 		AdditonalVanillaBossAdjustments: {
 			Label: 额外原版Boss调整
-			Tooltip:
-				'''
-				小幅度调整了部分原版Boss的数值，让它们变得更有挑战性
-				部分调整会在开启Fargo's Souls永恒模式或受虐模式的情况下被自动禁用
-				'''
+			Tooltip: 小幅度调整了部分原版Boss的数值，让它们变得更有挑战性
 		}
 
 		MergeCraftingTrees: {
@@ -1361,15 +1364,6 @@ Configs: {
 		DisplayWorldEntryMessages: {
 			Label: 进入世界时显示提示信息
 			Tooltip: 开启/关闭进入世界时聊天框内的提示信息
-		}
-
-		UseAprilFoolsMutant: {
-			Label: 使用愚人节突变体
-			Tooltip:
-				'''
-				将突变体更换为亚利姆
-				若启用Fargo's Souls，则此设置不发挥任何作用
-				'''
 		}
 
 		EnableInterlude4: {
@@ -1430,24 +1424,85 @@ Configs: {
 			Label: 调整独眼巨鹿Boss Checklist顺序
 			Tooltip: 将独眼巨鹿在Boss Checklist中的顺序调整到骷髅王之前，以匹配灾厄&炼狱的进程
 		}
+
+		DontEnableThis: {
+			Label: 不要启用这个
+			Tooltip: 请勿启用此选项，它可能会造成误解，并导致游戏玩法失衡甚至出现问题
+		}
 	}
 
 	Difficulty: {
 		Tooltip: ""
-		AlwaysOff.Label: 保持关闭
-		AlwaysOn.Label: 保持开启
-		Expert.Label: 专家
-		Master.Label: 大师
-		Legendary.Label: 传奇
-		Revengence.Label: 复仇
-		MasterRevengence.Label: 大师复仇
-		LegendaryRevengence.Label: 传奇复仇
-		Death.Label: 死亡
-		MasterDeath.Label: 大师死亡
-		LegendaryDeath.Label: 传奇死亡
-		Infernum.Label: 炼狱
-		MasterInfernum.Label: 大师炼狱
-		LegendaryInfernum.Label: 传奇炼狱
+
+		AlwaysOff: {
+			Label: 保持关闭
+			Tooltip: ""
+		}
+
+		AlwaysOn: {
+			Label: 保持开启
+			Tooltip: ""
+		}
+
+		Expert: {
+			Label: 专家
+			Tooltip: ""
+		}
+
+		Master: {
+			Label: 大师
+			Tooltip: ""
+		}
+
+		Legendary: {
+			Label: 传奇
+			Tooltip: ""
+		}
+
+		Revengence: {
+			Label: 复仇
+			Tooltip: ""
+		}
+
+		MasterRevengence: {
+			Label: 大师复仇
+			Tooltip: ""
+		}
+
+		LegendaryRevengence: {
+			Label: 传奇复仇
+			Tooltip: ""
+		}
+
+		Death: {
+			Label: 死亡
+			Tooltip: ""
+		}
+
+		MasterDeath: {
+			Label: 大师死亡
+			Tooltip: ""
+		}
+
+		LegendaryDeath: {
+			Label: 传奇死亡
+			Tooltip: ""
+		}
+
+		Infernum: {
+			Label: 炼狱
+			Tooltip: ""
+		}
+
+		MasterInfernum: {
+			Label: 大师炼狱
+			Tooltip: ""
+		}
+
+		LegendaryInfernum: {
+			Label: 传奇炼狱
+			Tooltip: ""
+		}
 	}
 }
 
