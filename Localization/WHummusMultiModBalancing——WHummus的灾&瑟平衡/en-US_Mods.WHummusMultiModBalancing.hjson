@@ -16,7 +16,7 @@ Configs: {
 
 		RadiantMultiClassNerf: {
 			Label: Radiant Multi Class Nerf
-			Tooltip: Reduces radiant damage after dealing damage with another class for 10 seconds.
+			Tooltip: Reduces damage and bonus healing after dealing damage with another class for 10 seconds.
 		}
 
 		MultiModShieldMerges: {
