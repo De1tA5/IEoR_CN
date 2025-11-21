@@ -14995,41 +14995,6 @@ Common: {
 				}
 			}
 
-			EclipseFangAlwaysActive: {
-				UseItem: {
-					1: {
-						// OldString: ThoriumMod
-						// NewString: ThoriumMod
-					}
-
-					2: {
-						// OldString: EclipseFang
-						// NewString: EclipseFang
-					}
-				}
-
-				ModifyTooltips: {
-					1: {
-						// OldString: ThoriumMod
-						// NewString: ThoriumMod
-					}
-
-					2: {
-						// OldString: EclipseFang
-						// NewString: EclipseFang
-					}
-
-					3: {
-						// OldString: "[IEoR]: Weapon empowerment always active."
-						NewString: "[IEoR]： 永久激活武器强化效果"
-					}
-
-					4: {
-						// OldString: MjolnirInfo
-						// NewString: MjolnirInfo
-					}
-				}
-			}
 
 			ElectrifiedThorsHammer: {
 				ModifyTooltips: {
