@@ -187,6 +187,21 @@ Buffs: {
 Mods: {
 	HomewardRagnarok: {
 		CoJIntro: {
+			GoblinChariot:
+				'''
+				The reckless war-engine
+				Goblin Chariot
+				'''
+			PuppetOpera:
+				'''
+				The strings of fate
+				Puppet Opera
+				'''
+			BigDipper:
+				'''
+				The wandering starborn
+				Big Dipper
+				'''
 			MarquisMoonsquid:
 				'''
 				The abyssal tyrant
@@ -215,7 +230,7 @@ Mods: {
 			SlimeGod:
 				'''
 				Primordial Slime
-				Slime God
+				Slime God: Rematch
 				'''
 			TheOverwatcher:
 				'''

@@ -191,6 +191,21 @@ Buffs: {
 Mods: {
 	HomewardRagnarok: {
 		CoJIntro: {
+			GoblinChariot:
+				'''
+				鲁莽的战争机器
+				哥布林战车
+				'''
+			PuppetOpera:
+				'''
+				命运之线
+				木偶歌剧
+				'''
+			BigDipper:
+				'''
+				流浪卫星
+				大熊星座
+				'''
 			MarquisMoonsquid:
 				'''
 				深渊暴君

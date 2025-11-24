@@ -866,6 +866,11 @@ HomewardRagnarok: {
 				// OldString: DaCapo
 				// NewString: DaCapo
 			}
+
+			32: {
+				// OldString: SpikyBomb
+				// NewString: SpikyBomb
+			}
 		}
 
 		SetDefaults: {
@@ -995,6 +1000,48 @@ HomewardRagnarok: {
 			2: {
 				// OldString: Inflicts Poison
 				// NewString: Inflicts Poison
+			}
+		}
+
+		*cctor: {
+			1: {
+				// OldString: CopperRapier
+				// NewString: CopperRapier
+			}
+
+			2: {
+				// OldString: GoldRapier
+				// NewString: GoldRapier
+			}
+
+			3: {
+				// OldString: IronRapier
+				// NewString: IronRapier
+			}
+
+			4: {
+				// OldString: LeadRapier
+				// NewString: LeadRapier
+			}
+
+			5: {
+				// OldString: PlatinumRapier
+				// NewString: PlatinumRapier
+			}
+
+			6: {
+				// OldString: SilverRapier
+				// NewString: SilverRapier
+			}
+
+			7: {
+				// OldString: TinRapier
+				// NewString: TinRapier
+			}
+
+			8: {
+				// OldString: TungstenRapier
+				// NewString: TungstenRapier
 			}
 		}
 	}
@@ -1635,6 +1682,21 @@ HomewardRagnarok: {
 				21: {
 					// OldString: RegisterIntroScreen
 					// NewString: RegisterIntroScreen
+				}
+
+				22: {
+					// OldString: GoblinChariot
+					// NewString: GoblinChariot
+				}
+
+				23: {
+					// OldString: PuppetOpera
+					// NewString: PuppetOpera
+				}
+
+				24: {
+					// OldString: BigDipper
+					// NewString: BigDipper
 				}
 			}
 		}
@@ -3950,7 +4012,7 @@ HomewardRagnarok: {
 
 				8: {
 					// OldString: Your sentries form a constellation that hurts for 50% of your held weapon's damage (Homeward Ragnarok)
-					NewString: 你的哨兵连结成星座对路径上的敌人造成手持武器的一半伤害
+					NewString: 你的哨兵连结成星座对路径上的敌人造成召唤武器的一半伤害
 				}
 			}
 		}
@@ -6622,6 +6684,123 @@ HomewardRagnarok: {
 				// NewString: SOTS
 				// OldString: SOTS
 			}
+
+			10: {
+				// OldString: ssm
+				// NewString: ssm
+			}
+		}
+
+		*cctor: {
+			1: {
+				// OldString: BigDipper
+				// NewString: BigDipper
+			}
+
+			2: {
+				// OldString: Diver
+				// NewString: Diver
+			}
+
+			3: {
+				// OldString: GoblinChariot
+				// NewString: GoblinChariot
+			}
+
+			4: {
+				// OldString: TheLifebringerHead
+				// NewString: TheLifebringerHead
+			}
+
+			5: {
+				// OldString: MarquisMoonsquid
+				// NewString: MarquisMoonsquid
+			}
+
+			6: {
+				// OldString: PriestessRod
+				// NewString: PriestessRod
+			}
+
+			7: {
+				// OldString: PuppetOpera
+				// NewString: PuppetOpera
+			}
+
+			8: {
+				// OldString: ScarabBelief
+				// NewString: ScarabBelief
+			}
+
+			9: {
+				// OldString: ScarabBelief_Minion
+				// NewString: ScarabBelief_Minion
+			}
+
+			10: {
+				// OldString: SlimeGod
+				// NewString: SlimeGod
+			}
+
+			11: {
+				// OldString: FlyingSpikeSlime
+				// NewString: FlyingSpikeSlime
+			}
+
+			12: {
+				// OldString: TheMaterealizer
+				// NewString: TheMaterealizer
+			}
+
+			13: {
+				// OldString: TheMaterealizer_Minion
+				// NewString: TheMaterealizer_Minion
+			}
+
+			14: {
+				// OldString: TheMotherbrain
+				// NewString: TheMotherbrain
+			}
+
+			15: {
+				// OldString: TheMotherbrain_Minion
+				// NewString: TheMotherbrain_Minion
+			}
+
+			16: {
+				// OldString: TheOverwatcher
+				// NewString: TheOverwatcher
+			}
+
+			17: {
+				// OldString: TheOverwatcher_Minion
+				// NewString: TheOverwatcher_Minion
+			}
+
+			18: {
+				// OldString: TheSon
+				// NewString: TheSon
+			}
+
+			19: {
+				// OldString: TheSon_Minion
+				// NewString: TheSon_Minion
+			}
+
+			20: {
+				// OldString: WallofShadow
+				// NewString: WallofShadow
+			}
+
+			21: {
+				// OldString: WallofShadow_Minion
+				// NewString: WallofShadow_Minion
+			}
+
+			22: {
+				// OldString: WorldsEndEverlastingFallingWhale
+				// NewString: WorldsEndEverlastingFallingWhale
+			}
 		}
 	}
 
@@ -7241,6 +7420,16 @@ HomewardRagnarok: {
 				// OldString: VampiricTalisman
 				// NewString: VampiricTalisman
 			}
+
+			3: {
+				// OldString: Clamity
+				// NewString: Clamity
+			}
+
+			4: {
+				// OldString: DraculasCharm
+				// NewString: DraculasCharm
+			}
 		}
 	}
 
@@ -7579,6 +7768,701 @@ HomewardRagnarok: {
 					1: {
 						// OldString: BubbleList
 						// NewString: BubbleList
+					}
+				}
+			}
+
+			Rebalance: {
+				Items: {
+					ArmillarySphereTooltipFix: {
+						ModifyTooltips: {
+							1: {
+								// OldString: ContinentOfJourney
+								// NewString: ContinentOfJourney
+							}
+
+							2: {
+								// OldString: ArmillarySphere
+								// NewString: ArmillarySphere
+							}
+
+							3: {
+								// OldString: holding
+								NewString: 手持
+							}
+
+							4: {
+								// OldString: summoner
+								NewString: 召唤
+							}
+						}
+					}
+				}
+			}
+		}
+
+		BossChecklist: {
+			CoJBCLKeyChanger: {
+				Load: {
+					1: {
+						// OldString: ContinentOfJourney
+						// NewString: ContinentOfJourney
+					}
+
+					2: {
+						// OldString: ContinentOfJourney.CoJ_BossChecklist
+						// NewString: ContinentOfJourney.CoJ_BossChecklist
+					}
+
+					3: {
+						// OldString: PostSetupContent
+						// NewString: PostSetupContent
+					}
+				}
+
+				IL_EditBossChecklistKeys: {
+					1: {
+						// OldString: CoJWallOfShadow
+						// NewString: CoJWallOfShadow
+					}
+
+					2: {
+						// OldString: CoJOverwatcher
+						// NewString: CoJOverwatcher
+					}
+
+					3: {
+						// OldString: CoJMaterealizer
+						// NewString: CoJMaterealizer
+					}
+
+					4: {
+						// OldString: CoJLifebringer
+						// NewString: CoJLifebringer
+					}
+
+					5: {
+						// OldString: CoJOrdeals
+						// NewString: CoJOrdeals
+					}
+
+					6: {
+						// OldString: CoJScarabBelief
+						// NewString: CoJScarabBelief
+					}
+
+					7: {
+						// OldString: CoJWorldsEndEverlastingFallingWhale
+						// NewString: CoJWorldsEndEverlastingFallingWhale
+					}
+
+					8: {
+						// OldString: CoJSon
+						// NewString: CoJSon
+					}
+
+					9: {
+						// OldString: Mods.ContinentOfJourney.SG
+						// NewString: Mods.ContinentOfJourney.SG
+					}
+
+					10: {
+						// OldString: SG
+						// NewString: SG
+					}
+
+					11: {
+						// OldString: 史莱姆之神： 再临
+						// NewString: 史莱姆之神： 再临
+					}
+				}
+			}
+
+			CoJBCLKeyChanger+<>c: {
+				<IL_EditBossChecklistKeys>b__2_0: {
+					1: {
+						// OldString: CoJSlimeGod
+						// NewString: CoJSlimeGod
+					}
+				}
+			}
+		}
+	}
+}
+
+ModCompatabilityFixes: {
+	Load: {
+		1: {
+			// OldString: ThoriumMod
+			// NewString: ThoriumMod
+		}
+
+		2: {
+			// OldString: InfernalEclipseAPI
+			// NewString: InfernalEclipseAPI
+		}
+
+		3: {
+			// OldString: ThoriumMod.ModSupport.ModSupportModules.BossChecklistSupport
+			// NewString: ThoriumMod.ModSupport.ModSupportModules.BossChecklistSupport
+		}
+
+		4: {
+			// OldString: DoBossChecklistSupport_LogBosses
+			// NewString: DoBossChecklistSupport_LogBosses
+		}
+	}
+
+	IL_EditBossChecklistKeys: {
+		1: {
+			// OldString: ThoriumRework
+			// NewString: ThoriumRework
+		}
+	}
+}
+
+CalamityBellRework: {
+	Shoot: {
+		1: {
+			// OldString: RagnarokMod
+			// NewString: RagnarokMod
+		}
+
+		2: {
+			// OldString: CalamityBell
+			// NewString: CalamityBell
+		}
+
+		3: {
+			// OldString: "[CalamityBellRework] Error in Shoot: "
+			// NewString: "[CalamityBellRework] Error in Shoot: "
+		}
+	}
+}
+
+LamentationRework: {
+	Shoot: {
+		1: {
+			// OldString: RagnarokMod
+			// NewString: RagnarokMod
+		}
+
+		2: {
+			// OldString: Lamentation
+			// NewString: Lamentation
+		}
+
+		3: {
+			// OldString: "[CalamityBellRework] Error in Shoot: "
+			// NewString: "[CalamityBellRework] Error in Shoot: "
+		}
+	}
+}
+
+RadioMicRework: {
+	Shoot: {
+		1: {
+			// OldString: RagnarokMod
+			// NewString: RagnarokMod
+		}
+
+		2: {
+			// OldString: RadioMic
+			// NewString: RadioMic
+		}
+
+		3: {
+			// OldString: "[RadioMicRework] Error in Shoot: "
+			// NewString: "[RadioMicRework] Error in Shoot: "
+		}
+	}
+}
+
+SoulBleedPatch: {
+	Load: {
+		1: {
+			// OldString: ThoriumRework
+			// NewString: ThoriumRework
+		}
+
+		2: {
+			// OldString: InfernalEclipseAPI
+			// NewString: InfernalEclipseAPI
+		}
+
+		3: {
+			// OldString: ThoriumRework.Projectiles.SoulBleed
+			// NewString: ThoriumRework.Projectiles.SoulBleed
+		}
+
+		4: {
+			// OldString: AI
+			// NewString: AI
+		}
+	}
+}
+
+WhummWHummusMultiModBalancing: {
+	AddedDebuffs: {
+		OnHitNPC: {
+			1: {
+				// OldString: ThoriumMod
+				// NewString: ThoriumMod
+			}
+
+			2: {
+				// OldString: Stunned
+				// NewString: Stunned
+			}
+
+			3: {
+				// OldString: VoltHatchetPro
+				// NewString: VoltHatchetPro
+			}
+
+			4: {
+				// OldString: CalamityMod
+				// NewString: CalamityMod
+			}
+
+			5: {
+				// OldString: RiptideDebuff
+				// NewString: RiptideDebuff
+			}
+
+			6: {
+				// OldString: AquaPelterPro
+				// NewString: AquaPelterPro
+			}
+
+			7: {
+				// OldString: GeyserPro2
+				// NewString: GeyserPro2
+			}
+
+			8: {
+				// OldString: AquaiteKnifePro
+				// NewString: AquaiteKnifePro
+			}
+
+			9: {
+				// OldString: AquaiteKnifePro2
+				// NewString: AquaiteKnifePro2
+			}
+
+			10: {
+				// OldString: AquamarineWineGlassPro2
+				// NewString: AquamarineWineGlassPro2
+			}
+
+			11: {
+				// OldString: AquaiteScythePro
+				// NewString: AquaiteScythePro
+			}
+
+			12: {
+				// OldString: IllustriousPro
+				// NewString: IllustriousPro
+			}
+
+			13: {
+				// OldString: IridescentPro
+				// NewString: IridescentPro
+			}
+
+			14: {
+				// OldString: PearlPikePro
+				// NewString: PearlPikePro
+			}
+
+			15: {
+				// OldString: ScubaCurvaPro
+				// NewString: ScubaCurvaPro
+			}
+
+			16: {
+				// OldString: BlobhornCoralStaffPro
+				// NewString: BlobhornCoralStaffPro
+			}
+
+			17: {
+				// OldString: SeaFoamScepterPro
+				// NewString: SeaFoamScepterPro
+			}
+
+			18: {
+				// OldString: SerpentsCryPro
+				// NewString: SerpentsCryPro
+			}
+
+			19: {
+				// OldString: SerpentsCryPro2
+				// NewString: SerpentsCryPro2
+			}
+
+			20: {
+				// OldString: UrchinMaceProjectile
+				// NewString: UrchinMaceProjectile
+			}
+
+			21: {
+				// OldString: RedtideWhirlpool
+				// NewString: RedtideWhirlpool
+			}
+
+			22: {
+				// OldString: RagnarokMod
+				// NewString: RagnarokMod
+			}
+
+			23: {
+				// OldString: MarbleScythePro
+				// NewString: MarbleScythePro
+			}
+
+			24: {
+				// OldString: HolyGlare
+				// NewString: HolyGlare
+			}
+
+			25: {
+				// OldString: CorrosiveFluxPro
+				// NewString: CorrosiveFluxPro
+			}
+
+			26: {
+				// OldString: Irradiated
+				// NewString: Irradiated
+			}
+
+			27: {
+				// OldString: VirusprayerPro1
+				// NewString: VirusprayerPro1
+			}
+
+			28: {
+				// OldString: VirusprayerPro2
+				// NewString: VirusprayerPro2
+			}
+
+			29: {
+				// OldString: AstralRipperPro
+				// NewString: AstralRipperPro
+			}
+
+			30: {
+				// OldString: AstralInfectionDebuff
+				// NewString: AstralInfectionDebuff
+			}
+
+			31: {
+				// OldString: AstralRipperStarPro
+				// NewString: AstralRipperStarPro
+			}
+
+			32: {
+				// OldString: NightmareFreezerPro
+				// NewString: NightmareFreezerPro
+			}
+
+			33: {
+				// OldString: GlacialState
+				// NewString: GlacialState
+			}
+
+			34: {
+				// OldString: NightmareFreezerPro2
+				// NewString: NightmareFreezerPro2
+			}
+
+			35: {
+				// OldString: NightmareFreezerPro3
+				// NewString: NightmareFreezerPro3
+			}
+
+			36: {
+				// OldString: ExecutionerMark05Pro
+				// NewString: ExecutionerMark05Pro
+			}
+
+			37: {
+				// OldString: ExecutionerMark05ThrowPro
+				// NewString: ExecutionerMark05ThrowPro
+			}
+
+			38: {
+				// OldString: MiracleBlight
+				// NewString: MiracleBlight
+			}
+
+			39: {
+				// OldString: ProfanedScythePro
+				// NewString: ProfanedScythePro
+			}
+
+			40: {
+				// OldString: HolyFlames
+				// NewString: HolyFlames
+			}
+
+			41: {
+				// OldString: ElysianSongPro
+				// NewString: ElysianSongPro
+			}
+
+			42: {
+				// OldString: SteampipesPro
+				// NewString: SteampipesPro
+			}
+
+			43: {
+				// OldString: CrushDepth
+				// NewString: CrushDepth
+			}
+
+			44: {
+				// OldString: ScoriaDualscythePro
+				// NewString: ScoriaDualscythePro
+			}
+
+			45: {
+				// OldString: FractalOrb
+				// NewString: FractalOrb
+			}
+
+			46: {
+				// OldString: FractalPro1
+				// NewString: FractalPro1
+			}
+
+			47: {
+				// OldString: FractalPro2
+				// NewString: FractalPro2
+			}
+
+			48: {
+				// OldString: Nightwither
+				// NewString: Nightwither
+			}
+		}
+	}
+
+	MeleeDebuffGlobal: {
+		OnHitNPC: {
+			1: {
+				// OldString: ThoriumMod
+				// NewString: ThoriumMod
+			}
+
+			2: {
+				// OldString: ThunderTalon
+				// NewString: ThunderTalon
+			}
+
+			3: {
+				// OldString: CalamityMod
+				// NewString: CalamityMod
+			}
+
+			4: {
+				// OldString: Crumbling
+				// NewString: Crumbling
+			}
+
+			5: {
+				// OldString: LifeQuartzClaymore
+				// NewString: LifeQuartzClaymore
+			}
+
+			6: {
+				// OldString: HereticBreaker
+				// NewString: HereticBreaker
+			}
+		}
+
+		ModifyTooltips: {
+			1: {
+				// OldString: ThoriumMod
+				// NewString: ThoriumMod
+			}
+
+			2: {
+				// OldString: LifeQuartzClaymore
+				// NewString: LifeQuartzClaymore
+			}
+
+			3: {
+				// OldString: CustomTooltip
+				// NewString: CustomTooltip
+			}
+
+			4: {
+				// OldString: Steals 3 life
+				// NewString: Steals 3 life
+			}
+
+			5: {
+				// OldString: RagnarokMod
+				// NewString: RagnarokMod
+			}
+
+			6: {
+				// OldString: MarbleScythe
+				// NewString: MarbleScythe
+			}
+
+			7: {
+				// OldString: HolyGlare
+				// NewString: HolyGlare
+			}
+
+			8: {
+				// OldString: Mods.WHummusMultiModBalancing.ItemTooltips.HolyGlare
+				// NewString: Mods.WHummusMultiModBalancing.ItemTooltips.HolyGlare
+			}
+		}
+	}
+
+	MeleeDebuffGlobal+<>c: {
+		<ModifyTooltips>b__4_0: {
+			1: {
+				// OldString: Steals 1 life
+				// NewString: Steals 1 life
+			}
+		}
+	}
+}
+
+ModCompatabilityFixes+<>c: {
+	<IL_EditBossChecklistKeys>b__3_0: {
+		1: {
+			// OldString: ThePrimordials
+			// NewString: ThePrimordials
+		}
+	}
+
+	<IL_EditBossChecklistKeys>b__3_1: {
+		1: {
+			// OldString: StarScouter
+			// NewString: StarScouter
+		}
+	}
+}
+
+RevengeancePlusPatchSystem: {
+	Load: {
+		3: {
+			// NewString: PostSetupContent
+			// OldString: PostSetupContent
+		}
+
+		2: {
+			// NewString: RevengeancePlus.InfernumTitles
+			// OldString: RevengeancePlus.InfernumTitles
+		}
+
+		1: {
+			// NewString: RevengeancePlus
+			// OldString: RevengeancePlus
+		}
+	}
+}
+
+PauldronNerfSystem: {
+	Load: {
+		1: {
+			// NewString: PostUpdateMiscEffects
+			// OldString: PostUpdateMiscEffects
+		}
+	}
+}
+
+ThoriumBCLKeyChanger: {
+	IL_EditBossChecklistKeys: {
+		1: {
+			// NewString: ThoriumRework
+			// OldString: ThoriumRework
+		}
+	}
+
+	Load: {
+		3: {
+			// NewString: DoBossChecklistSupport_LogBosses
+			// OldString: DoBossChecklistSupport_LogBosses
+		}
+
+		2: {
+			// NewString: ThoriumMod.ModSupport.ModSupportModules.BossChecklistSupport
+			// OldString: ThoriumMod.ModSupport.ModSupportModules.BossChecklistSupport
+		}
+
+		1: {
+			// NewString: ThoriumMod
+			// OldString: ThoriumMod
+		}
+	}
+}
+
+ThoriumBCLKeyChanger+<>c: {
+	<IL_EditBossChecklistKeys>b__3_0: {
+		1: {
+			// OldString: ThePrimordials
+			// NewString: ThePrimordials
+		}
+	}
+
+	<IL_EditBossChecklistKeys>b__3_1: {
+		1: {
+			// OldString: StarScouter
+			// NewString: StarScouter
+		}
+	}
+}
+
+RevengeancePlusPatchSystem+<>c: {
+	<IL_RemovePolarisAddInfernumTitle>b__3_0: {
+		1: {
+			// OldString: Polaris
+			// NewString: Polaris
+		}
+
+		2: {
+			// OldString: NewPolaris
+			// NewString: NewPolaris
+		}
+	}
+
+	<IL_RemovePolarisAddInfernumTitle>b__3_1: {
+		1: {
+			// OldString: AddInfernumTitle
+			// NewString: AddInfernumTitle
+		}
+	}
+}
+
+HWJBardHealer: {
+	Content: {
+		Recipes: {
+			BloodToBloodOrbRecipe: {
+				PostAddRecipes: {
+					1: {
+						// OldString: ContinentOfJourney
+						// NewString: ContinentOfJourney
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: Blood
+						// NewString: Blood
+					}
+
+					4: {
+						// OldString: BloodOrb
+						// NewString: BloodOrb
 					}
 				}
 			}
