@@ -11,12 +11,13 @@ namespace IEoR_CN.Localizationfix.Thorium
     public class SoulofPlight:GlobalItem
     {
         //瑟银困境之魂——改为恶意之魂
+
         public override bool InstancePerEntity => true;
 
         public override bool IsLoadingEnabled(Mod mod)
         {
             Mod IEoR;
-            return ModLoader.TryGetMod("InfernalEclipseAPI", out IEoR);
+            return ModLoader.TryGetMod("InfernalEclipseAPI", out IEoR) && Thorium != null;
         }
 
         private static Mod Thorium
@@ -31,40 +32,40 @@ namespace IEoR_CN.Localizationfix.Thorium
 
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
-            if (ModLoader.HasMod("InfernalEclipseAPI")) {
-                if (Thorium != null && item.type == Thorium.Find<ModItem>("SoulofPlight").Type) 
-                {
-                    foreach (TooltipLine tooltip in tooltips)
-                    {
-                        if (tooltip.Mod == "Terraria" && tooltip.Name == "ItemName" && tooltip.Text.Contains("困境之魂"))
-                        {
-                            tooltip.Text = "恶意之魂";
-                        }
+            if (item.ModItem == null)
+            {
+                return;
+            }
 
+            if (Thorium != null && item.type == Thorium.Find<ModItem>("SoulofPlight").Type) 
+            {
+                foreach (TooltipLine tooltip in tooltips)
+                {
+                    if (tooltip.Mod == "Terraria" && tooltip.Name == "ItemName" && tooltip.Text.Contains("困境之魂"))
+                    {
+                        tooltip.Text = "恶意之魂";
                     }
                 }
+            }
 
-                if (Thorium != null && item.type == Thorium.Find<ModItem>("SoulofPlightinaBottle").Type) 
+            if (Thorium != null && item.type == Thorium.Find<ModItem>("SoulofPlightinaBottle").Type) 
+            {
+                foreach (TooltipLine tooltip in tooltips)
                 {
-                    foreach (TooltipLine tooltip in tooltips)
+                    if (tooltip.Mod == "Terraria"  && tooltip.Name == "ItemName" && tooltip.Text.Contains("瓶中困境之魂"))
                     {
-                        if (tooltip.Mod == "Terraria"  && tooltip.Name == "ItemName" && tooltip.Text.Contains("瓶中困境之魂"))
-                        {
-                            tooltip.Text = "瓶中恶意之魂";
-                        }
-
+                        tooltip.Text = "瓶中恶意之魂";
                     }
                 }
+            }
 
-                if (Thorium != null && item.type == Thorium.Find<ModItem>("KeyofPlight").Type)
+            if (Thorium != null && item.type == Thorium.Find<ModItem>("KeyofPlight").Type)
+            {
+                foreach (TooltipLine tooltip in tooltips)
                 {
-                    foreach (TooltipLine tooltip in tooltips)
+                    if (tooltip.Mod == "Terraria"  && tooltip.Name == "ItemName" && tooltip.Text.Contains("困境钥匙"))
                     {
-                        if (tooltip.Mod == "Terraria"  && tooltip.Name == "ItemName" && tooltip.Text.Contains("困境钥匙"))
-                        {
-                            tooltip.Text = "恶意钥匙";
-                        }
-
+                        tooltip.Text = "恶意钥匙";
                     }
                 }
             }

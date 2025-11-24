@@ -16,7 +16,7 @@ namespace IEoR_CN.Localizationfix
     //抄Homeward Ragnarok的IL钩子修改
     public class CoJSlimeGod_Fix : ModSystem
     {
-
+        private ILHook ilHook;
         public override void Load()
         {
             if (!ModLoader.HasMod("HomewardRagnarok"))
@@ -142,7 +142,7 @@ namespace IEoR_CN.Localizationfix
         }
 
 
-        private ILHook ilHook;
+        
     }
     
 }

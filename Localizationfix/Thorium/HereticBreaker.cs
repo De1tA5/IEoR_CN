@@ -11,12 +11,17 @@ namespace IEoR_CN.Localizationfix.Thorium
     public class HereticBreaker : GlobalItem
     {
         //异教毁灭者
+        public override bool AppliesToEntity(Item entity, bool lateInstantiation)
+        {
+            ModItem item;
+            return Thorium.TryFind<ModItem>("HereticBreaker", out item) && (item.Type == entity.type);
+        }
         public override bool InstancePerEntity => true;
 
         public override bool IsLoadingEnabled(Mod mod)
         {
             Mod IEoR;
-            return ModLoader.TryGetMod("InfernalEclipseAPI", out IEoR);
+            return ModLoader.TryGetMod("InfernalEclipseAPI", out IEoR) && Thorium != null;
         }
         private static Mod Thorium
         {
@@ -30,19 +35,18 @@ namespace IEoR_CN.Localizationfix.Thorium
 
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
-            if (ModLoader.HasMod("InfernalEclipseAPI"))
+            if (item.ModItem == null)
             {
-                if (Thorium != null && item.type == Thorium.Find<ModItem>("HereticBreaker").Type)
+                return;
+            }
+            foreach (TooltipLine tooltip in tooltips)
+            {
+                if (tooltip.Mod == "Terraria" && tooltip.Text.Contains("造成伤害时会治疗附近所有受伤队友"))
                 {
-                    foreach (TooltipLine tooltip in tooltips)
-                    {
-                        if (tooltip.Mod == "Terraria" && tooltip.Text.Contains("造成伤害时会治疗附近所有受伤队友"))
-                        {
-                            tooltip.Text = tooltip.Text.Replace("造成伤害时会治疗附近所有受伤队友", "吸取3生命值");
-                        }
-                    }
+                    tooltip.Text = tooltip.Text.Replace("造成伤害时会治疗附近所有受伤队友", "吸取3生命值");
                 }
             }
+
         }
     }
 }

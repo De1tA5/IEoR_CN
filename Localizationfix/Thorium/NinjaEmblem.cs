@@ -11,12 +11,17 @@ namespace IEoR_CN.Localizationfix.Thorium
     public class NinjaEmblem : GlobalItem
     {
         //忍者徽章——>英雄徽章
+        public override bool AppliesToEntity(Item entity, bool lateInstantiation)
+        {
+            ModItem item;
+            return Thorium.TryFind<ModItem>("NinjaEmblem", out item) && (item.Type == entity.type);
+        }
         public override bool InstancePerEntity => true;
 
         public override bool IsLoadingEnabled(Mod mod)
         {
             Mod IEoR;
-            return ModLoader.TryGetMod("InfernalEclipseAPI", out IEoR);
+            return ModLoader.TryGetMod("InfernalEclipseAPI", out IEoR) && Thorium != null;
         }
         private static Mod Thorium
         {
@@ -30,17 +35,16 @@ namespace IEoR_CN.Localizationfix.Thorium
 
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
-            if (ModLoader.HasMod("InfernalEclipseAPI"))
+            if (item.ModItem == null)
             {
-                if (Thorium != null && item.type == Thorium.Find<ModItem>("NinjaEmblem").Type)
+                return;
+            }
+
+            foreach (TooltipLine tooltip in tooltips)
+            {
+                if (tooltip.Mod == "Terraria" && tooltip.Name == "ItemName" && tooltip.Text.Contains("忍者徽章"))
                 {
-                    foreach (TooltipLine tooltip in tooltips)
-                    {
-                        if (tooltip.Mod == "Terraria" && tooltip.Name =="ItemName" && tooltip.Text.Contains("忍者徽章"))
-                        {
-                            tooltip.Text = "英雄徽章";
-                        }
-                    }
+                    tooltip.Text = "英雄徽章";
                 }
             }
         }
