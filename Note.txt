@@ -55,3 +55,9 @@
 [诸神黄昏]：
 残酷世界的印记
 宇宙耳机
+
+PostUpdateEquips
+ModifyTooltips
+SetAnchor
+PostUpdate
+TryTeleport

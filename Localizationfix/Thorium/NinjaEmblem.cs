@@ -35,16 +35,23 @@ namespace IEoR_CN.Localizationfix.Thorium
 
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
-            if (item.ModItem == null)
-            {
-                return;
-            }
+            if (item.ModItem == null || item.ModItem.Mod != Thorium) return;
 
             foreach (TooltipLine tooltip in tooltips)
             {
-                if (tooltip.Mod == "Terraria" && tooltip.Name == "ItemName" && tooltip.Text.Contains("忍者徽章"))
+                if (tooltip.Mod == "Terraria" && tooltip.Name == "ItemName" && (tooltip.Text.Contains("多职业徽章") || tooltip.Text.Contains("忍者徽章")))
                 {
                     tooltip.Text = "英雄徽章";
+                }
+            }
+            if (ModLoader.HasMod("WHummusMultiModBalancing"))
+            {
+                int startIndex = tooltips.FindIndex(tooltip => tooltip.Text.Contains("增加8%伤害"));
+                int endIndex = tooltips.FindIndex(tooltip => tooltip.Text.Contains("增加5%攻击速度"));
+                if (startIndex != -1 && endIndex != -1)
+                {
+                    tooltips.Insert(endIndex + 1, new TooltipLine(Mod, "TextPatch", "增加5%伤害\n增加6%暴击率\n增加5%攻击速度"));//whummus写2% 实测6%暴
+                    tooltips.RemoveRange(startIndex, endIndex + 1 - startIndex);
                 }
             }
         }

@@ -35,10 +35,8 @@ namespace IEoR_CN.Localizationfix.Thorium
 
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
-            if (item.ModItem == null)
-            {
-                return;
-            }
+            if (item.ModItem == null || item.ModItem.Mod != Thorium) return;
+
             foreach (TooltipLine tooltip in tooltips)
             {
                 if (tooltip.Mod == "Terraria" && tooltip.Text.Contains("造成伤害时会治疗附近所有受伤队友"))

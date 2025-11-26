@@ -36,10 +36,7 @@ namespace IEoR_CN.Localizationfix.Thorium
 
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
-            if (item.ModItem == null) 
-            {
-                return;
-            }
+            if (item.ModItem == null || item.ModItem.Mod != Thorium) return;
 
             foreach (TooltipLine tooltip in tooltips)
             {
