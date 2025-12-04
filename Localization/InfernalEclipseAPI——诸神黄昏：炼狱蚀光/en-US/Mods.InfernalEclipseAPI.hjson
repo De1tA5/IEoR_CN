@@ -49,11 +49,7 @@ ItemTooltip: {
 	StarlitForgeExtra: Even more curiously, it can even duplicate some items
 	BladecrestNerf: An evil force is sapping part of its power...
 	EclipseFang: "[IEoR]: Weapon empowerment always active."
-	ScytheThrow:
-		'''
-		Right Click to throw the Scythe, which will curve on it's way back
-		Thrown Scythes will deal 10% reduced damage
-		'''
+	ScytheThrow: Right Click to throw the scythe, which will curve on it's way back
 	PhoenixStaff:
 		'''
 		Right click to spew a stream of flames that inflict 'Holy Glare'
@@ -77,6 +73,27 @@ ItemTooltip: {
 		'You're not greedy... you're batshit insane!'
 		Revengeance drop
 		'''
+	DedTo: - Dedicated to {0} -
+
+	Dedicated: {
+		Akira: Akira
+		WH: WardrobeHummus
+		Advantaje: Advantaje
+		Tyr: Tyr
+		Soltan: Soltan
+		bryce: bryce27
+		eviil81: evil81
+		rose: rosé
+		Jill: JillyFish
+		Eduarrdo: Eduarrdo
+		Mae: ma3allim
+		Yob: Yob
+		Pudding: Pudd1ng
+		Ropro: Ropro0923
+		cheese: cheesenuggets
+		Puzzles: Mr. Puzzles
+		cat: StarlightCat
+	}
 
 	MergedCraftingTreeTooltip: {
 		Gilded: Effects of the Gilded Blade Wings
@@ -102,7 +119,7 @@ ItemTooltip: {
 		SerpentsTongue:
 			'''
 			15% increased radiant damage
-			20% increased critical strike damage
+			10% increased critical strike damage
 			Enemies have a 10% chance to drop double the loot
 			20% when killed by critical strikes
 			Empowers certain attacks with dark energy
@@ -266,6 +283,11 @@ ItemTooltip: {
 			Increases mining speed by 5% and critical strike chance by 5%
 			Generate coins when hurt or when void is gained and don't lose coins upon death
 			Mining blocks has a chance to drop bonus resources, such as coins and silt
+			'''
+		AlchemistCharm:
+			'''
+			Increases healing and mana received from potions by 100
+			Increases buff duration by 67%
 			'''
 	}
 
@@ -464,10 +486,50 @@ Lore: {
 		'''
 	Glowmoth:
 		'''
-		This moth‑like creature is interesting, as it makes its homes within the same glowing, mushroom‑infested caves as another similar beast.
+		This moth-like creature is interesting, as it makes its homes within the same glowing, mushroom‑infested caves as another similar beast.
 		It seems to emit some sort of bioluminescent glow, reminiscent of the void...
 		perhaps it resides in these caves for their latent void energy?
 		Whatever the case may be, it is beyond me.
+		'''
+	Mjolnir:
+		'''
+		Thor, one of the many gods that had managed to evade my crusade,
+		yet he wiill never forget what I had done to him and family.
+		Asgard was merely a land of sinners, so I mererly did what they had done to so many others.
+		Thor had escaped me and I belived he still ruled over Asgard to this day,
+		but with his hammer in your hands, perhaps it is no more.
+		'''
+	Ragnarok:
+		'''
+		How curious.
+		Ragnarok, the fabled end of days, was a being rather than an event.
+		I had searched the world for how to start it, so I could destroy Asgard,
+		but in the end, I had found nothing.
+		The tales of serpents and fire were far from the truth,
+		but now Ragnarok lies in ruin just like Asgard itself.
+
+		You are now seen as the hero for this land, 
+		and may you find peace in the new age you have created.
+		However, beware, for with every end comes a new beginning...
+		[c/7C0A02:Do not push your luck further, Terrarian.]
+		'''
+	Primordials:
+		'''
+		Before the world was formed, there were only the Primordials.
+		Each of them represents an aspect of this world, and protect the world from Ragnarok.
+		During my war, I had wanted to slay them thinking they were merely sinners like the other gods,
+		however no matter what I did I could not get there attention.
+		Was I not worthy of their attention despite all I had done to the world?
+		Don't tell me they think I'm a spec in this worlds history compared to you...
+		'''
+	ThunderBird:
+		'''
+		These birds were once great and fearsome adversaries, fine foes worth the hunt.
+		Thier feathers could can channel the sun's dormant energy into potent lightning, hense the name.
+		However, these great battles were fleeting; and soon by generation selection,
+		they had lost most of thier potent strength.
+		The one you bested is not but a mellowed runt in comparision to what I had once seen,
+		yet forevermore the title of the Grand Thunder Bird lives on.
 		'''
 }
 
@@ -535,25 +597,30 @@ Items: {
 				'''
 			Plantera:
 				'''
-				With the defeat of Draedon's machines, it now inflicts Daybroken
+				With the defeat of Draedon's machines, it now inflicts Astral Infection
 				Defeat the gaurdian of the jungle to gain more power...
 				'''
 			Golem:
 				'''
-				With the defeat of Plantera, stars now split on hit
+				With the defeat of Plantera, stars now split on hit.
 				Defeat the construct of the Lizhard Temple to gain more power...
 				'''
 			Cultist:
 				'''
 				With the defeat of Golem, stars home in on enemies
+				Stars will now split after some time
 				Defeat the leader of the ancient cult to gain more power...
 				'''
 			MoonLord:
 				'''
-				With the defeat of the Lunatic Cultist, stars explode on impact
+				With the defeat of the Lunatic Cultist, stars explode after some time
 				Defeat the Eldritch corpse to gain more power...
 				'''
-			Full: The Stellar Sabre is fully awaked, and its maximum power is unleashed!
+			Full:
+				'''
+				The Stellar Sabre is fully awakend, and all abilities have been further buffed
+				The weapon's maximum power is unleashed!
+				'''
 		}
 
 		Lore: "'Even after everything, there was still one person Xander refused to attack...'"
@@ -598,12 +665,16 @@ Items: {
 		LorePutrid.DisplayName: Putrid Pinky
 		LoreSerpent.DisplayName: Subspace Serpent
 		LoreProvi.DisplayName: The Radiant One
-		LoreMirror.DisplayName: The Mirror
+		LoreMirror.DisplayName: Cursed Mirror
 		LoreDylan.DisplayName: Dylan
 		LoreAbominationn.DisplayName: The Abominationn
 		LoreDeviantt.DisplayName: The Deviantt
 		LoreMutant.DisplayName: The Mutant
 		SoltanBullyingSlip.DisplayName: Dylan's Anti-Soltan Chipnote
+		LoreMjolnir.DisplayName: Mjolnir
+		LorePrimordials.DisplayName: The Primordials
+		LoreThunderBird.DisplayName: The Grand Thunder Bird
+		LoreRagnarok.DisplayName: Ragnarok
 	}
 
 	CatastrophicFabricationsMusicBox: {
@@ -1043,7 +1114,7 @@ Items: {
 	}
 
 	RingofTix: {
-		DisplayName: Ring of Tix
+		DisplayName: Tix-Burnt Ring
 		Tooltip: ""
 		SOTSTooltip: Right click while favorited to invert the currently selected gem, disabling the effect of the gem and enabling the inverted effect
 		G0: Chain together blocks when mining, breaking up to 50 blocks at once
@@ -1104,6 +1175,8 @@ Items: {
 		NormalTooltip:
 			'''
 			18% increase to damage
+			Increases arrow damage by 5%
+			10% increased movement speed
 			+3.5 HP/s life regen and +2 max minions
 			Increased minion knockback
 			Increases all damage by 4
@@ -1113,6 +1186,9 @@ Items: {
 			During the day, grants +2 HP/s life regen
 			During the night, grants +20 defense
 			During an eclipse, grants +1 HP/s life regen and +10 defense
+			Arrow critical strikes briefly shadowflame enemies
+			Boosts your maximum flight time by 20%
+			'Behind the flames and the sparks, if you look deep enough, you will see your past and your future'
 			'''
 	}
 
@@ -1175,6 +1251,17 @@ Items: {
 	MenuMusicBox: {
 		DisplayName: Music Box (Infernal Eclipse of Ragnarok Title)
 		Tooltip: Plays 'Teardrops of Dragonfire' by Peter Fung
+	}
+
+	Streetsign: {
+		DisplayName: Streetsign
+		Tooltip:
+			'''
+			While holding this weapon, you have a improbability bar
+			The bar charges by dealing or taking damage
+			When the bar is full, you gain increased weapon stats and movement speed 
+			[c/7C0A02: YOU DO NOT KILL CLOWN!!! CLOWN KILLS YOU!!!]
+			'''
 	}
 }
 
@@ -1357,17 +1444,6 @@ Configs: {
 			Tooltip: Replaces the Blood Orb potion recipes with duplication recipes instead.
 		}
 
-		AutomaticallyReforgeThoriumRogueItems: {
-			Label: Automatically Reforge Thorium Rogue Items
-			Tooltip:
-				'''
-				Automatically adds the stat bonuses of the "Flawless" prefix onto all non-consumable Thorium Rogue Items. 
-				Can help Thorium items catch up to Calamity items with prefixes as Throium Rogue items can't be reforged.
-				Only works when Ragnarok or Unofficial Calamity Bard & Healer are enabled.
-				This setting does nothing if Merge Thrower Into Rogue is enabled.
-				'''
-		}
-
 		ChanageWeaponClasses: {
 			Label: Change Weapon Classes
 			Tooltip: Changes the class of some weapons to give more varity or to make more sense with the weapon.
@@ -1441,6 +1517,11 @@ Configs: {
 		DontEnableThis: {
 			Label: Don't Enable This
 			Tooltip: Don't enable this. It will probably give you the wrong idea and it will lead to unbalanced & broken gameplay.
+		}
+
+		CalamityExpertAccessories: {
+			Label: Calamity Expert Accessories
+			Tooltip: Toggles certain drops from Calamity bosses being expert rarity.
 		}
 	}
 
@@ -1666,7 +1747,7 @@ InfernumIntegration: {
 		'''
 	AvatarOfEmptiness:
 		'''
-		Paradise Parasite
+		Star From A Perfect World
 		Avatar of Emptiness
 		'''
 	RealMutantEX:
