@@ -77,6 +77,27 @@ ItemTooltip: {
 		"你没有疯……你真是疯了!"
 		复仇模式专属
 		'''
+	DedTo: -献给{0}-
+
+	Dedicated: {
+		Akira: Akira
+		WH: WardrobeHummus
+		Advantaje: Advantaje
+		Tyr: Tyr
+		Soltan: Soltan
+		bryce: bryce27
+		eviil81: evil81
+		rose: rosé
+		Jill: JillyFish
+		Eduarrdo: Eduarrdo
+		Mae: ma3allim
+		Yob: Yob
+		Pudding: Pudd1ng
+		Ropro: Ropro0923
+		cheese: cheesenuggets
+		Puzzles: Mr. Puzzles
+		cat: StarlightCat
+	}
 
 	MergedCraftingTreeTooltip: {
 		Gilded: 耀刃之翼效果
@@ -266,6 +287,11 @@ ItemTooltip: {
 			增加5%采矿速度和5%暴击率
 			受伤时会产生钱币，并且在死亡时不会丢失钱币
 			开采方块时有概率掉落奖励资源，如钱币和泥沙
+			'''
+		AlchemistCharm:
+			'''
+			增加100点从药水治疗的生命值和恢复的魔力值
+			增加67%buff持续时间
 			'''
 	}
 
@@ -466,6 +492,46 @@ Lore: {
 		或许正是那些洞穴中潜藏的虚空能量吸引了它？
 		无论如何，这一切仍超出我的理解范围。
 		'''
+	Mjolnir:
+		'''
+		索尔——那些曾侥幸逃过我圣战的诸神之一，
+		但他永远不会忘记我对他与他的家园所做的一切。
+		阿斯加德不过是罪人聚居之地，而我只是在以其人之道还治其人之身——正如他们曾加诸无数生灵的那般。
+		索尔从我手中逃脱，而我一直以为他至今仍统治着阿斯加德，
+		然而，如今他的锤落在你手中——或许，他的时代已经终结。
+		'''
+	Ragnarok:
+		'''
+		真是有趣。
+		世人所传颂的终焉之时——诸神黄昏——竟非一场灾厄，而是一个实体。
+		我曾遍寻世间，只为找到引发它的方法，好将阿斯加德化为灰烬，
+		但最终，我却一无所获。
+		那些关于巨蛇与火焰的传说，与真相相去甚远。
+		而如今，诸神的黄昏也已如阿斯加德般化为废墟。
+
+		如今，人们将你视为这片土地的英雄，
+		愿你能在你所开创的新时代中获得安宁。
+		然而须警惕——每一个终结之中，都孕育着新的开端……
+		[c/7C0A02:不要试图逾越天命，泰拉人。]
+		'''
+	Primordials:
+		'''
+		在世界成形之前，唯有始源存在。
+		祂们各自象征着这世界的一个侧面，并守护着世界免于诸神黄昏。
+		在我的战役中，我曾想将他们一并斩杀，将之视为与其他诸神一样的罪者。
+		然而无论我做了什么，都无法引起他们的注意。
+		难道在我对这世界所做的一切之后，仍不足以让他们正眼相待？
+		莫非在这世界的历史中，我竟连与你相比都不值一提……？
+		'''
+	ThunderBird:
+		'''
+		这些鸟类曾是强大而令人畏惧的对手，堪称值得猎杀的劲敌。
+		它们的羽毛能够引导太阳沉眠的能量，并凝为炽烈雷光，因此得名。
+		然而那些壮烈的狩猎终究短暂。
+		世代更替，它们逐渐失去了昔日的强横之力。
+		你所击败的，不过是远不及我当年所见之姿的孱弱后裔，
+		但“惊雷王鹰”的名号——将永远流传。
+		'''
 }
 
 LegendaryTooltip.Base: 随着你击败强敌，此武器的力量可能不断增强。
@@ -601,6 +667,10 @@ Items: {
 		LoreDeviantt.DisplayName: 戴薇安
 		LoreMutant.DisplayName: 突变体
 		SoltanBullyingSlip.DisplayName: 迪伦的反索坦芯片便笺
+		LoreMjolnir.DisplayName: 雷神之锤
+		LorePrimordials.DisplayName: 始源诸神
+		LoreThunderBird.DisplayName: 惊雷王鹰
+		LoreRagnarok.DisplayName: 诸神黄昏
 	}
 
 	CatastrophicFabricationsMusicBox: {
@@ -1045,7 +1115,7 @@ Items: {
 		SOTSTooltip: 在被收藏后右键点击会反转当前选中的宝石，会禁用宝石的效果并开启反转后的效果
 		G0: 采矿时会将方块连接在一起，一次最多可破坏50个方块
 		G1: 击杀敌人时会获得30秒的随机增益
-		G2: 自然虚空值时会获得钱币
+		G2: 自然恢复虚空值时会获得钱币
 		G3: 敌怪有14.3%几率掉落双倍战利品
 		G4:
 			'''
@@ -1172,6 +1242,17 @@ Items: {
 	MenuMusicBox: {
 		DisplayName: 音乐盒 (诸神黄昏：炼狱蚀光主题曲)
 		Tooltip: 播放“Teardrops of Dragonfire” 作者：Peter Fung
+	}
+
+	Streetsign: {
+		DisplayName: 警示路牌
+		Tooltip:
+			'''
+			持有此武器时，你会获得不可思议条
+			造成伤害或承受伤害会为其充能
+			当不可思议条完全充满时，你的武器属性和移动速度都会提升
+			[c/7C0A02: 你杀不死小丑！！！是小丑杀死你！！！]
+			'''
 	}
 }
 
@@ -1354,17 +1435,6 @@ Configs: {
 			Tooltip: 将药水的血珠配方修改为使用血珠复制的配方
 		}
 
-		AutomaticallyReforgeThoriumRogueItems: {
-			Label: 自动重铸瑟银投手物品
-			Tooltip:
-				'''
-				自动将化境前缀应用到所有非消耗型瑟银投手物品上
-				可帮助瑟银投手物品追赶带前缀的灾厄物品——因为瑟银投手物品无法重铸
-				仅在启用 Ragnarok 或 Unofficial Calamity Bard & Healer 时生效
-				若启用融合盗贼和投手伤害，则此设置不发挥任何作用
-				'''
-		}
-
 		ChanageWeaponClasses: {
 			Label: 修改武器类别
 			Tooltip: 修改部分武器的伤害类别，以提供更多选项或使武器定位更合乎逻辑
@@ -1437,6 +1507,11 @@ Configs: {
 		DontEnableThis: {
 			Label: 不要启用这个
 			Tooltip: 请勿启用此选项，它可能会造成误解，并导致游戏玩法失衡甚至出现问题
+		}
+
+		CalamityExpertAccessories: {
+			Label: 灾厄专家饰品
+			Tooltip: 切换灾厄模组Boss的部分掉落物是否为专家模式专属
 		}
 	}
 
