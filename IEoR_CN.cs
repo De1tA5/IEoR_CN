@@ -16,7 +16,7 @@ namespace IEoR_CN
     {
         public override void OnEnterWorld()
         {
-            Main.NewText("感谢使用 诸神黄昏：炼狱蚀光汉化补丁，反馈交流群QQ—709532049",new Color(193, 90, 255));
+            Main.NewText("感谢使用 诸神黄昏：炼狱蚀光汉化补丁，反馈交流群QQ—709532049", new Color(193, 90, 255));
         }
     }
 
@@ -64,28 +64,6 @@ namespace IEoR_CN
                 {
                     MethodFilter = MethodFilter.MatchNames("TryTeleport", "PostUpdate", "SetAnchor", "ModifyTooltips", "PostUpdateEquips")
                 });
-            }
-        }
-    }
-    //BlueMoon——魔法月亮
-    public class BlueMoon : ModSystem 
-    {
-        public override void PostSetupContent()
-        {
-            if (ModLoader.HasMod("BlueMoon")) 
-            {
-                TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "BlueMoon", false);
-            }
-        }
-    }
-    //CalamityAmmunitions——灾厄弹药附加
-    public class CalamityAmmunitions : ModSystem
-    {
-        public override void PostSetupContent()
-        {
-            if (ModLoader.HasMod("CalamityAmmunitions"))
-            {
-                TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "CalamityAmmunitions", false);
             }
         }
     }

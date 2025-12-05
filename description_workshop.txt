@@ -31,14 +31,12 @@
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3557455275] Homeward Ragnarok——旅人黄昏（炼狱蚀光-旅人归途兼容模组）[/url]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3556808030] Infernum SOTS Sanctuary WorldGen Adjuster——暗影奥秘世界生成调整[/url]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3554145193] Abyssal Subworld——深渊子世界[/url]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3030483105] Enchanted Moons——魔法月亮[/url]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985966860] Music Display——曲目显示[/url]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3164029586] MCA: More calamity ammunitions——额外灾厄弹药[/url]
 [/olist] 
 [/code] 
 
 [h1] =相关链接= [/h1]
 [list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3618089376] 炼狱蚀光小模组汉化补丁 [/url] 整合包缺失汉化的小型模组
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url] 补全炼狱模式中文字体缺失
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3430216891] Revengeance+ 汉化 [/url] 提供更多模组复仇模式AI
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3554145193] Abyssal Subworld 深渊子世界 [/url] 解决深渊错位的问题
