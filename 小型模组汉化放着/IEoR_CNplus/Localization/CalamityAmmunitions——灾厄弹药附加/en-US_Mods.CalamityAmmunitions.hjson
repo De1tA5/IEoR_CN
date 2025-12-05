@@ -1,0 +1,89 @@
+Items: {
+	Auric45mm: {
+		DisplayName: Auric Round
+		Tooltip: Homes in, goes through blocks, how bad could it possibly be?
+	}
+
+	ArmorPeircingRound: {
+		DisplayName: Armor Piercing Round
+		Tooltip: ""
+	}
+
+	AstralBullet: {
+		DisplayName: Astral Comet Round
+		Tooltip: Homes into enemies
+	}
+
+	Ammo: {
+		ClockworkArrow: {
+			DisplayName: Clockwork Arrow
+			Tooltip: ""
+		}
+
+		PlagueArrowItem: {
+			DisplayName: Plague Arrow
+			Tooltip: Inflicts Plague on hit.
+		}
+	}
+
+	FungalRound: {
+		DisplayName: Fungal Round
+		Tooltip: ""
+	}
+
+	WulfrumBullet: {
+		DisplayName: Wulfrum Dart
+		Tooltip: You sure some metal scrap really counts as a dart?
+	}
+
+	WulfrumDartGun: {
+		DisplayName: Wulfrum Dart Gun
+		Tooltip: Occasionally releases wulfrum energy bolts
+	}
+
+	ExoRound: {
+		DisplayName: Miracle round
+		Tooltip: Surviving a shot from one of these is the real miracle!
+	}
+
+	Bouncer: {
+		DisplayName: Silly spring
+		Tooltip: Boioioing!
+	}
+
+	ShadowspecBullet: {
+		DisplayName: Shadowspec Bullet
+		Tooltip: ""
+	}
+
+	Minidart: {
+		Tooltip: ""
+		DisplayName: Minidart
+	}
+
+	ExperimentalRound: {
+		Tooltip: ""
+		DisplayName: Experimental Round
+	}
+
+	SawbladeLauncher: {
+		DisplayName: Sawblade Launcher
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	WulfrumBulletProj.DisplayName: Wulfrum Dart
+	MiricleRoundProj.DisplayName: Miricle Round
+
+	Ranged: {
+		MiricleRoundProj.DisplayName: Miricle Round
+		PlagueArrowProj.DisplayName: Plague Arrow
+	}
+
+	MiracleRoundProj.DisplayName: Miracle Round
+	ShadowBulletProj.DisplayName: Shadow Bullet
+	ShadowClawProj.DisplayName: Shadow Claw
+	Magnet.DisplayName: Magnet
+	Sawblade.DisplayName: Sawblade
+}

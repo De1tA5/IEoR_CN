@@ -1,0 +1,9 @@
+这是对诸神黄昏：炼狱蚀光整合包未被汉化的小型模组的补充
+可以单独使用没有额外限制
+目前汉化小型模组：
+-MCA: More calamity ammunitions——额外灾厄弹药
+-Music Display——曲目显示
+-Enchanted Moons——魔法月亮
+-More Pylons——更多晶塔
+-Better Fishing——更好钓鱼
+同时修复了《暗影奥秘》行星分析仪的文本问题

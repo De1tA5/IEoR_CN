@@ -1,0 +1,30 @@
+[h1]诸神黄昏：炼狱蚀光整合包的小型模组汉化补充[/h1]
+[h3]如需讨论/反馈，欢迎加入讨论群：709532049[/h3]
+
+[h1] =本体汉化补丁= [/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3588408051]诸神黄昏：炼狱蚀光-汉化补丁[/url]
+
+[h1] =介绍= [/h1]
+为方便管理以及其后续更新，将原汉化补丁的部分小型模组分离出来
+也方便其他玩家单独使用
+同时修复了[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2843112914]暗影奥秘[/url]行星分析仪的文本错误
+
+硬编码部分汉化使用——[url=https://github.com/TigerChenzzz/TerrariaTigerForceLocalizationLib] TigerForceLocalizationLib [/url]
+
+[h1] =制作者信息= [/h1]
+[list]
+[*]Pudd1ng——炼狱蚀光系列汉化
+[*]三杯伍迪——小型模组汉化&代码支持
+[*]口天wu——小型模组汉化
+[/list]
+
+[h1] =包含模组汉化= [/h1]
+[code]
+[olist]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3030483105] Enchanted Moons——魔法月亮[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985966860] Music Display——曲目显示[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3164029586] MCA: More calamity ammunitions——额外灾厄弹药[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2974503494] More Pylons——更多晶塔[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3017370769] Better Fishing——更好的钓鱼[/url]（还未完成）
+[/olist] 
+[/code]

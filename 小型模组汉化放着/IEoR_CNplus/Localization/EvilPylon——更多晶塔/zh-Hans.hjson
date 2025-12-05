@@ -1,0 +1,74 @@
+Mods: {
+	EvilPylon: {
+		Tiles: {
+			CorruptionPylonTile.MapEntry: 腐化晶塔
+			CrimsonPylonTile.MapEntry: 猩红晶塔
+			HellPylonTile.MapEntry: 地狱晶塔
+			CloudPylonTile.MapEntry: 浮云晶塔
+			SunplatePylonTile.MapEntry: 日盘晶塔
+			BonePylonTile.MapEntry: 骨质晶塔
+		}
+
+		Items: {
+			CorruptionPylon: {
+				DisplayName: 腐化晶塔
+				Tooltip:
+					'''
+					传送至另一个晶塔
+					腐化之地的地理环境使得附近没有城镇居民时玩家依然能够进行传送
+					只能放置在匹配的生物群落中且每种类型只能放置一个
+					'''
+			}
+
+			CrimsonPylon: {
+				DisplayName: 猩红晶塔
+				Tooltip:
+					'''
+					传送至另一个晶塔
+					猩红之地的地理环境使得附近没有城镇居民时玩家依然能够进行传送
+					只能放置在匹配的生物群落中且每种类型只能放置一个
+					'''
+			}
+
+			HellPylon: {
+				DisplayName: 地狱晶塔
+				Tooltip:
+					'''
+					传送至另一个晶塔
+					地狱的地理环境使得附近没有城镇居民时玩家依然能够进行传送
+					只能放置在匹配的生物群落中且每种类型只能放置一个
+					'''
+			}
+
+			CloudPylon: {
+				DisplayName: 浮云晶塔
+				Tooltip:
+					'''
+					传送至另一个晶塔
+					你能够在附近没有城镇居民时传送至该晶塔，因为原版城镇居民没有喜爱居住在天空的
+					只能放置在匹配的生物群落中且每种类型只能放置一个
+					'''
+			}
+
+			SunplatePylon: {
+				DisplayName: 日盘晶塔
+				Tooltip:
+					'''
+					传送至另一个晶塔
+					你能够在附近没有城镇居民时传送至该晶塔，因为原版城镇居民没有喜爱居住在天空的
+					只能放置在匹配的生物群落中且每种类型只能放置一个
+					'''
+			}
+
+			BonePylon: {
+				DisplayName: 骨质晶塔
+				Tooltip:
+					'''
+					传送至另一个晶塔
+					地牢的地理环境使得附近没有城镇居民时玩家依然能够进行传送
+					只能放置在匹配的生物群落中且每种类型只能放置一个
+					'''
+			}
+		}
+	}
+}
