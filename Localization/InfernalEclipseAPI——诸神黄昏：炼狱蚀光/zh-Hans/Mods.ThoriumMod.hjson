@@ -10,7 +10,6 @@ Items: {
 			'''
 	}
 
- 	//原英文本地化该内容也被注释掉了，全知水晶球也无其他改动，故不需要汉化
 	/*
 	ScryingGlass: {
 	DisplayName: Scrying Glass
@@ -65,7 +64,7 @@ Items: {
 	}
 
 	CrystalHoney: {
-		DisplayName: Crystal Honey
+		DisplayName: 蜂蜜水晶
 		Tooltip:
 			'''
 			“蜂蜜的奇怪特性不容易被提取”
@@ -88,7 +87,7 @@ Items: {
 	}
 
 	DemonTongue: {
-		DisplayName: Demon Tongue
+		DisplayName: 恶魔之舌
 		Tooltip:
 			'''
 			用暗能量增幅一些光辉攻击
@@ -109,17 +108,20 @@ Items: {
 			'''
 	}
 
-	FlightMail: {
-		DisplayName: 飞羽胸甲
-		Tooltip:
-			'''
-			“天空是你的飞行场地”
-			增加5%投掷伤害
-			'''
-	}
+	FlightMask.Tooltip:
+		'''
+		增加2%投掷伤害
+		增加5%投掷暴击率
+		“天空是你的飞行场地”
+		'''
+	FlightMail.Tooltip:
+		'''
+		“天空是你的飞行场地”
+		增加5%投掷伤害
+		'''
 
 	BronzeHelmet: {
-		DisplayName:青铜头盔
+		DisplayName: 青铜头盔
 		Tooltip:
 			'''
 			增加6%投掷暴击率
