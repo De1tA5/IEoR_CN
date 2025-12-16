@@ -103,6 +103,13 @@ ItemTooltip: {
 		Critical strikes have a 50% chance to deal 10 more damage
 		Receiving damage has a 75% chance to poison you
 		'''
+	SubspaceLocket:
+		'''
+		Summons a Subspace Servant to assist in combat
+		Uses the item in your last inventory slot for you
+		Decreases damage by 50% multiplicatively
+		Increases max void by 50, but reduces healing received from potions by 40
+		'''
 	DiamondRingText: Increase damage based on defense, then decreases defense by two-thirds of the damage buff
 	DedTo: - Dedicated to {0} -
 
@@ -1293,6 +1300,20 @@ Items: {
 			When the bar is full, you gain increased weapon stats and movement speed 
 			[c/7C0A02: YOU DO NOT KILL CLOWN!!! CLOWN KILLS YOU!!!]
 			'''
+	}
+
+	AngryPudding: {
+		DisplayName: Angry Pudding
+		Tooltip: ""
+		DynamicTooltip:
+			'''
+			{0}{1} improvements to all stats
+			Instantly activates rage mode & inflicts potion sickness
+			'品尝我的怒火……和布丁！'
+			'''
+		VoidTooltip: Heals 100 void
+		Stellar: Stellar
+		Major: Major
 	}
 }
 
