@@ -267,3 +267,91 @@ Mods: {
 }
 
 FlamethrowerEx.HomewardRagnarok.SulphuricScaleEffect: Flames inflict Irradiated for 6 seconds
+
+Configs: {
+	ServerConfig: {
+		DisplayName: Server Config
+
+		Headers: {
+			MainCategory: Main
+			WeaponChanges: Weapon Changes
+			ArmorChanges: Armor Changes
+			ModChanges: Mod Changes
+		}
+
+		EnableBossScaling: {
+			Label: "[i:ContinentOfJourney/SolarFlareScoria] Boss Stats Scaling"
+			Tooltip: If enabled, HWJ boss stats will scale based on installed mods.
+		}
+
+		HWJRecipes: {
+			Label: "[i:ContinentOfJourney/FinalBar] HWJ Recipe Tweaks"
+			Tooltip: If enabled, Balance HWJ recipes to fit other mods progression.
+		}
+
+		CustomContent: {
+			Label: "[i:HomewardRagnarok/RogueBadge] Custom Mod Content"
+			Tooltip: If enabled, Add new content which fill gaps in progression.
+		}
+
+		BloodOrbPotions: {
+			Label: "[i:CalamityMod/BloodOrb] Potion Blood Orb Duplication"
+			Tooltip: If enabled, HWJ potions can be duplicated with calamity blood.
+		}
+
+		EnableRogueClassChanges: {
+			Label: "[i:ContinentOfJourney/Fission] Merge Thrower Class"
+			Tooltip: If enabled, HWJ throwable weapons will be converted to thrower class.
+		}
+
+		EnableMeleeClassChanges: {
+			Label: "[i:ContinentOfJourney/Shoreline] Merge Melee Class"
+			Tooltip: If enabled, some HWJ weapons will become a melee weapon.
+		}
+
+		EnableHealerClassChanges: {
+			Label: "[i:ContinentOfJourney/DaCapo] Merge Healer Class"
+			Tooltip: If enabled, HWJ Scythes will use Thorium Healer class.
+		}
+
+		WeaponBalancing: {
+			Label: "[i:ContinentOfJourney/StarEaterStaff] Weapon Balancing"
+			Tooltip: If enabled, HWJ weapons will be rebalanced according to other mods.
+		}
+
+		ArmorBalancing: {
+			Label: "[i:ContinentOfJourney/WatchmanHat] Armor Balancing"
+			Tooltip: If enabled, HWJ armor will be rebalanced according to other mods.
+		}
+
+		ArmorCraft: {
+			Label: "[i:ContinentOfJourney/EquilibriumBreastplate] Armor Recipes"
+			Tooltip: If enabled, HWJ armor recipes will be merged with other mods.
+		}
+
+		CalamityBalance: {
+			Label: Calamity Support
+			Tooltip: If enabled, Merge Calamity accessories, weapons and recipes with Homeward Journey.
+		}
+
+		ClamityBalance: {
+			Label: Clamity Support
+			Tooltip: If enabled, Adjusts some Clamity accesories and weapons according to Homeward Journey.
+		}
+
+		ThoriumBalance: {
+			Label: Thorium Support
+			Tooltip: If enabled, Merge some Thorium healer accesories and recipes with Homeward Journey, also support Thorium Add-ons.
+		}
+
+		SOTSBalance: {
+			Label: SOTS Support
+			Tooltip: If enabled, Adjust SOTS and Unofficial SOTS Bard,Thrower and Healer recipes.
+		}
+
+		ConsolariaBalance: {
+			Label: Consolaria Support
+			Tooltip: If enabled, Merge soul of blight with Consolaria.
+		}
+	}
+}
