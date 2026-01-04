@@ -270,4 +270,92 @@ Mods: {
 	}
 }
 
-FlamethrowerEx.HomewardRagnarok.SulphuricScaleEffect: Flames inflict Irradiated for 6 seconds
+FlamethrowerEx.HomewardRagnarok.SulphuricScaleEffect: 火焰会造成6秒的辐射减益
+
+Configs: {
+	ServerConfig: {
+		DisplayName: 服务器配置
+
+		Headers: {
+			MainCategory: 主要
+			WeaponChanges: 武器修改
+			ArmorChanges: 盔甲修改
+			ModChanges: 模组修改
+		}
+
+		EnableBossScaling: {
+			Label: "[i:ContinentOfJourney/SolarFlareScoria] Boss数值修改"
+			Tooltip: 启用后，旅人归途的Boss数值会根据你启用的模组进行变更
+		}
+
+		HWJRecipes: {
+			Label: "[i:ContinentOfJourney/FinalBar] 旅人归途配方调整"
+			Tooltip: 启用后，旅人归途的配方会被调整以适配其他模组的进程
+		}
+
+		CustomContent: {
+			Label: "[i:HomewardRagnarok/RogueBadge] 自制模组内容"
+			Tooltip: 启用后，会添加可以弥补游戏进程空缺的新内容
+		}
+
+		BloodOrbPotions: {
+			Label: "[i:CalamityMod/BloodOrb] 药水血珠复制"
+			Tooltip: 启用后，旅人归途的药水可以使用灾厄血珠进行复制
+		}
+
+		EnableRogueClassChanges: {
+			Label: "[i:ContinentOfJourney/Fission] 投手职业融合"
+			Tooltip: 启用后，旅人归途的可投掷武器会被转换为投手职业
+		}
+
+		EnableMeleeClassChanges: {
+			Label: "[i:ContinentOfJourney/Shoreline] 近战职业融合"
+			Tooltip: 启用后，一些旅人归途的武器会被转换为近战武器
+		}
+
+		EnableHealerClassChanges: {
+			Label: "[i:ContinentOfJourney/DaCapo] 牧师职业融合"
+			Tooltip: 启用后，旅人归途的镰刀会使用瑟银的牧师职业
+		}
+
+		WeaponBalancing: {
+			Label: "[i:ContinentOfJourney/StarEaterStaff] 武器平衡"
+			Tooltip: 启用后，旅人归途的武器会根据其他模组进行重平衡
+		}
+
+		ArmorBalancing: {
+			Label: "[i:ContinentOfJourney/WatchmanHat] 盔甲平衡"
+			Tooltip: 启用后，旅人归途的盔甲会根据其他模组进行重平衡
+		}
+
+		ArmorCraft: {
+			Label: "[i:ContinentOfJourney/EquilibriumBreastplate] 盔甲配方"
+			Tooltip: 启用后，旅人归途的盔甲配方会与其他模组融合
+		}
+
+		CalamityBalance: {
+			Label: 灾厄支持
+			Tooltip: 启用后，灾厄的饰品、武器和配方将会和旅人归途融合
+		}
+
+		ClamityBalance: {
+			Label: 灾蛤支持
+			Tooltip: 启用后，根据旅人归途调整灾蛤的部分饰品和武器
+		}
+
+		ThoriumBalance: {
+			Label: 瑟银支持
+			Tooltip: 启用后，将部分瑟银的牧师饰品和配方与旅人归途融合，瑟银的附属模组同样支持
+		}
+
+		SOTSBalance: {
+			Label: 暗影奥秘支持
+			Tooltip: 启用后，调整暗影奥秘和非官方暗影奥秘吟游诗人、投手&牧师武器的配方
+		}
+
+		ConsolariaBalance: {
+			Label: Consolaria支持
+			Tooltip: 启用后，将旅人归途的枯萎之魂与Consolaria的融合
+		}
+	}
+}
