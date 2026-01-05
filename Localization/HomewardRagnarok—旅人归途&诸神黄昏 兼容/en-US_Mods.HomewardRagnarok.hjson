@@ -1,27 +1,7 @@
 Items: {
-	Horizon: {
-		DisplayName: Horizon
-		Tooltip: ""
-	}
-
-	CommemorativeCoin: {
-		Tooltip: ""
-		DisplayName: Commemorative Coin
-	}
-
-	ClericEmblem: {
-		Tooltip: ""
-		DisplayName: Cleric Emblem
-	}
-
 	ClericBadge: {
 		Tooltip: ""
 		DisplayName: Cleric Badge
-	}
-
-	Overwatch: {
-		Tooltip: ""
-		DisplayName: Overwatch
 	}
 
 	BardBadge: {
@@ -29,24 +9,9 @@ Items: {
 		Tooltip: ""
 	}
 
-	HolySymbol: {
-		DisplayName: Holy Symbol
-		Tooltip: ""
-	}
-
 	WhaleTooth: {
 		Tooltip: ""
 		DisplayName: Whale Tooth
-	}
-
-	CorruptedMatter: {
-		DisplayName: Corrupted Matter
-		Tooltip: ""
-	}
-
-	LifeTree: {
-		DisplayName: Life Tree
-		Tooltip: ""
 	}
 
 	YggdrasilTree: {
@@ -74,11 +39,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	AuricFrame: {
-		DisplayName: Auric Frame
-		Tooltip: ""
-	}
-
 	HerbalistPouch: {
 		DisplayName: Herbalist Pouch
 		Tooltip: ""
@@ -89,18 +49,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	TimelessFountainItem: {
-		DisplayName: Timeless Fountain Item
-		Tooltip: ""
-	}
-
 	TimelessFountain: {
 		DisplayName: Timeless Fountain
-		Tooltip: ""
-	}
-
-	CryonicClaw: {
-		DisplayName: Cryonic Claw
 		Tooltip: ""
 	}
 
@@ -114,49 +64,14 @@ Items: {
 		Tooltip: ""
 	}
 
-	OtherworldlyScythe: {
-		Tooltip: ""
-		DisplayName: Otherworldly Scythe
-	}
-
-	ScytheOfLife: {
-		Tooltip: ""
-		DisplayName: Scythe Of Life
-	}
-
-	FlowerScythe: {
-		DisplayName: Flower Scythe
-		Tooltip: ""
-	}
-
 	TheBibleOfTheThrowerVol4: {
 		Tooltip: ""
 		DisplayName: The Bible of the Thrower: Volume IV
 	}
 
-	CubismKunai: {
-		DisplayName: Cubism Kunai
-		Tooltip: ""
-	}
-
-	LifeStealer: {
-		Tooltip: ""
-		DisplayName: Life Stealer
-	}
-
-	ClawManufactory: {
-		DisplayName: Claw Manufactory
-		Tooltip: A station for crafting claws
-	}
-
 	DeluxeDewCollector: {
 		DisplayName: Deluxe Dew Collector
 		Tooltip: ""
-	}
-
-	RodScythe: {
-		Tooltip: ""
-		DisplayName: Rod Scythe
 	}
 }
 

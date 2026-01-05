@@ -893,6 +893,183 @@ HomewardRagnarok: {
 				// OldString: HealerDamage
 				// NewString: HealerDamage
 			}
+
+			5: {
+				// OldString: ThrowerUnification
+				// NewString: ThrowerUnification
+			}
+
+			6: {
+				// OldString: UnitedModdedThrower
+				// NewString: UnitedModdedThrower
+			}
+		}
+
+		SetupTypes: {
+			1: {
+				// OldString: ContinentOfJourney
+				// NewString: ContinentOfJourney
+			}
+
+			2: {
+				// OldString: AdamantiteKnife
+				// NewString: AdamantiteKnife
+			}
+
+			3: {
+				// OldString: BrokenHammer
+				// NewString: BrokenHammer
+			}
+
+			4: {
+				// OldString: Backstabber
+				// NewString: Backstabber
+			}
+
+			5: {
+				// OldString: Bloodthirst
+				// NewString: Bloodthirst
+			}
+
+			6: {
+				// OldString: CobaltKnife
+				// NewString: CobaltKnife
+			}
+
+			7: {
+				// OldString: CopperKnife
+				// NewString: CopperKnife
+			}
+
+			8: {
+				// OldString: GoldKnife
+				// NewString: GoldKnife
+			}
+
+			9: {
+				// OldString: IronKnife
+				// NewString: IronKnife
+			}
+
+			10: {
+				// OldString: MythrilKnife
+				// NewString: MythrilKnife
+			}
+
+			11: {
+				// OldString: OrichalcumKnife
+				// NewString: OrichalcumKnife
+			}
+
+			12: {
+				// OldString: PalladiumKnife
+				// NewString: PalladiumKnife
+			}
+
+			13: {
+				// OldString: PlatinumKnife
+				// NewString: PlatinumKnife
+			}
+
+			14: {
+				// OldString: SilverKnife
+				// NewString: SilverKnife
+			}
+
+			15: {
+				// OldString: TinKnife
+				// NewString: TinKnife
+			}
+
+			16: {
+				// OldString: HardKnuckle
+				// NewString: HardKnuckle
+			}
+
+			17: {
+				// OldString: Hellfire
+				// NewString: Hellfire
+			}
+
+			18: {
+				// OldString: Longinus
+				// NewString: Longinus
+			}
+
+			19: {
+				// OldString: InkyToss
+				// NewString: InkyToss
+			}
+
+			20: {
+				// OldString: RollingCutter
+				// NewString: RollingCutter
+			}
+
+			21: {
+				// OldString: ItemDarkKnife
+				// NewString: ItemDarkKnife
+			}
+
+			22: {
+				// OldString: TitaniumKnife
+				// NewString: TitaniumKnife
+			}
+
+			23: {
+				// OldString: TungstenKnife
+				// NewString: TungstenKnife
+			}
+
+			24: {
+				// OldString: ChlorophyteKnife
+				// NewString: ChlorophyteKnife
+			}
+
+			25: {
+				// OldString: LeadKnife
+				// NewString: LeadKnife
+			}
+
+			26: {
+				// OldString: ToothOfCthulhu
+				// NewString: ToothOfCthulhu
+			}
+
+			27: {
+				// OldString: ItemCactusBall
+				// NewString: ItemCactusBall
+			}
+
+			28: {
+				// OldString: ItemSolidTornado
+				// NewString: ItemSolidTornado
+			}
+
+			29: {
+				// OldString: SpikyBomb
+				// NewString: SpikyBomb
+			}
+
+			30: {
+				// OldString: Fission
+				// NewString: Fission
+			}
+
+			31: {
+				// OldString: SamsaraOfDawnlight
+				// NewString: SamsaraOfDawnlight
+			}
+
+			32: {
+				// OldString: Shoreline
+				// NewString: Shoreline
+			}
+
+			33: {
+				// OldString: DaCapo
+				// NewString: DaCapo
+			}
 		}
 	}
 
@@ -999,7 +1176,27 @@ HomewardRagnarok: {
 
 			2: {
 				// OldString: Inflicts Poison
-				// NewString: Inflicts Poison
+				NewString: 施加[C/65D780:中毒]减益
+			}
+
+			3: {
+				// OldString: HolyFlamesEffect
+				// NewString: HolyFlamesEffect
+			}
+
+			4: {
+				// OldString: Inflicts Holy Flames
+				NewString: 施加[C/FFF25B:圣火]减益
+			}
+
+			5: {
+				// OldString: Vaporfied
+				// NewString: Vaporfied
+			}
+
+			6: {
+				// OldString: Inflicts Vaporfied
+				NewString: 施加[C/FF6BEF:蒸汽波]减益
 			}
 		}
 
@@ -2490,7 +2687,7 @@ HomewardRagnarok: {
 
 			14: {
 				// OldString: Keep your HP at 1 upon receiving a fatal hit, 10 minutes cooldown (Homeward Ragnarok)
-				NewString: 受到致命伤害时将hp定为1点，有10分钟冷却时间
+				NewString: 受到致命伤害时将hp锁定为1点，有10分钟冷却时间
 			}
 		}
 	}
@@ -3036,7 +3233,7 @@ HomewardRagnarok: {
 
 			8: {
 				// OldString: +8% increased radiant damage
-				// NewString: +8% increased radiant damage
+				NewString: 增加8%光辉伤害
 			}
 
 			9: {
@@ -4998,6 +5195,608 @@ HomewardRagnarok: {
 				}
 			}
 		}
+
+		DivineTouchBuffs: {
+			ModifyTooltips: {
+				1: {
+					// OldString: ContinentOfJourney
+					// NewString: ContinentOfJourney
+				}
+
+				2: {
+					// OldString: DivineTouch
+					// NewString: DivineTouch
+				}
+
+				3: {
+					// OldString: "[i:"
+					// NewString: "[i:"
+				}
+
+				4: {
+					// OldString: "] "
+					// NewString: "] "
+				}
+
+				5: {
+					// OldString: DivineFireEffect
+					// NewString: DivineFireEffect
+				}
+
+				6: {
+					// OldString: Causes melee attacks to inflict the Divine Fire debuff (Homeward Ragnarok)
+					NewString: 近战攻击施加圣火减益
+				}
+			}
+
+			IsTargetItem: {
+				1: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				2: {
+					// OldString: ElementalGauntlet
+					// NewString: ElementalGauntlet
+				}
+
+				3: {
+					// OldString: FargowiltasSouls
+					// NewString: FargowiltasSouls
+				}
+
+				4: {
+					// OldString: BerserkerSoul
+					// NewString: BerserkerSoul
+				}
+
+				5: {
+					// OldString: UniverseSoul
+					// NewString: UniverseSoul
+				}
+
+				6: {
+					// OldString: EternitySoul
+					// NewString: EternitySoul
+				}
+			}
+
+			IsTooltipTargetItem: {
+				1: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				2: {
+					// OldString: ElementalGauntlet
+					// NewString: ElementalGauntlet
+				}
+
+				3: {
+					// OldString: FargowiltasSouls
+					// NewString: FargowiltasSouls
+				}
+
+				4: {
+					// OldString: BerserkerSoul
+					// NewString: BerserkerSoul
+				}
+
+				5: {
+					// OldString: UniverseSoul
+					// NewString: UniverseSoul
+				}
+			}
+		}
+
+		FinalBarRecipeEdit: {
+			PostAddRecipes: {
+				1: {
+					// OldString: ContinentOfJourney
+					// NewString: ContinentOfJourney
+				}
+
+				2: {
+					// OldString: FinalBar
+					// NewString: FinalBar
+				}
+
+				3: {
+					// OldString: EternalBar
+					// NewString: EternalBar
+				}
+
+				4: {
+					// OldString: LivingBar
+					// NewString: LivingBar
+				}
+
+				5: {
+					// OldString: CubistBar
+					// NewString: CubistBar
+				}
+
+				6: {
+					// OldString: FinalOre
+					// NewString: FinalOre
+				}
+
+				7: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				8: {
+					// OldString: LifeAlloy
+					// NewString: LifeAlloy
+				}
+
+				9: {
+					// OldString: CosmicAnvil
+					// NewString: CosmicAnvil
+				}
+
+				10: {
+					// OldString: SOTS
+					// NewString: SOTS
+				}
+
+				11: {
+					// OldString: FrigidBar
+					// NewString: FrigidBar
+				}
+
+				12: {
+					// OldString: ThoriumMod
+					// NewString: ThoriumMod
+				}
+
+				13: {
+					// OldString: TerrariumCore
+					// NewString: TerrariumCore
+				}
+
+				14: {
+					// OldString: CoJMod:CoJAnyCopperBarGroup
+					// NewString: CoJMod:CoJAnyCopperBarGroup
+				}
+
+				15: {
+					// OldString: CoJMod:CoJAnyIronBarGroup
+					// NewString: CoJMod:CoJAnyIronBarGroup
+				}
+
+				16: {
+					// OldString: CoJMod:CoJAnySilverBarGroup
+					// NewString: CoJMod:CoJAnySilverBarGroup
+				}
+
+				17: {
+					// OldString: CoJMod:CoJAnyGoldBarGroup
+					// NewString: CoJMod:CoJAnyGoldBarGroup
+				}
+
+				18: {
+					// OldString: CoJMod:CoJAnyCobaltBarGroup
+					// NewString: CoJMod:CoJAnyCobaltBarGroup
+				}
+
+				19: {
+					// OldString: CoJMod:CoJAnyMythrilBarGroup
+					// NewString: CoJMod:CoJAnyMythrilBarGroup
+				}
+
+				20: {
+					// OldString: CoJMod:CoJAnyAdamantiteBarGroup
+					// NewString: CoJMod:CoJAnyAdamantiteBarGroup
+				}
+
+				21: {
+					// OldString: ShadowspecBar
+					// NewString: ShadowspecBar
+				}
+			}
+		}
+
+		GrandSpectralGlobal: {
+			UpdateAccessory: {
+				1: {
+					// OldString: ContinentOfJourney
+					// NewString: ContinentOfJourney
+				}
+
+				2: {
+					// OldString: GrandSpectral
+					// NewString: GrandSpectral
+				}
+			}
+
+			ModifyTooltips: {
+				1: {
+					// OldString: ContinentOfJourney
+					// NewString: ContinentOfJourney
+				}
+
+				2: {
+					// OldString: GrandSpectral
+					// NewString: GrandSpectral
+				}
+
+				3: {
+					// OldString: "[i:"
+					// NewString: "[i:"
+				}
+
+				4: {
+					// OldString: "] "
+					// NewString: "] "
+				}
+
+				5: {
+					// OldString: GSS1
+					// NewString: GSS1
+				}
+
+				6: {
+					// OldString: Increases length of invincibility (Homeward Ragnarok)
+					NewString: 延长你的无敌时间
+				}
+
+				7: {
+					// OldString: GSS2
+					// NewString: GSS2
+				}
+
+				8: {
+					// OldString: Summon spectrals when damaged (Homeward Ragnarok)
+					NewString: 受伤时召唤光谱追杀敌人
+				}
+
+				9: {
+					// OldString: GSS3
+					// NewString: GSS3
+				}
+
+				10: {
+					// OldString: Summon spectrals when hitting enemy (Homeward Ragnarok)
+					NewString: 击中敌人时召唤光谱追杀敌人
+				}
+			}
+
+			IsGrandSpectralTarget: {
+				1: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				2: {
+					// OldString: RampartofDeities
+					// NewString: RampartofDeities
+				}
+
+				3: {
+					// OldString: FargowiltasSouls
+					// NewString: FargowiltasSouls
+				}
+
+				4: {
+					// OldString: ColossusSoul
+					// NewString: ColossusSoul
+				}
+
+				5: {
+					// OldString: EternitySoul
+					// NewString: EternitySoul
+				}
+
+				6: {
+					// OldString: DimensionSoul
+					// NewString: DimensionSoul
+				}
+
+				7: {
+					// OldString: Clamity
+					// NewString: Clamity
+				}
+
+				8: {
+					// OldString: SupremeBarrier
+					// NewString: SupremeBarrier
+				}
+			}
+
+			ShouldShowTooltip: {
+				1: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				2: {
+					// OldString: RampartofDeities
+					// NewString: RampartofDeities
+				}
+
+				3: {
+					// OldString: FargowiltasSouls
+					// NewString: FargowiltasSouls
+				}
+
+				4: {
+					// OldString: ColossusSoul
+					// NewString: ColossusSoul
+				}
+			}
+		}
+
+		SolarPanelTooltipFix: {
+			AppliesToEntity: {
+				1: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				2: {
+					// OldString: OrnateShield
+					// NewString: OrnateShield
+				}
+
+				3: {
+					// OldString: AsgardsValor
+					// NewString: AsgardsValor
+				}
+
+				4: {
+					// OldString: AsgardianAegis
+					// NewString: AsgardianAegis
+				}
+
+				5: {
+					// OldString: FargowiltasSouls
+					// NewString: FargowiltasSouls
+				}
+
+				6: {
+					// OldString: ColossusSoul
+					// NewString: ColossusSoul
+				}
+
+				7: {
+					// OldString: Clamity
+					// NewString: Clamity
+				}
+
+				8: {
+					// OldString: SupremeBarrier
+					// NewString: SupremeBarrier
+				}
+			}
+
+			ModifyTooltips: {
+				1: {
+					// OldString: Clamity
+					// NewString: Clamity
+				}
+
+				2: {
+					// OldString: SupremeBarrier
+					// NewString: SupremeBarrier
+				}
+
+				3: {
+					// OldString: "[i:"
+					// NewString: "[i:"
+				}
+
+				4: {
+					// OldString: "] "
+					// NewString: "] "
+				}
+
+				5: {
+					// OldString: HomewardRagnarokSolarPanel
+					// NewString: HomewardRagnarokSolarPanel
+				}
+
+				6: {
+					// OldString: Generates energy balls while moving (Homeward Ragnarok)
+					NewString: 当你移动时，在你的位置生成能量球
+				}
+			}
+
+			UpdateAccessory: {
+				1: {
+					// OldString: FargowiltasSouls
+					// NewString: FargowiltasSouls
+				}
+
+				2: {
+					// OldString: ColossusSoul
+					// NewString: ColossusSoul
+				}
+
+				3: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				4: {
+					// OldString: OrnateShield
+					// NewString: OrnateShield
+				}
+
+				5: {
+					// OldString: AsgardsValor
+					// NewString: AsgardsValor
+				}
+
+				6: {
+					// OldString: AsgardianAegis
+					// NewString: AsgardianAegis
+				}
+
+				7: {
+					// OldString: Clamity
+					// NewString: Clamity
+				}
+
+				8: {
+					// OldString: SupremeBarrier
+					// NewString: SupremeBarrier
+				}
+			}
+		}
+
+		AsgardianAegisBuffs: {
+			UpdateAccessory: {
+				1: {
+					// OldString: AsgardianAegis
+					// NewString: AsgardianAegis
+				}
+
+				2: {
+					// OldString: ColossusSoul
+					// NewString: ColossusSoul
+				}
+
+				3: {
+					// OldString: DimensionSoul
+					// NewString: DimensionSoul
+				}
+
+				4: {
+					// OldString: EternitySoul
+					// NewString: EternitySoul
+				}
+
+				5: {
+					// OldString: SupremeBarrier
+					// NewString: SupremeBarrier
+				}
+
+				6: {
+					// OldString: ContinentOfJourney
+					// NewString: ContinentOfJourney
+				}
+			}
+
+			ModifyTooltips: {
+				1: {
+					// OldString: AsgardianAegis
+					// NewString: AsgardianAegis
+				}
+
+				2: {
+					// OldString: ColossusSoul
+					// NewString: ColossusSoul
+				}
+
+				3: {
+					// OldString: ContinentOfJourney
+					// NewString: ContinentOfJourney
+				}
+
+				4: {
+					// OldString: VanguardBreastpiece
+					// NewString: VanguardBreastpiece
+				}
+
+				5: {
+					// OldString: TransactionCertificate
+					// NewString: TransactionCertificate
+				}
+
+				6: {
+					// OldString: ""
+					// NewString: ""
+				}
+
+				7: {
+					// OldString: "[i:"
+					// NewString: "[i:"
+				}
+
+				8: {
+					// OldString: "] "
+					// NewString: "] "
+				}
+
+				9: {
+					// OldString: HomewardRagnarok1
+					// NewString: HomewardRagnarok1
+				}
+
+				10: {
+					// OldString: Grants immunity to Vulnerable (Homeward Ragnarok)
+					NewString: 免疫易伤
+				}
+
+				11: {
+					// OldString: HomewardRagnarok2
+					// NewString: HomewardRagnarok2
+				}
+
+				12: {
+					// OldString: Damage taken by debuffs decreased by 35% (Homeward Ragnarok)
+					NewString: 减少35%你受到的减益伤害
+				}
+
+				13: {
+					// OldString: HomewardRagnarok3
+					// NewString: HomewardRagnarok3
+				}
+
+				14: {
+					// OldString: Keep your HP at 1 upon receiving a fatal hit, 10 minutes cooldown (Homeward Ragnarok)
+					NewString: 受到致命伤害时将hp锁定为1点，有10分钟冷却时间
+				}
+			}
+		}
+
+		DivineTouchBuffs+<>c: {
+			<ModifyTooltips>b__3_0: {
+				1: {
+					// OldString: DivineFireEffect
+					// NewString: DivineFireEffect
+				}
+			}
+		}
+
+		GrandSpectralGlobal+<>c: {
+			<ModifyTooltips>b__3_0: {
+				1: {
+					// OldString: GSS
+					// NewString: GSS
+				}
+			}
+		}
+
+		SolarPanelTooltipFix+<>c: {
+			<ModifyTooltips>b__1_0: {
+				1: {
+					// OldString: HomewardRagnarokSolarPanel
+					// NewString: HomewardRagnarokSolarPanel
+				}
+			}
+		}
+
+		AsgardianAegisBuffs+<>c: {
+			<ModifyTooltips>b__1_0: {
+				1: {
+					// OldString: HomewardRagnarok1
+					// NewString: HomewardRagnarok1
+				}
+
+				2: {
+					// OldString: HomewardRagnarok2
+					// NewString: HomewardRagnarok2
+				}
+
+				3: {
+					// OldString: HomewardRagnarok3
+					// NewString: HomewardRagnarok3
+				}
+			}
+		}
 	}
 
 	Items: {
@@ -5142,10 +5941,7 @@ HomewardRagnarok: {
 							Can be used in any biome
 							''' */
 						NewString:
-							'''
-							召唤极视终表
-							可以在任意环境下使用
-							'''
+							""
 					}
 				}
 
@@ -5200,10 +5996,7 @@ HomewardRagnarok: {
 							Can be used in any biome
 							''' */
 						NewString:
-							'''
-							召唤世末 · 永落鲸
-							可以在任意环境下使用
-							'''
+							""
 					}
 				}
 
@@ -5288,10 +6081,7 @@ HomewardRagnarok: {
 							Can be used in any biome
 							''' */
 						NewString:
-							'''
-							召唤万籁携生
-							可以在任意环境下使用
-							'''
+							""
 					}
 				}
 
@@ -5355,11 +6145,7 @@ HomewardRagnarok: {
 							Summons The Materealizer
 							Can be used in any biome
 							''' */
-						NewString:
-							'''
-							召唤化物天匠
-							可以在任意环境下使用
-							'''
+						NewString: ""
 					}
 				}
 
@@ -5423,11 +6209,7 @@ HomewardRagnarok: {
 							Summons The Overwatcher
 							Can be used in any biome
 							''' */
-						NewString:
-							'''
-							召唤极视终表
-							可以在任意环境下使用
-							'''
+						NewString: ""
 					}
 				}
 
@@ -5481,11 +6263,7 @@ HomewardRagnarok: {
 							Summons Scarab Belief
 							Can be used in any biome
 							''' */
-						NewString:
-							'''
-							召唤圣甲虫信仰
-							可以在任意环境下使用
-							'''
+						NewString: ""
 					}
 				}
 
@@ -5525,6 +6303,50 @@ HomewardRagnarok: {
 					}
 				}
 			}
+
+			WhaleToothRecipeSystem: {
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: ContinentOfJourney
+						// NewString: ContinentOfJourney
+					}
+
+					3: {
+						// OldString: CosmicAnvil
+						// NewString: CosmicAnvil
+					}
+
+					4: {
+						// OldString: ThoriumMod
+						// NewString: ThoriumMod
+					}
+
+					5: {
+						// OldString: OceanEssence
+						// NewString: OceanEssence
+					}
+
+					6: {
+						// OldString: InfernoEssence
+						// NewString: InfernoEssence
+					}
+
+					7: {
+						// OldString: DeathEssence
+						// NewString: DeathEssence
+					}
+
+					8: {
+						// OldString: TankOfThePastCorruption
+						// NewString: TankOfThePastCorruption
+					}
+				}
+			}
 		}
 
 		Accessories: {
@@ -5556,7 +6378,7 @@ HomewardRagnarok: {
 
 					3: {
 						// OldString: 20% increased symphonic damage
-						NewString: 增加20%音波伤害
+						NewString: ""
 					}
 
 					4: {
@@ -5566,7 +6388,7 @@ HomewardRagnarok: {
 
 					5: {
 						// OldString: 5% increased symphonic critical strike chance
-						NewString: 增加5%音波暴击率
+						NewString: ""
 					}
 				}
 
@@ -5625,7 +6447,7 @@ HomewardRagnarok: {
 
 					3: {
 						// OldString: 20% increased radiant damage
-						NewString: 增加20%光辉伤害
+						NewString: ""
 					}
 
 					4: {
@@ -5635,7 +6457,7 @@ HomewardRagnarok: {
 
 					5: {
 						// OldString: 5% increased radiant critical strike chance
-						NewString: 增加5%光辉暴击率
+						NewString: ""
 					}
 				}
 
@@ -5694,7 +6516,7 @@ HomewardRagnarok: {
 
 					3: {
 						// OldString: 20% increased rogue damage
-						NewString: 增加20%盗贼伤害
+						NewString: ""
 					}
 
 					4: {
@@ -5704,7 +6526,7 @@ HomewardRagnarok: {
 
 					5: {
 						// OldString: 5% increased rogue critical strike chance
-						NewString: 增加5%盗贼暴击率
+						NewString: ""
 					}
 				}
 
@@ -5783,7 +6605,7 @@ HomewardRagnarok: {
 
 					2: {
 						// OldString: 20% chance to not consume ammo when using a flamethrower
-						NewString: 使用喷火器时有20%概率不消耗弹药
+						NewString: ""
 					}
 
 					3: {
@@ -5793,7 +6615,7 @@ HomewardRagnarok: {
 
 					4: {
 						// OldString: Allows you to customize the projectile of your flamethrower
-						NewString: 允许你自定义喷火器的射弹
+						NewString: ""
 					}
 
 					5: {
@@ -5803,7 +6625,7 @@ HomewardRagnarok: {
 
 					6: {
 						// OldString: Your flamethrower inflicts Brain Rot debuff
-						NewString: 喷火器能施加[C/A4A84E:大脑溃烂]减益
+						NewString: ""
 					}
 
 					7: {
@@ -5813,7 +6635,7 @@ HomewardRagnarok: {
 
 					8: {
 						// OldString: When equipped, show items that can be inserted
-						NewString: 装备时显示可以放入的材料
+						NewString: ""
 					}
 
 					9: {
@@ -5823,7 +6645,7 @@ HomewardRagnarok: {
 
 					10: {
 						// OldString: You can insert 2 ingredients at most
-						NewString: 可放入至多2个材料
+						NewString: ""
 					}
 				}
 			}
@@ -5851,7 +6673,7 @@ HomewardRagnarok: {
 
 					2: {
 						// OldString: When damaged cause 3-5 droplets of oil to drop out from you
-						NewString: 受伤时，会从你身上滴落3-5滴油滴
+						NewString: ""
 					}
 
 					3: {
@@ -5861,7 +6683,7 @@ HomewardRagnarok: {
 
 					4: {
 						// OldString: Droplets do damage to enemies
-						NewString: 液滴会对敌人造成伤害
+						NewString: ""
 					}
 
 					5: {
@@ -5909,17 +6731,7 @@ HomewardRagnarok: {
 							Every 3 seconds, taking damage will unleash a volatile explosion all around you
 							Explosion damage scales with your defense
 							''' */
-						NewString:
-							'''
-							50基础伤害
-							[i:ContinentOfJourney/Negashield] 轻微延长受伤后的无敌状态时间
-							增加你受到的击退
-							受伤时释放爆炸
-							[i:ThoriumMod/BlastShield] 免疫敌怪击退且敌怪更有可能攻击你
-							所受伤害降低10%
-							每3秒，受到伤害会在你周围释放一场不稳定的爆炸
-							爆炸伤害受你的防御影响
-							'''
+						NewString: ""
 					}
 				}
 
@@ -5987,12 +6799,7 @@ HomewardRagnarok: {
 							Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
 							This effect must recharge for 15 seconds after protecting you
 							''' */
-						NewString:
-							'''
-							[i:ThoriumMod/BlizzardPouch] 装备时，悠悠球攻击施加[C/1CC6F4:霜冻]和[C/7B4783:酸性毒液]并有概率冻结敌怪
-							用悠悠球攻击敌怪使你获得10%伤害减免，直到受到伤害为止
-							此效果在保护你后必须花15秒重新充能
-							'''
+						NewString: ""
 					}
 
 					3: {
@@ -6008,13 +6815,7 @@ HomewardRagnarok: {
 							The shield decreases up to 21% of the next damage you take
 							The shield is launched when retrieving the yoyo
 							''' */
-						NewString:
-							'''
-							[i:ContinentOfJourney/LeafOil] 悠悠球击中敌人为叶子护盾充能
-							击中10次时护盾完全充能
-							护盾为下一次承受的伤害提供至多21%伤害减免
-							收回悠悠球时发射护盾
-							'''
+						NewString: ""
 					}
 				}
 
@@ -6082,7 +6883,7 @@ HomewardRagnarok: {
 
 					2: {
 						// OldString: Healing an ally grants them 2 life recovery and generates dew
-						NewString: 治疗队友会提供他们2点生命恢复并生成露水
+						NewString: ""
 					}
 
 					3: {
@@ -6092,7 +6893,7 @@ HomewardRagnarok: {
 
 					4: {
 						// OldString: Picking up dew increases your own life recovery by 4
-						NewString: 拾取露水会增加自身4点生命恢复
+						NewString: ""
 					}
 
 					5: {
@@ -6102,7 +6903,7 @@ HomewardRagnarok: {
 
 					6: {
 						// OldString: Healing spells will heal an additional 6 life
-						NewString: 治疗法术会额外治疗6点生命值
+						NewString: ""
 					}
 				}
 			}
@@ -6116,7 +6917,7 @@ HomewardRagnarok: {
 
 					2: {
 						// OldString: 20% increased thrower damage
-						NewString: 增加20%投掷伤害
+						NewString: ""
 					}
 
 					3: {
@@ -6126,7 +6927,7 @@ HomewardRagnarok: {
 
 					4: {
 						// OldString: 50% increased consumable thrower weapon velocity
-						NewString: 增加50%可消耗投掷武器弹幕速度
+						NewString: ""
 					}
 
 					5: {
@@ -6136,7 +6937,7 @@ HomewardRagnarok: {
 
 					6: {
 						// OldString: Decrease use time of consumable thrower weapons by 20%
-						NewString: 减少20%可消耗投掷武器使用时间
+						NewString: ""
 					}
 
 					7: {
@@ -6146,7 +6947,7 @@ HomewardRagnarok: {
 
 					8: {
 						// OldString: When holding a thrower weapon, increase acceleration by 75%
-						NewString: 当持有投掷武器，加速度提升75%
+						NewString: ""
 					}
 
 					9: {
@@ -6156,7 +6957,7 @@ HomewardRagnarok: {
 
 					10: {
 						// OldString: 17.5% of your thrower damage is duplicated
-						NewString: 复制你17.5%的投掷伤害
+						NewString: ""
 					}
 
 					11: {
@@ -6211,7 +7012,7 @@ HomewardRagnarok: {
 
 					2: {
 						// OldString: Counts as a Fountain of Life, Fountain of Matter, Fountain of Time
-						NewString: 同时充当[C/9FD140:生命喷泉]、[C/4460E6:物质喷泉]和[C/FFBA35:时光喷泉]
+						NewString: ""
 					}
 				}
 
@@ -7601,6 +8402,31 @@ HomewardRagnarok: {
 				// OldString: WildfireBloom
 				// NewString: WildfireBloom
 			}
+
+			15: {
+				// OldString: Denial
+				// NewString: Denial
+			}
+
+			16: {
+				// OldString: Acceptance
+				// NewString: Acceptance
+			}
+
+			17: {
+				// OldString: TrueDawnsBorder
+				// NewString: TrueDawnsBorder
+			}
+
+			18: {
+				// OldString: Depression
+				// NewString: Depression
+			}
+
+			19: {
+				// OldString: DarkPlasma
+				// NewString: DarkPlasma
+			}
 		}
 	}
 
@@ -7799,6 +8625,41 @@ HomewardRagnarok: {
 					}
 				}
 			}
+
+			SpellPersistencePlayer: {
+				PreUpdate: {
+					1: {
+						// OldString: <BookMark>k__BackingField
+						// NewString: <BookMark>k__BackingField
+					}
+				}
+			}
+
+			SpellDetection: {
+				HoldItem: {
+					1: {
+						// OldString: ""
+						// NewString: ""
+					}
+
+					2: {
+						// OldString: ContinentOfJourney
+						// NewString: ContinentOfJourney
+					}
+				}
+
+				FireUniversalSpell: {
+					1: {
+						// OldString: BookmarkGlobalProjectile
+						// NewString: BookmarkGlobalProjectile
+					}
+
+					2: {
+						// OldString: SpellName
+						// NewString: SpellName
+					}
+				}
+			}
 		}
 
 		BossChecklist: {
@@ -7885,6 +8746,62 @@ HomewardRagnarok: {
 						// NewString: CoJSlimeGod
 					}
 				}
+			}
+		}
+	}
+
+	CalamityRecipes: {
+		AddRecipes: {
+			1: {
+				// OldString: ThoriumMod
+				// NewString: ThoriumMod
+			}
+
+			2: {
+				// OldString: SoulForge
+				// NewString: SoulForge
+			}
+
+			3: {
+				// OldString: DreadSoul
+				// NewString: DreadSoul
+			}
+		}
+	}
+
+	MushroomAccessoryEdits: {
+		ModifyTooltips: {
+			1: {
+				// OldString: ThoriumHealerBonus
+				// NewString: ThoriumHealerBonus
+			}
+
+			2: {
+				// OldString: "Increase bonus healing by "
+				NewString: 增加额外治疗量
+			}
+		}
+	}
+
+	CoJRecipes+CoJTooltips: {
+		ModifyTooltips: {
+			1: {
+				// OldString: Increase healing amount by 1
+				NewString: 提高1治疗量
+			}
+
+			2: {
+				// OldString: Increase healing amount by 2
+				NewString: 提高2治疗量
+			}
+		}
+	}
+
+	MushroomAccessoryEdits+<>c: {
+		<ModifyTooltips>b__1_0: {
+			1: {
+				// OldString: Increase healing amount
+				NewString: 治疗量
 			}
 		}
 	}

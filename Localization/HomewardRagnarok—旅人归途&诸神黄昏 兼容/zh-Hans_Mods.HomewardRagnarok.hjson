@@ -1,166 +1,151 @@
 Items: {
-	Horizon: {
-		DisplayName: Horizon
-		Tooltip: ""
-	}
-
-	CommemorativeCoin: {
-		Tooltip: ""
-		DisplayName: Commemorative Coin
-	}
-
-	ClericEmblem: {
-		Tooltip: ""
-		DisplayName: Cleric Emblem
-	}
-
 	ClericBadge: {
-		Tooltip: ""
+		Tooltip: 
+			'''
+			增加20%光辉伤害
+			增加5%光辉暴击率
+			'''
 		DisplayName: 圣牧徽章
-	}
-
-	Overwatch: {
-		Tooltip: ""
-		DisplayName: 极视表盘
 	}
 
 	BardBadge: {
 		DisplayName: 颂歌徽章
-		Tooltip: ""
-	}
-
-	HolySymbol: {
-		DisplayName: 神圣标志
-		Tooltip: ""
+		Tooltip:
+			'''
+			增加20%音波伤害
+			增加5%音波暴击率
+			'''
 	}
 
 	WhaleTooth: {
-		Tooltip: ""
+		Tooltip: 
+			'''
+			召唤世末 · 永落鲸
+			可以在任意环境下使用
+			'''
 		DisplayName: 永落鲸牙
-	}
-
-	CorruptedMatter: {
-		DisplayName: 损毁物质
-		Tooltip: ""
-	}
-
-	LifeTree: {
-		DisplayName: Life Tree
-		Tooltip: ""
 	}
 
 	YggdrasilTree: {
 		DisplayName: 世界树
-		Tooltip: ""
+		Tooltip: 
+			'''
+			召唤万籁携生
+			可以在任意环境下使用
+			'''
 	}
 
 	RogueBadge: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			增加20%盗贼伤害
+			增加5%盗贼暴击率
+			'''
 		DisplayName: 神盗徽章
 	}
 
 	BrokenChest: {
 		DisplayName: 破损胸骨
-		Tooltip: ""
+		Tooltip:
+			'''
+			召唤化物天匠
+			可以在任意环境下使用
+			'''
 	}
 
 	EternalClock: {
 		DisplayName: 永恒时钟
-		Tooltip: ""
+		Tooltip:
+			'''
+			召唤极视终表
+			可以在任意环境下使用
+			'''
 	}
 
 	ScarabIdol: {
 		DisplayName: 圣甲虫神像
-		Tooltip: ""
-	}
-
-	AuricFrame: {
-		DisplayName: Auric Frame
-		Tooltip: ""
+		Tooltip:
+			'''
+			召唤圣甲虫信仰
+			可以在任意环境下使用
+			'''
 	}
 
 	HerbalistPouch: {
 		DisplayName: 药草袋
-		Tooltip: ""
+		Tooltip:
+			'''
+			[i:ThoriumMod/BlizzardPouch] 装备时，悠悠球攻击施加[C/1CC6F4:霜冻]和[C/7B4783:酸性毒液]并有概率冻结敌怪
+			用悠悠球攻击敌怪使你获得10%伤害减免，直到受到伤害为止
+			此效果在保护你后必须花15秒重新充能
+			[i:ContinentOfJourney/LeafOil] 悠悠球击中敌人为叶子护盾充能
+			击中10次时护盾完全充能
+			护盾为下一次承受的伤害提供至多21%伤害减免
+			收回悠悠球时发射护盾
+			'''
 	}
 
 	EvilFlask: {
 		DisplayName: 邪恶烧瓶
-		Tooltip: ""
-	}
-
-	TimelessFountainItem: {
-		DisplayName: Timeless Fountain Item
-		Tooltip: ""
+		Tooltip: 
+			'''
+			使用喷火器时有20%概率不消耗弹药
+			允许你自定义喷火器的射弹
+			喷火器能施加[C/A4A84E:大脑溃烂]减益
+			装备时显示可以放入的材料
+			可放入至多2个材料
+			'''
 	}
 
 	TimelessFountain: {
 		DisplayName: 永恒喷泉
-		Tooltip: ""
-	}
-
-	CryonicClaw: {
-		DisplayName: Cryonic Claw
-		Tooltip: ""
+		Tooltip: 同时充当[C/9FD140:生命喷泉]、[C/4460E6:物质喷泉]和[C/FFBA35:时光喷泉]
 	}
 
 	NegablastShield: {
 		DisplayName: 负能爆破盾
-		Tooltip: ""
+		Tooltip:
+			'''
+			50基础伤害
+			[i:ContinentOfJourney/Negashield] 轻微延长受伤后的无敌状态时间
+			增加你受到的击退
+			受伤时释放爆炸
+			[i:ThoriumMod/BlastShield] 免疫敌怪击退且敌怪更有可能攻击你
+			所受伤害降低10%
+			每3秒，受到伤害会在你周围释放一场不稳定的爆炸
+			爆炸伤害受你的防御影响
+			'''
 	}
 
 	BabyOil: {
 		DisplayName: 宝宝油
-		Tooltip: ""
-	}
-
-	OtherworldlyScythe: {
 		Tooltip:
 			'''
-			[C/959595:需要炼狱蚀光武器DLC]
-			[i:ContinentOfJourney/DiverMask] [C/959595:由深潜者掉落]
+			受伤时，会从你身上滴落3-5滴油滴
+			液滴会对敌人造成伤害
 			'''
-		DisplayName: 超世之镰
-	}
-
-	ScytheOfLife: {
-		Tooltip: ""
-		DisplayName: Scythe Of Life
-	}
-
-	FlowerScythe: {
-		DisplayName: Flower Scythe
-		Tooltip: ""
 	}
 
 	TheBibleOfTheThrowerVol4: {
-		Tooltip: ""
+		Tooltip: 
+			'''
+			增加20%投掷伤害
+			增加50%可消耗投掷武器弹幕速度
+			减少20%可消耗投掷武器使用时间
+			当持有投掷武器，加速度提升75%
+			复制你17.5%的投掷伤害
+			'''
 		DisplayName: 投手圣书：卷四
-	}
-
-	CubismKunai: {
-		DisplayName: Cubism Kunai
-		Tooltip: ""
-	}
-
-	LifeStealer: {
-		Tooltip: ""
-		DisplayName: Life Stealer
-	}
-
-	ClawManufactory: {
-		DisplayName: Claw Manufactory
-		Tooltip: A station for crafting claws
 	}
 
 	DeluxeDewCollector: {
 		DisplayName: 奢华露水收集器
-		Tooltip: ""
-	}
-
-	RodScythe: {
-		Tooltip: ""
-		DisplayName: Rod Scythe
+		Tooltip:
+			'''
+			治疗队友会提供他们2点生命恢复并生成露水
+			拾取露水会增加自身4点生命恢复
+			治疗法术会额外治疗6点生命值
+			'''
 	}
 }
 
