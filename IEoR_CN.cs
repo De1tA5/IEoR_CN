@@ -12,11 +12,13 @@ using Microsoft.Xna.Framework;
 namespace IEoR_CN
 {
     //进世界文本显示
+    
     public class WorldText : ModPlayer
     {
+        readonly string text = "感谢使用 诸神黄昏：炼狱蚀光汉化补丁，反馈交流群QQ-709532049";
         public override void OnEnterWorld()
         {
-            Main.NewText("感谢使用 诸神黄昏：炼狱蚀光汉化补丁，反馈交流群QQ—709532049", new Color(193, 90, 255));
+            Main.NewText(text, new Color(193, 90, 255));
         }
     }
 
@@ -28,10 +30,8 @@ namespace IEoR_CN
         {
             if (ModLoader.HasMod("HomewardRagnarok"))
             {
-                TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "HomewardRagnarok", false, filters: new()
-                {
-                    MethodFilter = MethodFilter.MatchNames("AddLampreyTooltips"/*作者自己写的方法改七鳃鳗围巾文本*/, "ModifyTooltips", "PostUpdateEquips")
-                });
+                TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "HomewardRagnarok", false);
+
                 base.PostSetupContent();
             }
         }

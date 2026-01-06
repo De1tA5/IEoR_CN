@@ -1,97 +1,71 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
 using System.Reflection;
-using Terraria.DataStructures;
-using System.Collections.Concurrent;
-using System.Diagnostics;
+using Microsoft.Xna.Framework;
+using Terraria;
 using Terraria.Localization;
+using Terraria.ModLoader;
 
 namespace IEoR_CN.Localizationfix
 {
     //增加正式契约文本
     [JITWhenModsEnabled("SOTSBardHealer", "InfernalEclipseAPI")]
-    public class SealedContract_Fix:GlobalItem
+    public class SealedContract_Fix : GlobalItem
     {
+        public override bool InstancePerEntity => true;
         public override bool AppliesToEntity(Item entity, bool lateInstantiation)
         {
             ModItem item;
-            return ThoriumRework.TryFind<ModItem>("SealedContract", out item) && (item.Type == entity.type);
-        }
-        public override bool InstancePerEntity => true;
-        public override bool IsLoadingEnabled(Mod mod)
-        {
-            Mod IEoR;
-            return ModLoader.TryGetMod("InfernalEclipseAPI", out IEoR) && ThoriumRework != null;
-        }
-        private Mod ThoriumRework {
-            get {
-                Mod thorRe;
-                ModLoader.TryGetMod("ThoriumRework", out thorRe);
-                return thorRe;
-            }
-        }
-        private Mod InfernalEclipseAPI {
-            get {
-                Mod ieor;
-                ModLoader.TryGetMod("InfernalEclipseAPI", out ieor);
-                return ieor;
-            }
-        }
-
-        private Mod SOTSBardHealer
-        {
-            get
-            {
-                Mod sotshb;
-                ModLoader.TryGetMod("SOTSBardHealer", out sotshb);
-                return sotshb;
-
-            }
+            return ModCross.ThoriumRework.TryFind<ModItem>("SealedContract", out item) && (item.Type == entity.type);
         }
         
+        public override bool IsLoadingEnabled(Mod mod)
+        {
+            
+            return ModCross.InfernalEclipseAPI != null && ModCross.ThoriumRework != null;
+        }
+        
+
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
-            if (item.ModItem == null) 
-            {
-                return;
-            }
+
+            //var type = Type.GetType("InfernalEclipseAPI.InfernalConfig, InfernalEclipseAPI");
+            //var info = type?.GetProperty("MergeCraftingTrees", BindingFlags.Public | BindingFlags.Static);
+            //var flag = (bool)info.GetValue(null);
+            //var type = typeof(InfernalEclipseAPI);
+            //var info = type?.GetProperty("InfernalConfig.MergeCraftingTrees", BindingFlags.Public);
+            //bool flag = info.GetValue();
+
+            if (item.ModItem == null || item.ModItem.Mod != ModCross.ThoriumRework) return;
 
             Color InfernalRed = Color.Lerp(
                 Color.White,
-                new Color(255, 80, 0), 
+                new Color(255, 80, 0),
                 (float)(Math.Sin(Main.GlobalTimeWrappedHourly * 2.0) * 0.5 + 0.5)
                 );
-           
 
             foreach (TooltipLine tooltip in tooltips)
             {
-                if (tooltip.Text.Contains("最大生命增加60"))
+                if (tooltip.Mod != "Terraria") return;
+
+                if (tooltip.Text.Contains("最大生命增加60") && tooltip.Name == "Tooltip0")
                 {
-                    if (SOTSBardHealer != null)
+                    if (ModCross.SOTSBardHealer != null)
                     {
                         tooltip.Text = Language.GetTextValue("Mods.InfernalEclipseAPI.ItemTooltip.MergedCraftingTreeTooltip.SerpentsTongue");
                         tooltip.OverrideColor = new Color?(InfernalRed);
                     }
-                    else {
+                    else
+                    {
                         tooltip.Hide();
                     }
                 }
 
-
-                if (tooltip.Text.Contains("治疗法术会额外治疗5点生命值"))
+                if (tooltip.Text.Contains("治疗法术会额外治疗5点生命值") && tooltip.Name == "Tooltip1")
                 {
                     tooltip.Text = Language.GetTextValue("Mods.InfernalEclipseAPI.ItemTooltip.MergedCraftingTreeTooltip.ContractNerf");
                 }
             }
-            
-            
-            
-        } 
+        }
     }
 }
