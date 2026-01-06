@@ -8,6 +8,8 @@ using Terraria;
 using TigerForceLocalizationLib;
 using TigerForceLocalizationLib.Filters;
 using Microsoft.Xna.Framework;
+using Terraria.Localization;
+
 
 namespace IEoR_CN
 {
@@ -15,10 +17,9 @@ namespace IEoR_CN
     
     public class WorldText : ModPlayer
     {
-        readonly string text = "感谢使用 诸神黄昏：炼狱蚀光汉化补丁，反馈交流群QQ-709532049";
         public override void OnEnterWorld()
         {
-            Main.NewText(text, new Color(193, 90, 255));
+            Main.NewText(Language.GetTextValue("Mods.IEoR_CN.EnterWorldText"), new Color(193, 90, 255));
         }
     }
 
