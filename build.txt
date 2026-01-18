@@ -4,4 +4,4 @@ version = 26.1.6.2
 side = Client
 sortAfter = ThrowerUnification,InfernalEclipseWeaponsDLC,InfernalEclipseAPI,WHummusMultiModBalancing,InfernumSOTSSanctuaryAdjuster,RagnarokMod,HomewardRagnarok,HomewardSubworld,BlueMoon,CalamityAmmunitions,MusicDisplay,SOTS,ThoriumMod,ThoriumModzhcn,Consolariacn,SOTSChinesePatch,Consolaria,SOTSBardHealer,CalamityBardHealer,IEoR_CNplus
 dllReferences = TigerForceLocalizationLib
-
+translationMod = true
