@@ -1,0 +1,119 @@
+Mods: {
+	Miscellanaria: {
+		Items: {
+			CorruptionKeyMold: {
+				DisplayName: Corruption Key Mold
+				Tooltip: Used for crafting a Corruption Key
+			}
+
+			CrimsonKeyMold: {
+				DisplayName: Crimson Key Mold
+				Tooltip: Used for crafting a Crimson Key
+			}
+
+			FrozenKeyMold: {
+				DisplayName: Frozen Key Mold
+				Tooltip: Used for crafting a Frozen Key
+			}
+
+			HallowedKeyMold: {
+				DisplayName: Hallowed Key Mold
+				Tooltip: Used for crafting a Hallowed Key
+			}
+
+			JungleKeyMold: {
+				DisplayName: Jungle Key Mold
+				Tooltip: Used for crafting a Jungle Key
+			}
+
+			OrbOfLight: {
+				DisplayName: Orb of Light
+				Tooltip: Creates a magical orb of light
+			}
+
+			SolarCultistMask: {
+				DisplayName: Solar Cultist Mask
+				Tooltip: ""
+			}
+
+			GoblinMask: {
+				Tooltip: ""
+				DisplayName: Goblin Mask
+			}
+
+			EtherianGoblinMask: {
+				DisplayName: Etherian Goblin Mask
+				Tooltip: ""
+			}
+
+			EtherianGoblinBomberCap: {
+				Tooltip: ""
+				DisplayName: Etherian Goblin Bomber Cap
+			}
+
+			DreadnautilusTrophy: {
+				Tooltip: ""
+				DisplayName: Dreadnautilus Trophy
+			}
+
+			DesertKeyMold: {
+				Tooltip: Used for crafting a Desert Key
+				DisplayName: Desert Key Mold
+			}
+
+			MutatedOgreMask: {
+				DisplayName: Mutated Ogre Mask
+				Tooltip: ""
+			}
+
+			KoboldDynamiteBackpack: {
+				DisplayName: Kobold Dynamite Backpack
+				Tooltip: ""
+			}
+
+			Scythe: {
+				DisplayName: Scythe
+				Tooltip: "'If you forget your fear you become reckless.'"
+			}
+
+			Icemourne: {
+				DisplayName: Icemourne
+				Tooltip:
+					'''
+					Shoots an icy bolt
+					'Just as the blade rends flesh, so must power scar the spirit.'
+					'''
+			}
+
+			SoulScythe: {
+				DisplayName: Soul Scythe
+				Tooltip: "'MAKA CHOP!'"
+			}
+
+			LesserRestorationPotion: {
+				Tooltip: Reduced potion cooldown
+				DisplayName: Lesser Restoration Potion
+			}
+		}
+
+		DropConditions: {
+			CorruptionKeyMold: Mods.Miscellanaria.DropConditions.CorruptionKeyMold
+			CrimsonKeyMold: Mods.Miscellanaria.DropConditions.CrimsonKeyMold
+			FrozenKeyMold: Mods.Miscellanaria.DropConditions.FrozenKeyMold
+			HallowedKeyMold: Mods.Miscellanaria.DropConditions.HallowedKeyMold
+			JungleKeyMold: Mods.Miscellanaria.DropConditions.JungleKeyMold
+			DesertKeyMold: Mods.Miscellanaria.DropConditions.DesertKeyMold
+		}
+
+		Buffs: {
+			OrbOfLightBuff: {
+				DisplayName: Orb of Light
+				Description: A magical orb that provides light
+			}
+		}
+
+		Projectiles.OrbOfLightProjectile.DisplayName: Orb of Light
+	}
+}
+
+ItemName.FirstFractal: First Fractal
