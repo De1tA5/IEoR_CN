@@ -2,6 +2,6 @@ displayName = [C/FF9E00:炼狱蚀光小模组汉化补丁]
 author = 三杯伍迪&Pudding&口天wu
 version = 0.1.2
 dllReferences = TigerForceLocalizationLib
-sortAfter = MusicDisplay,CalamityAmmunitions,BlueMoon,EvilPylon,FishingMinigame,SOTS
+sortAfter = MusicDisplay,CalamityAmmunitions,BlueMoon,EvilPylon,FishingMinigame,SOTS,Miscellanaria
 side = Client
 translationMod = true
