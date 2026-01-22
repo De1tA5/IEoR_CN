@@ -5,69 +5,69 @@ Mods: {
 				DisplayName: 钓鱼手套
 				Tooltip:
 					'''
-					Increases the length of the green bar while fishing, making the timing more forgiving
+					钓鱼时延长绿色判定条，让判定时机更宽松
 					增加5点渔力
 					'''
 			}
 
 			SoothingLure: {
-				DisplayName: Soothing Lure
+				DisplayName: 舒缓鱼饵
 				Tooltip:
 					'''
-					Slows down the green bar while fishing
+					钓鱼时减缓绿色判定条移动速度
 					增加10点渔力
 					'''
 			}
 
 			FishHandlersGloves: {
-				DisplayName: Fish Handler's Gloves
+				DisplayName: 渔民手套
 				Tooltip:
 					'''
-					Increases the length of the green bar while fishing
-					Slows down the green bar while fishing
-					Adds an extra possible catch to the fishing minigame
-					Increases fishing skill by 7
+					钓鱼时延长绿色判定条
+					钓鱼时减缓绿色判定条移动速度
+					钓鱼小游戏中增加一次捕获机会
+					增加7点渔力
 					'''
 			}
 
 			LuckySock: {
-				DisplayName: Lucky Sock
-				Tooltip: Adds an extra possible catch to the fishing minigame
+				DisplayName: 幸运袜子
+				Tooltip: 钓鱼小游戏中增加一次捕获机会
 			}
 
 			HellfireBait: {
-				DisplayName: Hellfire Bait
-				Tooltip: Your bobber explodes on catch, killing many nearby fish for you to collect
+				DisplayName: 狱火诱饵
+				Tooltip: 浮漂在成功上钩时会爆炸，击杀大量附近的鱼类供你拾取
 			}
 
 			ManglerHat: {
-				DisplayName: Molten Angler Hat
-				Tooltip: Allows fishing in lava
+				DisplayName: 熔岩渔夫帽
+				Tooltip: 允许你在熔岩中钓鱼
 			}
 
 			ManglerPants: {
-				DisplayName: Molten Angler Pants
-				Tooltip: Permanent inferno potion effect
+				DisplayName: 熔岩渔夫裤
+				Tooltip: 给予你永久的狱火药水效果
 			}
 
 			ManglerVest: {
-				DisplayName: Molten Angler Vest
-				Tooltip: Temporary lava immunity
+				DisplayName: 熔岩渔夫背心
+				Tooltip: 使你暂时免疫熔岩伤害
 			}
 
 			BanglerHat: {
-				DisplayName: Honeyed Angler Hat
-				Tooltip: Permanent honey buff
+				DisplayName: 涂蜜渔夫帽
+				Tooltip: 给予你永久的蜂蜜增益
 			}
 
 			BanglerPants: {
-				DisplayName: Honeyed Angler Pants
-				Tooltip: You can catch honeyfins anywhere
+				DisplayName: 涂蜜渔夫裤
+				Tooltip: 你可以在任何地方钓到蜂蜜鱼
 			}
 
 			BanglerVest: {
-				DisplayName: Honeyed Angler Vest
-				Tooltip: You release bees when damaged
+				DisplayName: 涂蜜渔夫背心
+				Tooltip: 你受到伤害时释放蜜蜂
 			}
 		}
 
@@ -86,36 +86,36 @@ Mods: {
 			DoneToday: 今日已完成
 
 			Quests: {
-				NoQuest: You want something specific? You're gonna have to work harder for that!
-				QuestDone: Nice trading with you.
-				NotAgain: I'm not running a charity, come back later.
+				NoQuest: 想挑着要奖励？再努力点儿吧！
+				QuestDone: 交易愉快。
+				NotAgain: 我又不是做慈善的，改天再来。
 				CatchOne: (捕获 {0} {1})
 				CatchMultiple: (捕获 {2} {0} {1})
-				2354: Those glowing fish in the mushroom biome are really attractive to other fish. If you bring me one, I might share some of the resulting concoction
-				2356: I'm curious about whats inside those little boxes you sea floating out in the water. Bring me one and I'll give you something to help with finding even more of them
-				2355: Those bats underground are really great at sensing their surroundings without being able to see. Maybe if you bring me a similar fish, we'll be able to sense what's under the water!
-				2428: I want another one of those bunny fish pets! Bring me one and I'll get you your own pet bunny!
-				2368: You wanna get your hands on the same fishing gear as me, eh? Prove you're worth it and catch one of the fastest fish in the sea!
-				5139: You need one of those fancy bobbers? Ill give it to you if you bring me some lunch!
-				2373: Want your line to never break? Gimme something to test these lines on, and I'll give you the one that doesn't break.
-				2374: You're gonna need another trinket to really get in the mood of angling. Get me some of those fatty jungle fish and I'll work on a replica for you.
-				2375: Those cods with two heads have the mysterious ability to make things you use not get used. Bring me some and I'll get you a special tackle box with the same ability.
-				3120: I need a new night light! Get me a glowy fish and I'll reward you with something to keep track of your skill.
-				3037: Get me some of those fish from that cold place and I'll give you that radio, I guess
-				3096: Those fish from the sky are really good at calming you down when cooked into a stew, and I need more! bring me them and I'll give you the telescope I usually use for finding those sky lakes.
-				2360: This useless thing? sure, I'll hand it over for uuuh... some of those weird underground fish.
-				4067: Yes! The fish cart is the best cart! I'll get you a brand new cart for the small price of a Rockfish!
-				2419: This odd piece? Ok... bring me some breakfast and I'll hand it over.
-				2498: You want this goofy looking piece? Sure, just get me some reference material and I'll give you this one.
-				3183: Ah, my favorite bug snatcher. I'll hand it over if you make me the richest kid alive!
-				2294: You want my favorite rod too? Ok fine, but only if you make me even richer!
-				2422: This beauty is great for fishing up a pre-cooked meal. I'll let you have it for an exotic lava fish!
-				3032: Those sponges are hard to craft, you know? I'll get you one if you get me some essential materials.
-				3031: Ah, the perfect tool for making your own pond, anywhere you want. I can get you one but I'm gonna need a lot more water.
-				5303: Need to clean up that pesky sticky stuff? Bring me one of those fish known for making it and I'll get you the tool for getting rid of it.
-				5302: How much of this honey stuff do you need?? Well, get me those super sweet fish that dwell in it and I'll get you your tool.
-				2494: And now you want to fly like the fish? I'm gonna need some souls of flying fish for that one.
-				HellfireBait: Using explosives to get several catches at once sure is satisfying, but this stuff is rare. I can only afford to give you a few in exchange for some fiery catches.
+				2354: 蘑菇群系里那些发光的鱼对其他鱼特别有吸引力。要是你能带一条给我，我也许会分你点用它做出来的东西
+				2356: 我挺好奇海面上漂着的那些小箱子里装了什么，给我带一个来，我就给你点能帮你找到更多箱子的东西
+				2355: 地下那些蝙蝠就算看不见也能感知周围环境，要是你能带我一条类似能力的鱼，说不定我们就能感知水下有什么了！
+				2428: 我还想要一只那种兔子鱼宠物，给我带一条来，我就给你也弄一只属于你的兔子宠物！
+				2368: 想用和我一样的钓鱼装备？那就证明你配得上吧，去把海里跑得最快的鱼给我钓上来！
+				5139: 想要那种花里胡哨的浮漂？给我带点午饭来我就给你！
+				2373: 想让鱼线怎么都不断？给我找点东西来试试这些线，哪根不断我就把哪根给你
+				2374: 想真正进入钓鱼状态你还得再来个小饰品，给我弄点丛林里那些肥美的鱼，我就给你做个复制品
+				2375: 那些长着两个脑袋的鳕鱼有种神秘能力，能让你用的东西不被消耗，给我带几条来，我就给你一个有同样效果的特殊渔具箱
+				3120: 我需要一盏新的夜灯！给我弄一条会发光的鱼，我就奖励你点能记录你技巧的东西
+				3037: 给我弄点那片寒冷地方的鱼来，我就把那台收音机给你……可能吧
+				3096: 那些天上来的鱼煮成炖汤后能让人平静，而我正好缺这玩意。给我多带点来，我就把我平时用来找天湖的望远镜给你
+				2360: 这破玩意？行吧我可以给你，呃……拿点那些奇怪的地下鱼来换
+				4067: 没错！鲤鱼矿车才是最棒的车！只要一条岩鱼锤这个小小的代价，我就给你一辆全新的车！
+				2419: 这奇怪的小玩意？行吧……给我带点早餐来我就交给你
+				2498: 想要这个看着就很蠢的小玩意？行啊，给我弄点参考材料来，我就把这个给你
+				3183: 啊，我最爱的捉虫神器！只要你把我变成世界上最有钱的小孩，我就把它交给你！
+				2294: 连我最喜欢的鱼竿你也想要？行吧，但前提是你得多爆点米给我！
+				2422: 这宝贝拿来钓现成的熟食再合适不过了！给我一条稀有的熔岩鱼我就把它给你！
+				3032: 你知道那些海绵有多难做吗？只要你给我弄点关键材料，我就给你一个
+				3031: 啊，这可是能让你随时随地造个池塘的完美工具，我可以给你弄一个，不过我还需要更多的水
+				5303: 需要清理那些烦人的黏糊东西吗？给我带一条以制造它闻名的鱼来，我就把清除它的工具给你
+				5302: 你到底要多少这种蜂蜜玩意儿？？行吧，给我弄几条住在里面的超甜鱼我就把工具给你
+				2494: 你想像鱼那样飞？那我可得要点飞鱼的灵魂才行
+				HellfireBait: 用爆炸物一次捞好几条鱼确实爽，不过这东西很稀有，我只能拿出一点点儿来换你几条滚烫的渔获
 			}
 		}
 	}
