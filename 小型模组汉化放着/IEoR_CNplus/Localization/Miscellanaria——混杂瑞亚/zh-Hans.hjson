@@ -2,77 +2,77 @@ Mods: {
 	Miscellanaria: {
 		Items: {
 			CorruptionKeyMold: {
-				DisplayName: Corruption Key Mold
-				Tooltip: Used for crafting a Corruption Key
+				DisplayName: 腐化钥匙模具
+				Tooltip: 用于制作腐化钥匙
 			}
 
 			CrimsonKeyMold: {
-				DisplayName: Crimson Key Mold
-				Tooltip: Used for crafting a Crimson Key
+				DisplayName: 猩红钥匙模具
+				Tooltip: 用于制作猩红钥匙
 			}
 
 			FrozenKeyMold: {
-				DisplayName: Frozen Key Mold
-				Tooltip: Used for crafting a Frozen Key
+				DisplayName: 冰冻钥匙模具
+				Tooltip: 用于制作冰冻钥匙
 			}
 
 			HallowedKeyMold: {
-				DisplayName: Hallowed Key Mold
-				Tooltip: Used for crafting a Hallowed Key
+				DisplayName: 神圣钥匙模具
+				Tooltip: 用于制作神圣钥匙
 			}
 
 			JungleKeyMold: {
-				DisplayName: Jungle Key Mold
-				Tooltip: Used for crafting a Jungle Key
+				DisplayName: 丛林钥匙模具
+				Tooltip: 用于制作丛林钥匙
 			}
 
 			OrbOfLight: {
-				DisplayName: Orb of Light
-				Tooltip: Creates a magical orb of light
+				DisplayName: 光之珠
+				Tooltip: 创造一颗魔法光之珠
 			}
 
 			SolarCultistMask: {
-				DisplayName: Solar Cultist Mask
+				DisplayName: 日耀邪教徒面具
 				Tooltip: ""
 			}
 
 			GoblinMask: {
 				Tooltip: ""
-				DisplayName: Goblin Mask
+				DisplayName: 哥布林面具
 			}
 
 			EtherianGoblinMask: {
-				DisplayName: Etherian Goblin Mask
+				DisplayName: 埃特尼亚哥布林面具
 				Tooltip: ""
 			}
 
 			EtherianGoblinBomberCap: {
 				Tooltip: ""
-				DisplayName: Etherian Goblin Bomber Cap
+				DisplayName: 埃特尼亚哥布林投弹手帽
 			}
 
 			DreadnautilusTrophy: {
 				Tooltip: ""
-				DisplayName: Dreadnautilus Trophy
+				DisplayName: 恐惧鹦鹉螺纪念章
 			}
 
 			DesertKeyMold: {
-				Tooltip: Used for crafting a Desert Key
-				DisplayName: Desert Key Mold
+				Tooltip: 用于制作沙漠钥匙
+				DisplayName: 沙漠钥匙模具
 			}
 
 			MutatedOgreMask: {
-				DisplayName: Mutated Ogre Mask
+				DisplayName: 变种食人魔面具
 				Tooltip: ""
 			}
 
 			KoboldDynamiteBackpack: {
-				DisplayName: Kobold Dynamite Backpack
+				DisplayName: 小妖魔雷管背包
 				Tooltip: ""
 			}
 
 			Scythe: {
-				DisplayName: Scythe
+				DisplayName: 大镰刀
 				Tooltip: "'If you forget your fear you become reckless.'"
 			}
 
