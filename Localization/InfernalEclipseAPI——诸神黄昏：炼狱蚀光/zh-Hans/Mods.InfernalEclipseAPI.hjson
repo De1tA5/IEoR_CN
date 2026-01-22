@@ -36,7 +36,7 @@ DifficultyUI: {
 		[c/FF0055:你能征服《诸神黄昏：炼狱蚀光》吗？]
 		'''
 	InfernumText: 炼狱蚀日已然升起……
-	InfernumText2: 另一个配不上的挑战者已经离开。
+	InfernumText2: 失格的挑战者已经离开。
 	MasterToggle: 大师模式现已启用！
 }
 
@@ -151,6 +151,11 @@ ItemTooltip: {
 	SpiritGlove: 增加5%虚空恢复速度和4%近战暴击率
 	DiamondRingText: 根据防御增加伤害，然后会降低伤害增益的三分之二防御值
 	EarthDrive: 最多增加10%的近战攻速
+	SyntheticLiver:
+		'''
+		增加25%从食物中获得的虚空值
+		多次获得相同的buff会增加buff持续时间，而非重置时间，最多可达初始持续时间的两倍
+		'''
 	DedTo: -献给{0}-
 
 	Dedicated: {
@@ -1874,7 +1879,7 @@ InfernumIntegration: {
 		'''
 	CeilingOfMoonlord:
 		'''
-		邪异穹顶
+		邪异天幕
 		月亮穹顶
 		'''
 	LittleCat:
@@ -1951,3 +1956,10 @@ NPCs: {
 
 KeyBindName.SubspaceBoostHotkey: 亚空助推冲刺热键
 Keybinds.Mods.InfernalEclipseAPI.KeyBindName.SubspaceBoostHotkey.DisplayName: 亚空助推冲刺热键
+
+Events: {
+	//Sequential text at the end of Boss Rush Tier 5
+	BossRushTierFiveEndText_1: 我们已抵达终幕了，泰拉人。
+	BossRushTierFiveEndText_2: 如今横亘在你与试炼终点之间的，是这个世界过去和现在存在的神明
+	BossRushTierFiveEndText_3: 现在，让我看看一个已无退路之人的力量。别在这里倒下。
+}
