@@ -6,4 +6,5 @@
 -Enchanted Moons——魔法月亮
 -More Pylons——更多晶塔
 -Better Fishing——更好钓鱼
+-Miscellanaria——原版未实现物品移植
 同时修复了《暗影奥秘》行星分析仪的文本问题
