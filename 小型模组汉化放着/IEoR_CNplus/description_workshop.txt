@@ -25,6 +25,7 @@
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985966860] Music Display——曲目显示[/url]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3164029586] MCA: More calamity ammunitions——额外灾厄弹药[/url]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2974503494] More Pylons——更多晶塔[/url]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3017370769] Better Fishing——更好的钓鱼[/url]（还未完成）
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3017370769] Better Fishing——更好的钓鱼[/url]
+    [*][https://steamcommunity.com/sharedfiles/filedetails/?id=3131402417] Miscellanaria——原版未实现物品移植[/url]
 [/olist] 
 [/code]
