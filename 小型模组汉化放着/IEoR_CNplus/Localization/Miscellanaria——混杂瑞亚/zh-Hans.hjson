@@ -73,26 +73,26 @@ Mods: {
 
 			Scythe: {
 				DisplayName: 大镰刀
-				Tooltip: "'If you forget your fear you become reckless.'"
+				Tooltip: "“忘记恐惧，你就会轻敌。”"
 			}
 
 			Icemourne: {
-				DisplayName: Icemourne
+				DisplayName: 冰之哀伤
 				Tooltip:
 					'''
-					Shoots an icy bolt
-					'Just as the blade rends flesh, so must power scar the spirit.'
+					挥斩时释放寒冰之力
+					“利刃撕裂血肉，力量灼伤灵魂”
 					'''
 			}
 
 			SoulScythe: {
-				DisplayName: Soul Scythe
-				Tooltip: "'MAKA CHOP!'"
+				DisplayName: 灵魂镰刀
+				Tooltip: "“玛嘉敲！”"
 			}
 
 			LesserRestorationPotion: {
-				Tooltip: Reduced potion cooldown
-				DisplayName: Lesser Restoration Potion
+				Tooltip: 缩短药水冷却时间
+				DisplayName: 弱效恢复药水
 			}
 		}
 
@@ -107,13 +107,13 @@ Mods: {
 
 		Buffs: {
 			OrbOfLightBuff: {
-				DisplayName: Orb of Light
-				Description: A magical orb that provides light
+				DisplayName: 光之珠
+				Description: 提供照明的魔法珠
 			}
 		}
 
-		Projectiles.OrbOfLightProjectile.DisplayName: Orb of Light
+		Projectiles.OrbOfLightProjectile.DisplayName: 光之珠
 	}
 }
 
-ItemName.FirstFractal: First Fractal
+ItemName.FirstFractal: 第一分形
