@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +13,7 @@ using Terraria.Localization;
 
 namespace IEoR_CN
 {
-    //½øÊÀ½çÎÄ±¾ÏÔÊ¾
+    //è¿›å…¥ä¸–ç•Œæ–‡æœ¬
     
     public class WorldText : ModPlayer
     {
@@ -24,7 +24,7 @@ namespace IEoR_CN
     }
 
 
-    //HomewardRagnarok¡ªÂÃÈË¹éÍ¾&ÖîÉñ»Æ»è¼æÈİ
+    //HomewardRagnarokâ€”æ—…äººé»„æ˜
     public class HomewardRagnarok : ModSystem
     {
         public override void PostSetupContent()
@@ -37,7 +37,7 @@ namespace IEoR_CN
             }
         }
     }
-    //WHummusMultiModBalancing¡ªWHummusµÄÔÖ¶ò&ÉªÒøÆ½ºâ
+    //WHummusMultiModBalancingâ€”WHummusç¾ç‘Ÿå¹³è¡¡
     public class WHummusMultiModBalancing:ModSystem
     {
         public override void PostSetupContent()
@@ -54,7 +54,7 @@ namespace IEoR_CN
 
 
     }
-    //InfernalEclipseAPI¡ª¡ªÖîÉñ»Æ»è£ºÁ¶ÓüÊ´¹â
+    //InfernalEclipseAPIâ€”ç‚¼ç‹±èš€å…‰
     public class InfernalEclipseAPI : ModSystem
     {
         public override void PostSetupContent()
