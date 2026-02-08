@@ -55,17 +55,17 @@ namespace IEoR_CN
 
     }
     //InfernalEclipseAPI—炼狱蚀光
-    public class InfernalEclipseAPI : ModSystem
-    {
-        public override void PostSetupContent()
-        {
-            if (ModLoader.HasMod("InfernalEclipseAPI"))
-            {
-                TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "InfernalEclipseAPI", false,filters: new()
-                {
-                    MethodFilter = MethodFilter.MatchNames("TryTeleport", "PostUpdate", "SetAnchor", "ModifyTooltips", "PostUpdateEquips")
-                });
-            }
-        }
-    }
+    //public class InfernalEclipseAPI : ModSystem
+    //{
+    //    public override void PostSetupContent()
+    //    {
+    //        if (ModLoader.HasMod("InfernalEclipseAPI"))
+    //        {
+    //            TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "InfernalEclipseAPI", false,filters: new()
+    //            {
+    //                MethodFilter = MethodFilter.MatchNames("TryTeleport", "PostUpdate", "SetAnchor", "ModifyTooltips", "PostUpdateEquips")
+    //            });
+    //        }
+    //    }
+    //}
 }

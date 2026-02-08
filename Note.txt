@@ -2,21 +2,38 @@
 炼狱蚀光 和 Whummus的灾瑟平衡
 
 [灾厄]：
-吸血鬼符咒
-元素箭袋
-旱海鲨牙项链
-猎魂鲨齿项链
-神之壁垒
+吸血鬼符咒 （已修复）
+元素箭袋 ElementalQuiver 
+QuiverAccessoryChanges
+
+旱海鲨牙项链 SandSharkToothNecklace
+猎魂鲨齿项链 ReaperToothNecklace
+SharkToothAccessoryChanges
+
+神之壁垒 
+ShieldCraftingTree
 
 [瑟银]：
 英灵之翼
-新生
 亚空间飞翼
 元素之翼
-定魂锚 
+WingTooltips
+
+新生 （Whummu问题）
+ChangeUseConditions
+
+定魂锚
+SoulAnchorChange
+SoulAnchorPlayer
+
 雷神之锤
-忍者魔符
+MjolnirChange
+
+忍者魔符（已修复，诸神黄昏问题）
+
 界元之庇佑
+ShieldCraftingTree
+
 霜怒
 彗星十字火
 激流
@@ -25,12 +42,23 @@
 耐钢连弩
 枪神
 真菌加特林
+CustomAmmoConversion
+
 丰收
+BountifulHarvestRework
+
 日食之牙 （IEoR已修复）
+
 索尔之锤
+ElectrifiedThorsHammer
+
 白矮星套装奖励
-白矮星推进器
-投手大师指南（在诸神黄昏里）
+RogueThrowerPlayer
+
+白矮星推进器（已修复）
+
+投手大师指南（已修复，在诸神黄昏里）
+
 恶意之魂、恶意之魂、恶意钥匙（瑟银汉化的问题，必须自己改）
 元素之灵（套装专注）
 全知水晶球
@@ -40,21 +68,35 @@
 
 [灾厄瑟银牧师]：
 孕星之源
+ChangeUseConditions
+
 环星扩音器
+OmniSpeakerAccessoryChanges
 
 [瑟银boss重制]：
-恐梦症
+恐梦症 （已修复）
+
 正式契约
+HealerAccessoryChanges
 
 [暗影奥秘]：
 堡垒发生盾
+SummonerAccessoryChanges
+
+
 海棱镜项链
+SharkToothAccessoryChanges
+
 远古壁垒
+ShieldCraftingTree
+
 圣魂之证
+InsigniaAccessoryChanges
 
 [诸神黄昏]：
 残酷世界的印记
 宇宙耳机
+OmniSpeakerAccessoryChanges
 
 PostUpdateEquips
 ModifyTooltips
