@@ -1,20 +1,7 @@
-﻿using InfernumMode;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Security.AccessControl;
-using System.Security.Policy;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using CalamityMod.Items.SummonItems;
-using CalamityMod.Items.Weapons.Magic;
-using InfernumMode.Core.GlobalInstances.GlobalItems;
-
-namespace PolaritiesCNplus.TooltipPatch
+﻿namespace PolaritiesCNplus.TooltipPatch
 {
     public delegate void orig_EditEnrageTooltips(Item item, List<TooltipLine> tooltips);
+    [JITWhenModsEnabled("InfernumMode")]
     public class EnrageTooltipPatch : ModSystem
     {
         public static Dictionary<int, LocalizedText> EnrageTooltipReplacements => new()
@@ -35,6 +22,10 @@ namespace PolaritiesCNplus.TooltipPatch
             [ModContent.ItemType<ExoticPheromones>()] = null,
             [ModContent.ItemType<NecroplasmicBeacon>()] = Utilities.GetLocalization("UI.EnrageTooltipReplacements.NecroplasmicBeacon")
         };
+        public override bool IsLoadingEnabled(Mod mod)
+        {
+            return ModLoader.HasMod("InfernumMode");
+        }
 
         private static Type _tooltipType;
         private static MethodInfo _enragetooltipMethod;
@@ -52,7 +43,7 @@ namespace PolaritiesCNplus.TooltipPatch
 
         }
 
-        private static void On_EditEnrageTooltips(orig_EditEnrageTooltips orig, Item item, List<TooltipLine> tooltips) 
+        private static void On_EditEnrageTooltips(orig_EditEnrageTooltips orig, Item item, List<TooltipLine> tooltips)
         {
             if (!EnrageTooltipReplacements.TryGetValue(item.type, out var tooltipReplacement))
                 return;
@@ -62,8 +53,8 @@ namespace PolaritiesCNplus.TooltipPatch
             if (enrageTooltip is null)
                 return;
 
-            int enrageTextEnd = enrageTooltip.Text.IndexOf(localizedEnrageText, StringComparison.OrdinalIgnoreCase)+localizedEnrageText.Length;
-            int enrageTextStart = enrageTextEnd-1;
+            int enrageTextEnd = enrageTooltip.Text.IndexOf(localizedEnrageText, StringComparison.OrdinalIgnoreCase) + localizedEnrageText.Length;
+            int enrageTextStart = enrageTextEnd - 1;
 
             while (enrageTextStart > 0 && enrageTooltip.Text[enrageTextStart] != '\n')
                 enrageTextStart--;
@@ -72,7 +63,7 @@ namespace PolaritiesCNplus.TooltipPatch
             if (item.type == ItemID.WormFood || item.type == ItemID.BloodySpine)
                 enrageTextStart++;
 
-            enrageTooltip.Text = enrageTooltip.Text.Remove(enrageTextStart, Math.Min(enrageTextEnd - enrageTextStart, enrageTooltip.Text.Length+1));
+            enrageTooltip.Text = enrageTooltip.Text.Remove(enrageTextStart, Math.Min(enrageTextEnd - enrageTextStart, enrageTooltip.Text.Length + 1));
 
             if (tooltipReplacement is not null)
                 enrageTooltip.Text = enrageTooltip.Text.Insert(enrageTextStart, tooltipReplacement.Value);
