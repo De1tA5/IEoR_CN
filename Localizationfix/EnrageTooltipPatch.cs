@@ -1,4 +1,7 @@
-﻿namespace PolaritiesCNplus.TooltipPatch
+﻿using CalamityMod.Items.SummonItems;
+using InfernumMode;
+
+namespace PolaritiesCNplus.TooltipPatch
 {
     public delegate void orig_EditEnrageTooltips(Item item, List<TooltipLine> tooltips);
     [JITWhenModsEnabled("InfernumMode")]
