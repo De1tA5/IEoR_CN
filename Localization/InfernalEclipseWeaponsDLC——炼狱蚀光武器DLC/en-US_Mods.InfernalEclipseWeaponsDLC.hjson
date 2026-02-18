@@ -97,7 +97,7 @@ Items: {
 	GrandThunderWhip: {
 		Tooltip:
 			'''
-			5 summon tag damage
+			3 summon tag damage
 			Electrifies foes on hit
 			'''
 		DisplayName: Grand Thunder Whip
@@ -109,7 +109,7 @@ Items: {
 	}
 
 	SearingSpearTip: {
-		Tooltip: Spear weapons will release hydrogen sulfide that burns foes on contact.
+		Tooltip: Spear weapons will release hydrogen sulfide that burns foes on contact
 		DisplayName: Searing Spear Tip
 	}
 
@@ -648,6 +648,8 @@ ItemTooltip: {
 	NeonRipperLore1: After the defeat of the Goliath, Erelian decided to repurpose some of the armor plating it wore.
 	NeonRipperLore2: In doing so he created two weapons: the first of which being a sycthe that could absorb aura, much like Kami's ability.
 	PBGBardALore2: In doing so he created two weapons: the second of which being a guitar that shot colorful microwaves.
+	SearingSpearTip: 150% basic damage
+	ArcticSpearTip: 115% basic damage
 	VerveineItem: "'An item from the orchid's blessing...'"
 	EngineGatling:
 		'''
@@ -695,6 +697,11 @@ ItemTooltip: {
 		Puzzles: Mr. Puzzles
 		cat: StarlightCat
 		Goldsock: Goldsockz2
+	}
+
+	ThunderboltActionSniper: {
+		DisplayName: Thunderbolt-Action Sniper Rifle
+		Tooltip: ""
 	}
 }
 
@@ -821,6 +828,9 @@ Projectiles: {
 	NecrosingerNote.DisplayName: Necrosinger Note
 	MagicPurpleBouncyBall.DisplayName: Magic Purple Bouncy Ball
 	EclipseEclipse.DisplayName: Eclipse Eclipse
+	CatastrophicLongbladeHoldout.DisplayName: Catastrophic Longblade Holdout
+	CatastrophicLongbladeHoldoutVoid.DisplayName: Catastrophic Longblade Holdout Void
+	VoidBolt.DisplayName: Void Bolt
 }
 
 Buffs: {
