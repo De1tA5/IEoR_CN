@@ -3,6 +3,11 @@ Buffs: {
 		DisplayName: 破碎之誓
 		Description: 光辉伤害减半。“首先，不要伤害” - 希波克拉底誓言
 	}
+
+	DefaultSummonTag: {
+		DisplayName: 默认召唤标记
+		Description: Mods.WHummusMultiModBalancing.Buffs.DefaultSummonTag.Description
+	}
 }
 
 Configs: {
@@ -88,6 +93,11 @@ Configs: {
 			Tooltip: 在你使用了非吟游诗人武器后，移除你的所有咒音增幅
 			Label: 吟游诗人跨职业伤害惩罚
 		}
+
+		DuplicateArmorEctoMist: {
+			Label: 墓地环境复制盔甲
+			Tooltip: 优先使用 Unofficial Calamity Bard/Healer 的头盔，而不是 Ragnarok 版本 ，Ragnarok 的头盔依旧可以通过墓地环境获得
+		}
 	}
 }
 
@@ -96,6 +106,7 @@ Config: {
 	MultiModMergeOptions: 跨模组合成树融合
 	ClassChanges: 职业融合重做
 	DebugOptions: Debug调试功能
+	Other: 其他
 }
 
 DamageClasses.MergedThrowerRogue.DisplayName: 盗贼伤害
@@ -104,7 +115,7 @@ ItemTooltips: {
 	ScytheThrow:
 		'''
 		右键投掷镰刀，它会以弧线轨迹返回
-		投掷镰刀的伤害降低10%
+		投掷镰刀造成的伤害提高了20%
 		'''
 	PhoenixStaff:
 		'''
@@ -130,3 +141,5 @@ Projectiles: {
 	PlayerBrimstoneGigablast.DisplayName: 巨型硫火爆焰
 	ThoriumHeavyScytheSpark.DisplayName: 瑟银重镰火花
 }
+
+Conditions.ArmsDealerNearNurse: 护士在附近

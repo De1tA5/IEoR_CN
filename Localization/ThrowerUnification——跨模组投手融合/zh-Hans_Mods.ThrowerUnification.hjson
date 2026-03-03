@@ -27,6 +27,7 @@ ThoriumStealthStrike: {
 	AquaiteKnife: 潜伏攻击会在被击中的敌人处向外释放高穿透的冲击波
 	SteelThrowingAxe: 潜伏攻击投掷出3把钢投斧，并使命中的敌人眩晕
 	DurasteelThrowingSpear: 潜伏攻击投出3把高穿透的耐钢投矛，并使命中的敌人眩晕
+	ShinobiSlicer: 潜伏攻击会在反弹时释放追踪附近敌怪的凝胶碎片
 	FireAxe:
 		'''
 		“最好用这个东西来避免裂隙……”
@@ -161,15 +162,40 @@ Configs: {
 			Label: 标签 蓝色
 			Tooltip: ""
 		}
+
+		LegacyVanillaThrowerWeapons: {
+			Tooltip: 切换启用将曾经是投掷武器的原版远程武器转换为投掷武器
+			Label: 原版投掷武器
+		}
 	}
 
 	TooltipOverrideStyle: {
 		Tooltip: ""
-		Thrower.Label: 投手
-		Rogue.Label: 盗贼
-		Malevolent.Label: 恶念
-		Kinetic.Label: 动能
-		Custom.Label: 自定义
+
+		Thrower: {
+			Label: "投手"
+			Tooltip: ""
+		}
+
+		Rogue: {
+			Label: "盗贼"
+			Tooltip: ""
+		}
+
+		Malevolent: {
+			Label: "恶念"
+			Tooltip: ""
+		}
+
+		Kinetic: {
+			Label: "动能"
+			Tooltip: ""
+		}
+
+		Custom: {
+			Label: "自定义"
+			Tooltip: ""
+		}
 	}
 }
 
@@ -177,4 +203,5 @@ Projectiles: {
 	FireAxeStealthPro.DisplayName: 消防斧绝赞潜伏中
 	RogueSpectreBlast.DisplayName: 幽影冲击
 	TidalWaveWhirlpool.DisplayName: 海潮涡流
+	ShinobiGelStealthPro.DisplayName: 忍者凝胶潜伏弹幕
 }

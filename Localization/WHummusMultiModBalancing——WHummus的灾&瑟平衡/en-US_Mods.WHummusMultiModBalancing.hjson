@@ -3,6 +3,11 @@ Buffs: {
 		DisplayName: Broken Oath
 		Description: Radiant damage halved. Do no harm - Hippocrates
 	}
+
+	DefaultSummonTag: {
+		DisplayName: Default Summon Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.DefaultSummonTag.Description
+	}
 }
 
 Configs: {
@@ -88,6 +93,11 @@ Configs: {
 			Tooltip: Removes bard empowerments from the player who granted them if that player uses a non-bard weapon.
 			Label: Nerf Bard Multiclass Synergy
 		}
+
+		DuplicateArmorEctoMist: {
+			Label: Duplicate Armor Ecto Mist
+			Tooltip: Favors Unofficial Calamity Bard/Healer helmets over the Ragnarok versions, the Ragnarok ones are still availible through ecto mist.
+		}
 	}
 }
 
@@ -96,6 +106,7 @@ Config: {
 	MultiModMergeOptions: Multi-Mod Crafting Tree Merges
 	ClassChanges: Class Rework Changes
 	DebugOptions: Debug Toggles
+	Other: Other
 }
 
 DamageClasses.MergedThrowerRogue.DisplayName: rogue damage
@@ -103,12 +114,12 @@ DamageClasses.MergedThrowerRogue.DisplayName: rogue damage
 ItemTooltips: {
 	ScytheThrow:
 		'''
-		Right Click to throw the Scythe, which will curve on it's way back
-		Thrown Scythes will deal 10% reduced damage
+		Right Click to throw the scythe, which will curve on it's way back
+		The scythe deals 20% more damage when thrown
 		'''
 	PhoenixStaff:
 		'''
-		Right click to spew a stream of flames that inflict 'Holy Glare'
+		Right Click to spew a stream of flames that inflict 'Holy Glare'
 		All damage done against holy glared enemies is increased by 15%
 		'''
 	HolyGlare:
@@ -130,3 +141,5 @@ Projectiles: {
 	PlayerBrimstoneGigablast.DisplayName: Player Brimstone Gigablast
 	ThoriumHeavyScytheSpark.DisplayName: Thorium Heavy Scythe Spark
 }
+
+Conditions.ArmsDealerNearNurse: With the Nurse nearby
