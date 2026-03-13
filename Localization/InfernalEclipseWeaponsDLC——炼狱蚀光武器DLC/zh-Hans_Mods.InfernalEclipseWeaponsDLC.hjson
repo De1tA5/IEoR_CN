@@ -641,7 +641,6 @@ Items: {
 		DisplayName: 雷霆战术狙击步枪
 		Tooltip:
 			'''
-			发射强力高速的子弹
 			射出一束蕴含虚空能量的闪电
 			右键缩放视野
 			'''
@@ -651,14 +650,13 @@ Items: {
 		DisplayName: 雷霆战术狙击步枪
 		Tooltip:
 			'''
-			发射强力高速的子弹
 			射出一束蕴含虚空能量的闪电
 			右键缩放视野
 			'''
 	}
 
 	AllSeersGlass: {
-		DisplayName: 全知魔镜 （还未开发完毕，暂译）
+		DisplayName: 全知魔镜
 		Tooltip:
 			'''
 			增加10%暴击率
@@ -666,7 +664,7 @@ Items: {
 			增加2个最大哨兵栏
 			被动提升缩放视野的范围
 			关闭饰品可见性禁用视野提升效果
-			按下 “{$Keybinds.AccessoryAbility.DisplayName}” 键将锁定镜头位置
+			按下饰品能力键将锁定镜头位置
 			“我于你的未来窥见一座坚不可摧的堡垒”
 			'''
 	}

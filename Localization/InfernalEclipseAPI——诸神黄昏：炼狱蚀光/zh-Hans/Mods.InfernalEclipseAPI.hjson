@@ -103,6 +103,7 @@ ItemTooltip: {
 	ScytheThrow: 右键投掷镰刀，它会以弧线轨迹返回
 	ThorsHammerPro: 命中时施加3秒的带电
 	BountifulHarvest: 交替射出穿透毒刺
+	TwoAlchs: 在酒精中毒效果中被视为两种酒
 
 	SoulAnchor: {
 		OrigTooltip1: 将你的灵魂和生命值锚定在当前位置
@@ -157,6 +158,17 @@ ItemTooltip: {
 		受伤时有75%的概率对你造成中毒debuff
 		暴击有50%的概率造成10点额外伤害
 		'''
+	Desecar:
+		'''
+		每有8个空物品栏就增加1点防御
+		“少即是多”
+		'''
+	Stekpla:
+		'''
+		每有8个已占用物品栏就增加1%暴击率
+		“多即是多”
+		'''
+	Dasuver: 增加3%暴击率
 	SubspaceLocket:
 		'''
 		召唤一只亚空之仆协助战斗
@@ -201,6 +213,31 @@ ItemTooltip: {
 		多次获得相同的buff会增加buff持续时间，而非重置时间，最多可达初始持续时间的两倍
 		'''
 	MutantSkeletron: "[炼狱蚀光] 该物品在至少击败一次骷髅王前无法使用，请改用炼狱的召唤物"
+	VibePotion: 静止时增加10%攻击速度，移动时增加5%
+	BloodPotion: 增加15%挖掘速度
+	FrenzyPotion: 增加5%所有攻击速度
+	FlowerCrown:
+		'''
+		降低10%所受伤害
+		增加4点虚空恢复量和生命恢复速度
+		在使用虚空值时，使用的30%虚空值会转化为生命值
+		'''
+	TravelBoot:
+		'''
+		增加5%移动速度
+		奔跑加速度提升2%
+		'''
+
+	Nightmare: {
+		Orig: 暴击会释放梦魇手臂，造成10%伤害并将敌人吸引到一起
+		Rework:
+			'''
+			暴击会释放梦魇手臂，造成5%伤害并将敌人吸引到一起
+			困难模式下伤害变为10%，且Boss不会被吸引
+			'''
+	}
+
+	Disabled: "[禁用] "
 	DedTo: -献给{0}-
 
 	Dedicated: {
@@ -1201,32 +1238,32 @@ Items: {
 			Deus:
 				'''
 				击败古神的邪异残躯以获得更多力量……
-				尚未获得额外的力量……
+				尚未获得额外力量……
 				'''
 			MoonLord:
 				'''
-				随着你击败月亮领主，你发射的星辰会更多
-				击败亵渎之炎的守护者以获得更多力量……
-				'''
-			ProfanedGuardians:
-				'''
-				随着你击败亵渎守卫，你可以发射一道星体光束
-				击败圣炎女神以获得更多力量……
+				击败月亮领主后，你的星辰变得更快
+				击败亵渎之炎的拥有者以获得更多力量……
 				'''
 			Providence:
 				'''
-				随着你击败亵渎天神，星体光束会更为强大
-				击败灾虫护卫以获得更多力量……
+				击败亵渎天神后，你的攻击会施加神圣之火
+				击败噬魂集合体以获得更多力量……
 				'''
-			Sentinels:
+			Polterghast:
 				'''
-				随着你击败星宇护卫，星体光束的持续时间更长
+				击败噬魂幽花后，你可以发射一道星体光束
 				击败噬神凶灵以获得更多力量……
+				'''
+			DoG:
+				'''
+				击败神明吞噬者后，你的星辰获得追踪
+				击败光辉之凰以获得更多力量……
 				'''
 			Full: 星界启明已苏醒，最大威能解禁！
 		}
 
-		Lore: 寰宇之威封存于此书……
+		Lore: 由身负星界印记之人铸就的最终之书……
 	}
 
 	Genesis: {
@@ -1615,6 +1652,11 @@ Items: {
 			按住右键使用以避免砍伐树木
 			'''
 	}
+
+	MaulerRelic: {
+		DisplayName: 渊海狂鲨炼狱圣物
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -1642,7 +1684,6 @@ Projectiles: {
 	FirstSwordHoldoutCombo.DisplayName: 剑一
 	_13thGltichCombo.DisplayName: 故障XIII
 	CelestialBeam.DisplayName: 天界光束
-	CelestialIlluminationStar.DisplayName: 星界陨辉
 	DemonicRune.DisplayName: 恶魔小灰猫符文
 	ThoriumHeavyScytheSpark.DisplayName: 瑟银重镰火花
 	NebulaBeam.DisplayName: 寰宇死光
@@ -1651,6 +1692,11 @@ Projectiles: {
 	DisintegratorChargeUp.DisplayName: 解离炮充能
 	DestinaryProjectile.DisplayName: 命律环刃
 	ExoDisk.DisplayName: 星流圆盘
+	PutridPinkyDashTelegraph.DisplayName: 腐蚀之粉冲刺
+	EvilGrowth.DisplayName: 邪恶生长
+	EvilStrike.DisplayName: 邪恶打击
+	CelestialIlluminationBeam.DisplayName: 星界启明光束
+	CelestialIlluminationStar.DisplayName: 启明之星
 }
 
 DiaryTooltip:
@@ -2181,6 +2227,11 @@ Buffs: {
 	DefaultSummonTag: {
 		DisplayName: 默认召唤标记
 		Description: Mods.InfernalEclipseAPI.Buffs.DefaultSummonTag.Description
+	}
+
+	CrimulanAura: {
+		DisplayName: 猩魇灵气
+		Description: Mods.InfernalEclipseAPI.Buffs.CrimulanAura.Description
 	}
 }
 
