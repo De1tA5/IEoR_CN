@@ -127,6 +127,8 @@ ItemTooltips: {
 		Enemies hit with the scythe will be inflicted with 'Holy Glare'
 		All damage done against holy glared enemies is increased by 15%
 		'''
+	ChampionWing: 10% increased damage
+	SecCooldown: Can be used on a {0} second cooldown
 }
 
 Projectiles: {

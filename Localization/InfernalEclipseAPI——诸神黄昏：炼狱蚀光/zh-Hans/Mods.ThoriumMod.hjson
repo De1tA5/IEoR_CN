@@ -1,3 +1,10 @@
+Buffs: {
+	NinjaBuff: {
+		DisplayName: 诡诈之手
+		Description: 增加20%投掷弹幕速度和10%投掷暴击率
+	}
+}
+
 Items: {
 	CapeoftheSurvivor: {
 		DisplayName: 生存者披风
@@ -37,6 +44,16 @@ Items: {
 	KeyofPlight: {
 		DisplayName: 恶意钥匙
 		Tooltip: “充满许多灵魂的精华”
+	}
+
+	Kinetoscythe: {
+		DisplayName: 动能镰刀
+		Tooltip:
+			'''
+			快速在你周围旋转一把高科技镰刀
+			右键生成一个静止的旋转能量镰刀
+			在能量镰刀激活时旋转镰刀，使其自动追踪敌怪
+			'''
 	}
 
 	BlackMIDI: {
@@ -134,6 +151,15 @@ Items: {
 		Tooltip: 增加10%投掷伤害
 	}
 
+	BronzeGreaves: {
+		DisplayName: 青铜护胫
+		Tooltip:
+			'''
+			增加10%投掷伤害
+			增加10%移动速度
+			'''
+	}
+
 	PlagueDoctorsMask: {
 		DisplayName: 瘟疫医生面具
 		Tooltip:
@@ -184,6 +210,35 @@ Items: {
 			'''
 	}
 
+	HallowedGuise: {
+		DisplayName: 神圣兜盔
+		Tooltip:
+			'''
+			增加10%投掷伤害
+			增加8%暴击率
+			'''
+	}
+
+	LichCarapace: {
+		DisplayName: 巫妖皮甲
+		Tooltip:
+			'''
+			“拥抱死亡……”
+			增加15%投掷伤害
+			增加30%投掷弹幕速度
+			'''
+	}
+
+	LichTalon: {
+		DisplayName: 巫妖之爪
+		Tooltip:
+			'''
+			“拥抱死亡……”
+			增加10%投掷伤害
+			增加10%投掷暴击率
+			'''
+	}
+
 	ShadeMasterMask: {
 		DisplayName: 暗影大师面具
 		Tooltip:
@@ -192,6 +247,16 @@ Items: {
 			增加10%投掷伤害
 			33%概率不消耗投掷物品
 			最大技巧值增加2
+			'''
+	}
+
+	ShadeMasterGarb: {
+		DisplayName: 暗影大师装束
+		Tooltip:
+			'''
+			“生活在暗影中并精确打击”
+			增加15%投掷伤害
+			增加30%投掷弹幕速度
 			'''
 	}
 
@@ -396,6 +461,71 @@ Items: {
 			'''
 	}
 
+	DreamWeaversHelmet: {
+		DisplayName: 梦境编织者头盔
+		Tooltip:
+			'''
+			“用暂时的苦痛捆绑住你未来的敌人”
+			污染你的光辉力量
+			降低45%非光辉伤害
+			增加45%光辉伤害
+			增加36%光辉暴击率
+			最大魔力值增加20
+			'''
+	}
+
+	DreamWeaversHood: {
+		DisplayName: 梦境编织者兜帽
+		Tooltip:
+			'''
+			“通过你的队友表明你最由衷的梦想”
+			降低25%非光辉伤害
+			增加30%光辉伤害
+			增加16%光辉暴击率
+			降低35%魔力消耗
+			大幅增加魔力再生
+			最大魔力值增加60
+			治疗法术会额外治疗6点生命值
+			'''
+	}
+
+	DreamWeaversTabard: {
+		DisplayName: 梦境编织者长袍
+		Tooltip:
+			'''
+			降低25%非光辉伤害
+			增加25%光辉伤害
+			增加14%光辉暴击率
+			降低20%魔力消耗
+			大幅增加魔力再生
+			治疗法术会额外治疗2点生命值
+			'''
+	}
+
+	TideTurnersGaze: {
+		DisplayName: 洪流逆潮者王冠
+		Tooltip:
+			'''
+			“向你的敌人释放海洋之怒”
+			增加35%投掷伤害
+			50%概率不消耗投掷物品
+			最大技巧值增加2
+			投掷伤害会使敌怪受到的伤害短暂增加10%
+			每秒钟产生一个漂浮球
+			每颗球会使你下次攻击没暴击时产生一次小暴击
+			'''
+	}
+
+	TideTurnerBreastplate: {
+		DisplayName: 洪流逆潮者胸甲
+		Tooltip:
+			'''
+			增加15%近战和投掷伤害
+			增加10%近战攻击速度
+			增加16%近战和投掷暴击率
+			'''
+	}
+
 	TideTurnerGreaves: {
 		DisplayName: 洪流逆潮者足具
 		Tooltip:
@@ -406,61 +536,11 @@ Items: {
 			'''
 	}
 
-	TerrariumHelmet: {
-		DisplayName: 元素之灵头盔
-		Tooltip:
-			'''
-			最大生命值增加{0}，生命再生增加{1}
-			增加{2}%伤害
-			黑暗中的视野提升
-			“一切都会在你的力量面前倒下……”
-			'''
-		SetBonus:
-			'''
-			当你在战斗中时泰拉瑞亚的能量会追寻并保护你
-			按下'{$Keybinds.ArmorAbility.DisplayName}'键可以切换职业专注
-			'''
-
-		Focus: {
-			Generic: {
-				Name: 没有专注
-				Description: 增加{0}%伤害
-			}
-
-			Melee: {
-				Name: 近战专注
-				Description: 增加{0}%伤害减免
-			}
-
-			Ranged: {
-				Name: 远程专注
-				Description: 增加{0}%射速
-			}
-
-			Magic: {
-				Name: 魔法专注
-				Description: 最大魔力值增加{0}
-			}
-
-			Summon: {
-				Name: 召唤专注
-				Description: 最大仆从数量增加{0}，非召唤伤害降低{1}%
-			}
-
-			Throwing: {
-				Name: 投掷专注
-				Description: 最大技巧值增加{0}，给予110最大潜伏值
-			}
-
-			Healer: {
-				Name: 光辉专注
-				Description: 治疗法术会额外治疗{0}生命值
-			}
-
-			Bard: {
-				Name: 音波专注
-				Description: 咒音增幅持续时间延长{0}秒
-			}
-		}
-	}
+	MagmaSeersMask.Tooltip:
+		'''
+		“指挥一支经熔岩强化的军队”
+		增加50%召唤伤害
+		最大仆从数量和哨兵数量增加2
+		增加仆从击退
+		'''
 }

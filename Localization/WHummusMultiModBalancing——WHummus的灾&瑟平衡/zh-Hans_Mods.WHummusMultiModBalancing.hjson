@@ -127,6 +127,8 @@ ItemTooltips: {
 		被镰刀命中的敌人会受到神圣之怒减益
 		受影响的敌怪在减益持续时间内受到的伤害增加15%
 		'''
+	ChampionWing: 提高10%的伤害
+	SecCooldown: 可在{0}秒冷却后使用
 }
 
 Projectiles: {

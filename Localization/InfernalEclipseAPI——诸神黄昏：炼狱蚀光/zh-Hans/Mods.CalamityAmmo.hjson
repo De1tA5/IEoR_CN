@@ -7,4 +7,13 @@ Items: {
 			略微提升远程弹幕的速度
 			'''
 	}
+
+	WulfrumBullet: {
+		DisplayName: 废钢弹
+		Tooltip:
+			'''
+			发射具有轻微追踪能力的钨钢光线
+			“最后的波纹，小子”
+			'''
+	}
 }

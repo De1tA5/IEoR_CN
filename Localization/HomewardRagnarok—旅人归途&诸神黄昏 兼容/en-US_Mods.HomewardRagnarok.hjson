@@ -1,101 +1,275 @@
 Items: {
 	ClericBadge: {
-		Tooltip: ""
 		DisplayName: Cleric Badge
+		Tooltip:
+			'''
+			20% increased radiant damage
+			5% increased radiant critical strike chance
+			'''
 	}
 
 	BardBadge: {
 		DisplayName: Bard Badge
-		Tooltip: ""
+		Tooltip:
+			'''
+			20% increased symphonic damage
+			5% increased symphonic critical strike chance
+			'''
 	}
 
 	WhaleTooth: {
-		Tooltip: ""
 		DisplayName: Whale Tooth
+		Tooltip:
+			'''
+			Summons Worlds End Everlasting Falling Whale
+			Can be used in any biome
+			'''
 	}
 
 	YggdrasilTree: {
 		DisplayName: Yggdrasil Tree
-		Tooltip: ""
+		Tooltip:
+			'''
+			Summons The Lifebringer
+			Can be used in any biome
+			'''
 	}
 
 	RogueBadge: {
-		Tooltip: ""
 		DisplayName: Rogue Badge
+		Tooltip:
+			'''
+			20% increased rogue damage
+			5% increased rogue critical strike chance
+			'''
 	}
 
 	BrokenChest: {
 		DisplayName: Broken Chest
-		Tooltip: ""
+		Tooltip:
+			'''
+			Summons The Materealizer
+			Can be used in any biome
+			'''
 	}
 
 	EternalClock: {
 		DisplayName: Eternal Clock
-		Tooltip: ""
+		Tooltip:
+			'''
+			Summons The Overwatcher
+			Can be used in any biome
+			'''
 	}
 
 	ScarabIdol: {
 		DisplayName: Scarab Idol
-		Tooltip: ""
+		Tooltip:
+			'''
+			Summons Scarab Belief
+			Can be used in any biome
+			'''
 	}
 
 	HerbalistPouch: {
 		DisplayName: Herbalist Pouch
-		Tooltip: ""
+		Tooltip:
+			'''
+			While equipped, your yoyo damage inflicts frostburn and venom and has a chance to freeze enemies
+			Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
+			This effect must recharge for 15 seconds after protecting you
+			Hitting enemies with yoyos charge a leaf shield
+			The shield is fully charged in 10 hits
+			The shield decreases up to 21% of the next damage you take
+			The shield is launched when retrieving the yoyo
+			'''
 	}
 
 	EvilFlask: {
 		DisplayName: Evil Flask
-		Tooltip: ""
+		Tooltip:
+			'''
+			20% chance to not consume ammo when using a flamethrower
+			Allows you to customize the projectile of your flamethrower
+			Your flamethrower inflicts Brain Rot debuff
+			When equipped, show items that can be inserted
+			You can insert 2 ingredients at most
+			'''
 	}
 
 	TimelessFountain: {
 		DisplayName: Timeless Fountain
-		Tooltip: ""
+		Tooltip: Counts as a Fountain of Life, Fountain of Matter, Fountain of Time
 	}
 
 	NegablastShield: {
 		DisplayName: Negablast Shield
-		Tooltip: ""
+		Tooltip:
+			'''
+			50 base damage
+			Slightly increases length of invincibility after taking damage
+			Increases the knockback you receive
+			Release an explosion when damaged
+			Immune to enemy knockback & enemies are more likely to target you
+			Damage taken reduced by 10%
+			Every 3 seconds, taking damage will unleash a volatile explosion all around you
+			Explosion damage scales with your defense
+			'''
 	}
 
 	BabyOil: {
 		DisplayName: Baby Oil
-		Tooltip: ""
+		Tooltip:
+			'''
+			When damaged cause 3-5 droplets of oil to drop out from you
+			Droplets do damage to enemies
+			'''
+		Contributor: - Contributor Item -
 	}
 
 	TheBibleOfTheThrowerVol4: {
-		Tooltip: ""
 		DisplayName: The Bible of the Thrower: Volume IV
+		Tooltip:
+			'''
+			20% increased thrower damage
+			50% increased consumable thrower weapon velocity
+			Swing a bat at close range when using consumable weapons
+			Three rings will boost the projectiles you throw
+			Decrease use time of consumable thrower weapons by 20%
+			When holding a thrower weapon, increase acceleration by 75%
+			17.5% of your thrower damage is duplicated
+			'''
+		NoExhaustion: Removes all Exhaustion when equipped
 	}
 
 	DeluxeDewCollector: {
 		DisplayName: Deluxe Dew Collector
+		Tooltip:
+			'''
+			Healing an ally grants them 2 life recovery and generates dew
+			Picking up dew increases your own life recovery by 4
+			Healing spells will heal an additional 6 life
+			'''
+	}
+
+	PriestessRodRelic: {
+		Tooltip: ""
+		DisplayName: Infernal Priestess Rod Relic
+	}
+
+	ChariotRelic: {
+		Tooltip: ""
+		DisplayName: Infernal Chariot Relic
+	}
+
+	MarquisMoonsquidRelic: {
+		Tooltip: ""
+		DisplayName: Infernal Marquis Moonsquid Relic
+	}
+
+	BigDipperRelic: {
+		Tooltip: ""
+		DisplayName: Infernal Big Dipper Relic
+	}
+
+	PuppetRelic: {
+		DisplayName: Infernal Puppet Relic
+		Tooltip: ""
+	}
+
+	TheMotherbrainRelic: {
+		Tooltip: ""
+		DisplayName: Infernal The Motherbrain Relic
+	}
+
+	DiverRelic: {
+		Tooltip: ""
+		DisplayName: Infernal Diver Relic
+	}
+
+	SolarRelic: {
+		DisplayName: Infernal Solar Relic
+		Tooltip: ""
+	}
+
+	TheOverwatcherRelic: {
+		DisplayName: Infernal The Overwatcher Relic
+		Tooltip: ""
+	}
+
+	WallofShadowRelic: {
+		DisplayName: Infernal Wall of Shadow Relic
+		Tooltip: ""
+	}
+
+	TheMaterealizerRelic: {
+		Tooltip: ""
+		DisplayName: Infernal The Materealizer Relic
+	}
+
+	TheLifebringerRelic: {
+		Tooltip: ""
+		DisplayName: Infernal The Lifebringer Relic
+	}
+
+	ScarabBeliefRelic: {
+		Tooltip: ""
+		DisplayName: Infernal Scarab Belief Relic
+	}
+
+	TheSonRelic: {
+		DisplayName: Infernal The Son Relic
+		Tooltip: ""
+	}
+
+	WhaleRelic: {
+		DisplayName: Infernal World's End Everlasting Falling Whale Relic
 		Tooltip: ""
 	}
 }
 
 Tiles.TimelessFountainTile.MapEntry: Timeless Fountain Tile
-
-Projectiles: {
-	BabyOilDroplet.DisplayName: Baby Oil Droplet
-	OtherworldlyBubble.DisplayName: Otherworldly Bubble
-	OtherworldlyScythePro.DisplayName: Otherworldly Scythe Pro
-	ScytheOfLifeSpirit.DisplayName: Scythe Of Life Spirit
-	ScytheOfLifeProj.DisplayName: Scythe Of Life Proj
-	FlowerOnGround.DisplayName: Flower On Ground
-	FlowerScytheProj.DisplayName: Flower Scythe Proj
-	CubismKunaiProj.DisplayName: Cubism Kunai Proj
-	LifeStealerProjectile.DisplayName: Life Stealer Projectile
-	FissionThrow_2.DisplayName: Fission Throw_2
-	RodScythePro.DisplayName: Rod Scythe Pro
-	RodScytheBeam.DisplayName: Rod Scythe Beam
-}
+Projectiles.BabyOilDroplet.DisplayName: Baby Oil Droplet
 
 Buffs: {
 	BubbleShield: {
 		DisplayName: Bubble Shield
 		Description: Reduces next damage by 10%
+	}
+
+	HeartOfThoriumBuff: {
+		DisplayName: Heart Of Thorium
+		Description: Max inspiration increased by 5
+	}
+
+	HeartOfLifeQuartzBuff: {
+		DisplayName: Heart Of Life Quartz
+		Description: Bonus healing increased by 2
+	}
+
+	HeartOfAqualiteBuff: {
+		DisplayName: Heart Of Aquaite
+		Description: Movement Speed increased by 5%
+	}
+
+	HeartOfSmoothCoalBuff: {
+		DisplayName: Heart Of Smooth Coal
+		Description: Negates fall damage
+	}
+
+	HeartOfLodestoneBuff: {
+		DisplayName: Heart Of Lodestone
+		Description: Critical chance increased by 5%
+	}
+
+	HeartOfValadiumBuff: {
+		DisplayName: Heart Of Valadium
+		Description: Critical chance increased by 5%
+	}
+
+	HeartOfIllumiteBuff: {
+		DisplayName: Heart Of Illumite
+		Description: Defense increased by 10%
 	}
 }
 
@@ -204,6 +378,11 @@ Configs: {
 			Tooltip: If enabled, Balance HWJ recipes to fit other mods progression.
 		}
 
+		EnableBookmarks: {
+			Label: "[i:ContinentOfJourney/EruditeBookmark] Enable Bookmarks"
+			Tooltip: If enabled, Modded mage weapons will work with Spell Pages.
+		}
+
 		CustomContent: {
 			Label: "[i:HomewardRagnarok/RogueBadge] Custom Mod Content"
 			Tooltip: If enabled, Add new content which fill gaps in progression.
@@ -212,6 +391,11 @@ Configs: {
 		BloodOrbPotions: {
 			Label: "[i:CalamityMod/BloodOrb] Potion Blood Orb Duplication"
 			Tooltip: If enabled, HWJ potions can be duplicated with calamity blood.
+		}
+
+		CustomStealthStrikes: {
+			Label: "[i:ContinentOfJourney/RisingAction] HWJ Stealth Strikes"
+			Tooltip: If enabled, Some HWJ weapons will have stealth strikes
 		}
 
 		EnableRogueClassChanges: {
@@ -268,5 +452,192 @@ Configs: {
 			Label: Consolaria Support
 			Tooltip: If enabled, Merge soul of blight with Consolaria.
 		}
+	}
+}
+
+ModCompat.BossChecklist.SlimeGod: Slime God: Rematch
+
+ItemTooltips: {
+	OmniShield: -Omni Shield-
+	ImmunityVulnerable: Grants immunity to Vulnerable
+	CommemorativeCoin: Damage taken by debuffs decreased by 35%
+	TransactionCertificate: Keep your HP at 1 upon receiving a fatal hit, 10 minutes cooldown
+	AbyssCore: Emits light on your cursorˊs position
+	GrandSpectral:
+		'''
+		Increases length of invincibility
+		Summon spectrals when damaged
+		Summon spectrals when hitting enemy
+		'''
+	LampreyScarf:
+		'''
+		Summons Lamprey Scarf
+		Increase whip range by 10%
+		Increases your max number of sentries by 1
+		'''
+	ArmillarySphere: Your sentries form a constellation that hurts for 50% of your held weapon's damage
+	"Remove'Range'": Range
+	"Remove'range'": range
+	SpikyCoverRework: Whip tips deal 1.5x damage and cause bleeding
+	CrossbowScope:
+		'''
+		+5% increased ranged damage
+		+7% increased ranged critical strike chance
+		Enemies are less likely to target you
+		Increase the damage of arrows
+		Turn wooden arrows into holy arrows
+		Show a bullet trace of bullet-firing guns
+		'''
+	DivineTouch: Causes melee attacks to inflict the Divine Fire debuff
+	StarFlower:
+		'''
+		+80 max mana
+		Decrease mana usage by 12%
+		'''
+	Negatama: Releases dark energy, the lower mana you have, the more damage it deals
+	PoisonEffect: Inflicts Poison
+	HolyFlamesEffect: Inflicts Holy Flames
+	VaporfiedEffect: Inflicts Vaporfied
+
+	CommandersGaunlet: {
+		OrigTooltip: melee speed
+		Replace: whip speed
+	}
+
+	Edgewalker: {
+		EdgeCrit: 6% increased critical strike chance
+		EdgeRocket: Perfect your ability to use explosive launchers
+	}
+
+	VanguardBreastpiece: {
+		Remove1: Grants immunity to Knockback
+		Remove2: Slightly increase your invis time
+		OrigTooltip1: Grants immunity to Burning and most debuffs
+		Replace1: Grants immunity to most status debuffs, knockback, and fire blocks
+		Sots1: Surrounds you with 4 orbital projectiles
+		Sots2: Launches attackers away from you with javelins
+		Sots3: Increases void gain by 2 and life regeneration by 1
+		Sots4: Reduces damage taken by 7% and increases critical strike chance by 4%
+		Sots5: Projectiles disabled when hidden
+		Thorium1: When above 25% life, absorbs 25% of damage done to nearby players on your team
+		Thorium2: When below 25% life, you will rapidly regenerate life and gain increased defense
+	}
+
+	GrayRook: {
+		"Remove'UseTime'": -item use time decreased by 35%
+		OrigTooltip1: Increase your melee speed by 2% and
+		Replace1: Increase your
+		OrigTooltip2: -whip range increased by 35%
+		Replace2: -whip range increased by 25%
+		MeleeRebalance: -melee size increased by 25%
+		RogueRebalance: -rogue attack speed is increased by 10%
+		HealerRebalance: -healing bonus is increased by 1
+		BardRebalance: -max inspiration is increased by 2
+	}
+
+	GrayRookBuff: {
+		OrigTooltip1: whip range increased by 30%
+		Replace1: whip range increased by 25%
+		OrigTooltip2: item use time decreased by 35%
+		Replace2: thrower attack speed is increased by 10%
+		MeleeRebalance:
+			'''
+
+			melee size increased by 25%
+			'''
+		HealerRebalance:
+			'''
+
+			healing bonus is increased by 1
+			'''
+		BardRebalance:
+			'''
+
+			max inspiration is increased by 5
+			'''
+	}
+
+	OrichalcumCross:
+		'''
+		+4% increased radiant damage
+		Heals the most damaged teammate by 4
+		upon every 9 radiant attacks
+		'''
+	CrossOfTheFlamingSwords:
+		'''
+		+3% increased radiant damage
+		Heals the most damaged teammate by 5
+		upon every 10 radiant attacks
+		'''
+	SilverCross:
+		'''
+		+2% increased radiant damage
+		Heals the most damaged teammate by 3
+		upon every 7 radiant attacks
+		'''
+	WoodenCross:
+		'''
+		+2% increased radiant damage
+		Heals the most damaged teammate by 2
+		upon every 8 radiant attacks
+		'''
+	AlloyCross:
+		'''
+		+8% increased radiant damage
+		Heals the most damaged teammate by 5
+		upon every 10 radiant attacks
+		'''
+	MythrilCross:
+		'''
+		+4% increased radiant damage
+		Heals the most damaged teammate by 4
+		upon every 9 radiant attacks
+		'''
+	TungstenCross:
+		'''
+		+2% increased radiant damage
+		Heals the most damaged teammate by 3
+		upon every 7 radiant attacks
+		'''
+	RejuvenatedCross:
+		'''
+		+5% increased radiant damage
+		Grants regeneration to the most damaged teammate
+		upon every 10 radiant attacks
+		'''
+	UndyingCross:
+		'''
+		+8% increased radiant damage
+		Heals the most damaged teammate by 5
+		upon every 5 radiant attacks
+		Immunity to Divine Fire
+		'''
+	BiomatterCross:
+		'''
+		+5% increased radiant damage
+		Heals the most damaged teammate by 5
+		upon every 10 radiant attacks
+		'''
+	SaviorsHeart:
+		'''
+		Heals you by 20 health for every 100 mana consumed
+		Healing spells will heal an additional 6 life
+		'''
+	MoonwalkEffect:
+		'''
+		Grants the effects of featherfall
+		Increases jump height by 5% for each minion you've summoned
+		Damage dealt by minions charge up the power meter
+		When the meter is full, double tap UP to grant you and your team following buffs:
+		- 1.5x move speed and 1.2x summon damage
+		- Makes you "moonwalk" 
+		- Teammates receive 1.25x speed boost
+		These effect last for 12 seconds
+		'Hee-hee!'
+		'''
+
+	MushroomAccessory: {
+		OrigTooltip: Increase healing amount
+		Replace: Increase bonus healing by {0}
 	}
 }

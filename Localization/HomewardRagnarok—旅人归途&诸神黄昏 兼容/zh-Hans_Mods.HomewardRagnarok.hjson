@@ -1,11 +1,11 @@
 Items: {
 	ClericBadge: {
-		Tooltip: 
+		DisplayName: 圣牧徽章
+		Tooltip:
 			'''
 			增加20%光辉伤害
 			增加5%光辉暴击率
 			'''
-		DisplayName: 圣牧徽章
 	}
 
 	BardBadge: {
@@ -18,17 +18,17 @@ Items: {
 	}
 
 	WhaleTooth: {
-		Tooltip: 
+		DisplayName: 永落鲸牙
+		Tooltip:
 			'''
 			召唤世末 · 永落鲸
 			可以在任意环境下使用
 			'''
-		DisplayName: 永落鲸牙
 	}
 
 	YggdrasilTree: {
 		DisplayName: 世界树
-		Tooltip: 
+		Tooltip:
 			'''
 			召唤万籁携生
 			可以在任意环境下使用
@@ -36,12 +36,12 @@ Items: {
 	}
 
 	RogueBadge: {
+		DisplayName: 神盗徽章
 		Tooltip:
 			'''
 			增加20%盗贼伤害
 			增加5%盗贼暴击率
 			'''
-		DisplayName: 神盗徽章
 	}
 
 	BrokenChest: {
@@ -87,7 +87,7 @@ Items: {
 
 	EvilFlask: {
 		DisplayName: 邪恶烧瓶
-		Tooltip: 
+		Tooltip:
 			'''
 			使用喷火器时有20%概率不消耗弹药
 			允许你自定义喷火器的射弹
@@ -106,7 +106,7 @@ Items: {
 		DisplayName: 负能爆破盾
 		Tooltip:
 			'''
-			50基础伤害
+			50 基础伤害
 			[i:ContinentOfJourney/Negashield] 轻微延长受伤后的无敌状态时间
 			增加你受到的击退
 			受伤时释放爆炸
@@ -124,18 +124,22 @@ Items: {
 			受伤时，会从你身上滴落3-5滴油滴
 			液滴会对敌人造成伤害
 			'''
+		Contributor: -贡献者物品-
 	}
 
 	TheBibleOfTheThrowerVol4: {
-		Tooltip: 
+		DisplayName: 投手圣书：卷四
+		Tooltip:
 			'''
 			增加20%投掷伤害
 			增加50%可消耗投掷武器弹幕速度
+			使用投掷武器时近距离挥舞球棒
+			三个圆环将会增强你投掷的弹幕
 			减少20%可消耗投掷武器使用时间
 			当持有投掷武器，加速度提升75%
 			复制你17.5%的投掷伤害
 			'''
-		DisplayName: 投手圣书：卷四
+		NoExhaustion: 装备时移除所有疲劳值
 	}
 
 	DeluxeDewCollector: {
@@ -147,29 +151,125 @@ Items: {
 			治疗法术会额外治疗6点生命值
 			'''
 	}
+
+	PriestessRodRelic: {
+		Tooltip: ""
+		DisplayName: 天竿鱼祭司炼狱圣物
+	}
+
+	ChariotRelic: {
+		Tooltip: ""
+		DisplayName: 哥布林战车炼狱圣物
+	}
+
+	MarquisMoonsquidRelic: {
+		Tooltip: ""
+		DisplayName: 月光鱿侯炼狱圣物
+	}
+
+	BigDipperRelic: {
+		Tooltip: ""
+		DisplayName: 大熊星座炼狱圣物
+	}
+
+	PuppetRelic: {
+		DisplayName: 木偶歌剧炼狱圣物
+		Tooltip: ""
+	}
+
+	TheMotherbrainRelic: {
+		Tooltip: ""
+		DisplayName: 母脑炼狱圣物
+	}
+
+	DiverRelic: {
+		Tooltip: ""
+		DisplayName: 深潜者炼狱圣物
+	}
+
+	SolarRelic: {
+		DisplayName: 史莱姆之神炼狱圣物
+		Tooltip: ""
+	}
+
+	TheOverwatcherRelic: {
+		DisplayName: 极视终表炼狱圣物
+		Tooltip: ""
+	}
+
+	WallofShadowRelic: {
+		DisplayName: 暗影墙炼狱圣物
+		Tooltip: ""
+	}
+
+	TheMaterealizerRelic: {
+		Tooltip: ""
+		DisplayName: 化物天匠炼狱圣物
+	}
+
+	TheLifebringerRelic: {
+		Tooltip: ""
+		DisplayName: 万籁携生炼狱圣物
+	}
+
+	ScarabBeliefRelic: {
+		Tooltip: ""
+		DisplayName: 圣甲虫信仰炼狱圣物
+	}
+
+	TheSonRelic: {
+		DisplayName: 圣子炼狱圣物
+		Tooltip: ""
+	}
+
+	WhaleRelic: {
+		DisplayName: 世末 · 永落鲸炼狱圣物
+		Tooltip: ""
+	}
 }
 
 Tiles.TimelessFountainTile.MapEntry: 永恒喷泉
-
-Projectiles: {
-	BabyOilDroplet.DisplayName: 宝宝油液滴
-	OtherworldlyBubble.DisplayName: 超世泡泡
-	OtherworldlyScythePro.DisplayName: 超世之镰弹幕
-	ScytheOfLifeSpirit.DisplayName: Scythe Of Life Spirit
-	ScytheOfLifeProj.DisplayName: Scythe Of Life Proj
-	FlowerOnGround.DisplayName: Flower On Ground
-	FlowerScytheProj.DisplayName: Flower Scythe Proj
-	CubismKunaiProj.DisplayName: Cubism Kunai Proj
-	LifeStealerProjectile.DisplayName: Life Stealer Projectile
-	FissionThrow_2.DisplayName: Fission Throw_2
-	RodScythePro.DisplayName: Rod Scythe Pro
-	RodScytheBeam.DisplayName: Rod Scythe Beam
-}
+Projectiles.BabyOilDroplet.DisplayName: 宝宝油液滴
 
 Buffs: {
 	BubbleShield: {
 		DisplayName: 泡泡护盾
 		Description: 下次受到的伤害减少10%
+	}
+
+	HeartOfThoriumBuff: {
+		DisplayName: 瑟银之心
+		Description: 增加5点最大灵感值
+	}
+
+	HeartOfLifeQuartzBuff: {
+		DisplayName: 生命石英之心
+		Description: 增加2点额外治疗量
+	}
+
+	HeartOfAqualiteBuff: {
+		DisplayName: 海洋之心
+		Description: 提升5%移动速度
+	}
+
+	HeartOfSmoothCoalBuff: {
+		DisplayName: 光滑煤之心
+		Description: 免疫摔落伤害
+	}
+
+	HeartOfLodestoneBuff: {
+		DisplayName: 地脉之心
+		Description: 增加5%暴击率
+	}
+
+	HeartOfValadiumBuff: {
+		DisplayName: 虚金之心
+		Description: 增加5%暴击率
+	}
+
+	HeartOfIllumiteBuff: {
+		DisplayName: 荧光之心
+		Description: 增加10%防御力
 	}
 }
 
@@ -278,6 +378,11 @@ Configs: {
 			Tooltip: 启用后，旅人归途的配方会被调整以适配其他模组的进程
 		}
 
+		EnableBookmarks: {
+			Label: "[i:ContinentOfJourney/EruditeBookmark] 启用书签"
+			Tooltip: 启用后，模组的魔法武器能够使用魔咒书页
+		}
+
 		CustomContent: {
 			Label: "[i:HomewardRagnarok/RogueBadge] 自制模组内容"
 			Tooltip: 启用后，会添加可以弥补游戏进程空缺的新内容
@@ -286,6 +391,11 @@ Configs: {
 		BloodOrbPotions: {
 			Label: "[i:CalamityMod/BloodOrb] 药水血珠复制"
 			Tooltip: 启用后，旅人归途的药水可以使用灾厄血珠进行复制
+		}
+
+		CustomStealthStrikes: {
+			Label: "[i:ContinentOfJourney/RisingAction] 旅人归途潜伏攻击"
+			Tooltip: 启用后，部分旅人归途武器获得潜伏攻击
 		}
 
 		EnableRogueClassChanges: {
@@ -342,5 +452,192 @@ Configs: {
 			Label: Consolaria支持
 			Tooltip: 启用后，将旅人归途的枯萎之魂与Consolaria的融合
 		}
+	}
+}
+
+ModCompat.BossChecklist.SlimeGod: 史莱姆之神：再临
+
+ItemTooltips: {
+	OmniShield: -至高神盾-
+	ImmunityVulnerable: 使你免疫脆弱
+	CommemorativeCoin: 减少35%你受到的减益伤害
+	TransactionCertificate: 受到致命伤害时将hp锁定为1点，有10分钟冷却时间
+	AbyssCore: 鼠标位置发光
+	GrandSpectral:
+		'''
+		延长你的无敌时间
+		受伤时召唤光谱追杀敌人
+		击中敌人时召唤光谱追杀敌人
+		'''
+	LampreyScarf:
+		'''
+		召唤七鳃鳗围巾
+		鞭子距离增加10%
+		增加1个最大哨兵栏
+		'''
+	ArmillarySphere: 你的哨兵连结成星座对路径上的敌人造成召唤武器的一半伤害
+	"Remove'Range'": 远程
+	"Remove'range'": 远程
+	SpikyCoverRework: 鞭子尖端造成1.5倍伤害并施加流血
+	CrossbowScope:
+		'''
+		增加5%远程伤害
+		增加7%远程暴击率
+		降低敌人瞄准你的概率
+		提高箭矢的伤害
+		将木箭转化为圣箭
+		手持枪械时显示一条只有你能看到的子弹轨迹
+		'''
+	DivineTouch: 近战攻击施加圣火减益
+	StarFlower:
+		'''
+		增加80点最大魔力值
+		减少12%魔力消耗
+		'''
+	Negatama: 释放暗能量，魔力越低伤害越高
+	PoisonEffect: 施加中毒减益
+	HolyFlamesEffect: 施加圣火减益
+	VaporfiedEffect: 施加蒸汽波减益
+
+	CommandersGaunlet: {
+		OrigTooltip: 近战攻击速度
+		Replace: 鞭子挥舞速度
+	}
+
+	Edgewalker: {
+		EdgeCrit: 提高6%暴击率
+		EdgeRocket: 完善你使用火炮的能力
+	}
+
+	VanguardBreastpiece: {
+		Remove1: 免疫击退
+		Remove2: 略微延长你的无敌时间
+		OrigTooltip1: 对着火与大部分减益免疫
+		Replace1: 免疫大部分状态减益、击退和火块
+		Sots1: 使4个轨道弹幕围绕你
+		Sots2: 发射能让攻击者远离你的标枪
+		Sots3: 增加2点虚空恢复量和1点生命恢复速度
+		Sots4: 降低7%所受伤害，并增加4%暴击率
+		Sots5: 隐藏外观时会禁用弹幕
+		Thorium1: 高于25%生命值时，可吸收团队附近队友所受伤害的25%
+		Thorium2: 低于25%生命值时，你会快速再生生命并增加防御
+	}
+
+	GrayRook: {
+		"Remove'UseTime'": -物品使用时间减少35%
+		OrigTooltip1: 提高2%近战攻速与
+		Replace1: 提高
+		OrigTooltip2: -鞭子距离增加35%
+		Replace2: -鞭子距离增加25%
+		MeleeRebalance: -近战武器大小增加25%
+		RogueRebalance: -盗贼攻击速度提升10%
+		HealerRebalance: -额外治疗量增加1点
+		BardRebalance: -最大灵感值增加2点
+	}
+
+	GrayRookBuff: {
+		OrigTooltip1: 鞭子距离增加30%
+		Replace1: 鞭子距离增加25%
+		OrigTooltip2: 物品使用时间减少35%
+		Replace2: 盗贼攻击速度提升10%
+		MeleeRebalance:
+			'''
+
+			近战武器大小增加25%
+			'''
+		HealerRebalance:
+			'''
+
+			额外治疗量增加1点
+			'''
+		BardRebalance:
+			'''
+
+			最大灵感值增加2点
+			'''
+	}
+
+	OrichalcumCross:
+		'''
+		增加4%光辉伤害
+		为团队中生命值最少的队友恢复4点生命值
+		每9次光辉攻击触发一次
+		'''
+	CrossOfTheFlamingSwords:
+		'''
+		增加3%光辉伤害
+		为团队中生命值最少的队友恢复5点生命值
+		每10次光辉攻击触发一次
+		'''
+	SilverCross:
+		'''
+		增加2%光辉伤害
+		为团队中生命值最少的队友恢复3点生命值
+		每7次光辉攻击触发一次
+		'''
+	WoodenCross:
+		'''
+		增加2%光辉伤害
+		为团队中生命值最少的队友恢复2点生命值
+		每8次光辉攻击触发一次
+		'''
+	AlloyCross:
+		'''
+		增加8%光辉伤害
+		为团队中生命值最少的队友恢复5点生命值
+		每10次光辉攻击触发一次
+		'''
+	MythrilCross:
+		'''
+		增加4%光辉伤害
+		为团队中生命值最少的队友恢复4点生命值
+		每9次光辉攻击触发一次
+		'''
+	TungstenCross:
+		'''
+		增加2%光辉伤害
+		为团队中生命值最少的队友恢复3点生命值
+		每7次光辉攻击触发一次
+		'''
+	RejuvenatedCross:
+		'''
+		增加5%光辉伤害
+		恢复团队中生命值最少的队友
+		每10次光辉攻击触发一次
+		'''
+	UndyingCross:
+		'''
+		增加8%光辉伤害
+		为团队中生命值最少的队友恢复5点生命值
+		每5次光辉攻击触发一次
+		免疫圣火减益
+		'''
+	BiomatterCross:
+		'''
+		增加5%光辉伤害
+		为团队中生命值最少的队友恢复5点生命值
+		每10次光辉攻击触发一次
+		'''
+	SaviorsHeart:
+		'''
+		每消耗100点魔力恢复20点生命值
+		治疗法术会额外治疗6点生命值
+		'''
+	MoonwalkEffect:
+		'''
+		获得羽落效果
+		每拥有一只召唤物，增加5%跳跃高度
+		仆从造成的伤害积蓄充能条
+		充能条满时，双击上键使你和团队获得以下效果：
+		- 1.5倍移动速度和1.2倍召唤伤害
+		- 使你能够“月球漫步”
+		- 队友获得1.25倍速度增幅
+		这些效果持续12秒
+		“嘿嘿！”
+		'''
+
+	MushroomAccessory: {
+		OrigTooltip: 治疗量
+		Replace: 增加额外{0}点治疗量
 	}
 }

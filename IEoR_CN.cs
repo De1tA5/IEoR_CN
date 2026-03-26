@@ -25,35 +25,35 @@ namespace IEoR_CN
 
 
     //HomewardRagnarok—旅人黄昏
-    public class HomewardRagnarok : ModSystem
-    {
-        public override void PostSetupContent()
-        {
-            if (ModLoader.HasMod("HomewardRagnarok"))
-            {
-                TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "HomewardRagnarok", false);
+    //public class HomewardRagnarok : ModSystem
+    //{
+    //    public override void PostSetupContent()
+    //    {
+    //        if (ModLoader.HasMod("HomewardRagnarok"))
+    //        {
+    //            TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "HomewardRagnarok", false);
 
-                base.PostSetupContent();
-            }
-        }
-    }
+    //            base.PostSetupContent();
+    //        }
+    //    }
+    //}
+
     //WHummusMultiModBalancing—WHummus灾瑟平衡
-    public class WHummusMultiModBalancing:ModSystem
-    {
-        public override void PostSetupContent()
-        {
-            if (ModLoader.HasMod("WHummusMultiModBalancing")) 
-            {
-                TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "WHummusMultiModBalancing", false, filters: new()
-                {
-                    MethodFilter = MethodFilter.MatchNames("TryTeleport", "PostUpdate", "SetAnchor", "ModifyTooltips", "PostUpdateEquips")
-                });
-            }
-            base.PostSetupContent();
-        }
+    //public class WHummusMultiModBalancing:ModSystem
+    //{
+    //    public override void PostSetupContent()
+    //    {
+    //        if (ModLoader.HasMod("WHummusMultiModBalancing")) 
+    //        {
+    //            TigerForceLocalizationHelper.LocalizeAll("IEoR_CN", "WHummusMultiModBalancing", false, filters: new()
+    //            {
+    //                MethodFilter = MethodFilter.MatchNames("TryTeleport", "PostUpdate", "SetAnchor", "ModifyTooltips", "PostUpdateEquips")
+    //            });
+    //        }
+    //        base.PostSetupContent();
+    //    }
+    //}
 
-
-    }
     //InfernalEclipseAPI—炼狱蚀光
     //public class InfernalEclipseAPI : ModSystem
     //{
