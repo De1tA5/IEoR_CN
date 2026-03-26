@@ -5,8 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Terraria.ModLoader;
 using Terraria;
-using TigerForceLocalizationLib;
-using TigerForceLocalizationLib.Filters;
 using Microsoft.Xna.Framework;
 using Terraria.Localization;
 
