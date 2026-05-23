@@ -244,6 +244,109 @@ Items: {
 			召唤神明吞噬者七鳃鳗在你身后
 			'''
 	}
+
+	Lore: {
+		LoreBigDipper: {
+			// DisplayName: Big Dipper
+			// Tooltip: ""
+		}
+
+		LoreDiver: {
+			// DisplayName: Diver
+			// Tooltip: ""
+		}
+
+		LoreGoblinChariot: {
+			// DisplayName: Goblin Chariot
+			// Tooltip: ""
+		}
+
+		LoreMarquisMoonsquid: {
+			// DisplayName: Marquis Moonsquid
+			// Tooltip: ""
+		}
+
+		LoreOverwatcher: {
+			// DisplayName: The Overwatcher
+			// Tooltip: ""
+			/* Lore:
+				'''
+				Goblins as a race are actually fairly young in the grand scheme of Terraria. 
+				Even their oldest settlements are still young enough to be built with more modern infrastructure. 
+				Not much more can be said about their reputation as raiders that hasn't already been said or made obvious. 
+				Many saw these raiders as a pest, including me and other Goblin tribes. 
+				You'd be surprised to learn that, during the first year of my conquest, a Goblin clan was amongst the first true factions to join my side. 
+				They proved their ingenuity with wooden chariots such as these, marking my army's first real vehicle support. 
+				I have honored my alliance with this particular tribe, even when a new addition to my army replaced every single one of their sciences with his own.
+				''' */
+		}
+
+		LorePriestessRod: {
+			// DisplayName: Priestess Rod
+			// Tooltip: ""
+		}
+
+		LorePuppetOpera: {
+			// DisplayName: Puppet Opera
+			// Tooltip: ""
+		}
+
+		LoreScarabBelief: {
+			// DisplayName: Scarab Belief
+			// Tooltip: ""
+		}
+
+		LoreSlimeGod: {
+			// DisplayName: Slime God
+			// Tooltip: ""
+		}
+
+		LoreTheLifebringer: {
+			// DisplayName: The Lifebringer
+			// Tooltip: ""
+			/* Lore:
+				'''
+				The auric soul of life was broad. Too broad for any one god to hold complete dominion over. 
+				Silva herself only held dominion over a portion of life's concepts, as nature was far too diverse to be handled by a even a single auric soul. 
+				The Lifebringer held a different portion, more focused on balance and the ecosystem than evolution and survival of the fittest. 
+				Their greatest difference from Silva was the ability to, somehow, gather faith and worship from both flora and fauna. 
+				The ecosystems its roots dwelled in didn't need to be aware of the Lifebringer. 
+				Their engagement in the circle of life was more than enough for it to gorge itself. 
+				For the longest time, I assumed its few human followers, who were living off of the land itself, were remnants of Silva's religion before its name was revealed and the truth dawned on me.
+				Despite my resources, my hunts for it would always come up short. 
+				Because it wasn't worshiped in the conventional way, there were no temples, statues, or even writing that regarded it. 
+				I had no trail to follow, and when I thought I did, it would inevitably lead to a dead end. 
+				On occasion, hunting parties would report unusually aggressive animals and carnivorous plants sprouting from the ground, possibly a deterrent, possibly not. 
+				There were other gods to crusade against, and I couldn't justify spending more of my resources on these hunts, so I postponed them until I had a better method. 
+				Needless to say, I never found one.
+				''' */
+		}
+
+		LoreTheMaterealizer: {
+			// DisplayName: The Materealizer
+			// Tooltip: ""
+		}
+
+		LoreTheMotherbrain: {
+			// DisplayName: The Motherbrain
+			// Tooltip: ""
+		}
+
+		LoreTheSon: {
+			// DisplayName: The Son
+			// Tooltip: ""
+		}
+
+		LoreWallofShadow: {
+			// DisplayName: Wall of Shadow
+			// Tooltip: ""
+		}
+
+		LoreWhale: {
+			// DisplayName: World's End Everlasting Falling Whale
+			// Tooltip: ""
+		}
+	}
 }
 
 Tiles: {
@@ -295,6 +398,11 @@ Buffs: {
 	HeartOfIllumiteBuff: {
 		DisplayName: 荧光之心
 		Description: 增加10%防御力
+	}
+
+	WhaleBoneRecovery: {
+		// DisplayName: Skeletal reconstruction
+		// Description: Whale will heal you by {0}
 	}
 }
 
@@ -391,6 +499,7 @@ Configs: {
 			WeaponChanges: 武器修改
 			ArmorChanges: 盔甲修改
 			ModChanges: 模组修改
+			// AccessoryChanges: Accessory Changes
 		}
 
 		EnableBossScaling: {
@@ -403,9 +512,19 @@ Configs: {
 			Tooltip: 启用后，旅人归途的配方会被调整以适配其他模组的进程
 		}
 
+		PermanentToAccessories: {
+			// Label: "[i:ContinentOfJourney/TheSwitch] The Switch Rework"
+			// Tooltip: If enabled, The Switch will be converted to accessory.
+		}
+
 		EnableBookmarks: {
 			Label: "[i:ContinentOfJourney/EruditeBookmark] 启用书签"
 			Tooltip: 启用后，模组的魔法武器能够使用魔咒书页
+		}
+
+		EnableTickets: {
+			// Label: "[i:ContinentOfJourney/LegacyTicket] Ticket Balancing"
+			// Tooltip: If enabled, Thrower luck tickets will be rebalanced according to other mods
 		}
 
 		CustomContent: {
@@ -505,10 +624,22 @@ ItemTooltips: {
 		鞭子距离增加10%
 		增加1个最大哨兵栏
 		'''
+	/* TrinketOfChi:
+		'''
+		Increases damage reduction by 8% if you avoid taking damage for 10 seconds
+		This buff expires on hit
+		+1 HP/s life regen for you and your teammates
+		''' */
 	ArmillarySphere: 你的哨兵连结成星座对路径上的敌人造成召唤武器的一半伤害
 	"Remove'Range'": 远程
 	"Remove'range'": 远程
 	SpikyCoverRework: 鞭子尖端造成1.5倍伤害并施加流血
+	// ColdBloodRework: Decreases debuff time and damage by 25%
+	/* WhaleBoneCharmRework:
+		'''
+		Gives 20% damage reduction
+		If a attack does more than 1/4th of your health, you get a buff that heals you depending of the damage you took.
+		''' */
 	CrossbowScope:
 		'''
 		增加5%远程伤害
@@ -519,15 +650,42 @@ ItemTooltips: {
 		手持枪械时显示一条只有你能看到的子弹轨迹
 		'''
 	DivineTouch: 近战攻击施加圣火减益
-	EtherealTalisman:
-	{
+
+	EtherealTalisman: {
 		OrigTooltip1: 增加150点最大魔力值并降低10%魔力消耗
 		Replace1: 增加230点最大魔力值并降低12%魔力消耗
 	}
+
+	AncientBlessing: {
+		// Remove: Increases length of invincibility,
+		// Remove1: Minor increase to all stats
+		// Remove2: Provides adaption to nights and liquid
+		/* AlchemistsCharm:
+			'''
+			Increases healing and mana received from potions by 100
+			Increases buff duration by 67%
+			''' */
+	}
+
 	Negatama: 释放暗能量，魔力越低伤害越高
 	PoisonEffect: 施加中毒减益
 	HolyFlamesEffect: 施加圣火减益
 	VaporfiedEffect: 施加蒸汽波减益
+
+	ThrowerTickets: {
+		// Orig: Enables charge shot for consumable ranged weapons
+		// Replace: Improve your Stealth strikes ability
+	}
+
+	TheSwitch: {
+		// HoldShift: Shift-Right Click this item in your inventory to change mode
+		// ColdBlood: Decrease debuff time and damage by 40%
+		/* WhaleBoneCharm:
+			'''
+			Gives 30% damage reduction
+			If a attack does more than 1/4th of your health, you get a buff that heals you depending of the damage you took.
+			''' */
+	}
 
 	Horizon: {
 		Remove: “大气将你抬得很高很高”
@@ -571,6 +729,11 @@ ItemTooltips: {
 		Sots5: 隐藏外观时会禁用弹幕
 		Thorium1: 高于25%生命值时，可吸收团队附近队友所受伤害的25%
 		Thorium2: 低于25%生命值时，你会快速再生生命并增加防御
+	}
+
+	HolyTrinity: {
+		// OrigTrinityClass: Consumable ranged
+		// RepTrinityClass: Thrower
 	}
 
 	GrayRook: {

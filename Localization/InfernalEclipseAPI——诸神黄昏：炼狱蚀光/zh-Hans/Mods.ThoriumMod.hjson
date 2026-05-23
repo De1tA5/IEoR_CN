@@ -562,7 +562,7 @@ ThrowerTechniques: {
 		DisplayName: 引敌诱饵
 		Description:
 			'''
-			召唤一个敌怪诱饵并提升攻击速度，持续1秒
+			召唤一个敌怪诱饵，并提升攻击速度，持续1秒
 			诱饵会试图吸引附近敌怪的注意力
 			'''
 	}
