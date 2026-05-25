@@ -1,1 +1,13 @@
 EnterWorldText: 感谢使用 诸神黄昏：炼狱蚀光汉化补丁，反馈交流群QQ-709532049
+
+Configs: {
+	PatchConfig: {
+		// DisplayName: Patch Config
+		// Headers.InfernalEclipseArsenal: Infernal Eclipse Arsenal Header
+
+		RemovePipeSound: {
+			// Label: Remove Pipe Sound
+			// Tooltip: ""
+		}
+	}
+}

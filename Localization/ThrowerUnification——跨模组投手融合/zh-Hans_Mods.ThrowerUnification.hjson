@@ -173,27 +173,27 @@ Configs: {
 		Tooltip: ""
 
 		Thrower: {
-			Label: "投手"
+			Label: 投手
 			Tooltip: ""
 		}
 
 		Rogue: {
-			Label: "盗贼"
+			Label: 盗贼
 			Tooltip: ""
 		}
 
 		Malevolent: {
-			Label: "恶念"
+			Label: 恶念
 			Tooltip: ""
 		}
 
 		Kinetic: {
-			Label: "动能"
+			Label: 动能
 			Tooltip: ""
 		}
 
 		Custom: {
-			Label: "自定义"
+			Label: 自定义
 			Tooltip: ""
 		}
 	}

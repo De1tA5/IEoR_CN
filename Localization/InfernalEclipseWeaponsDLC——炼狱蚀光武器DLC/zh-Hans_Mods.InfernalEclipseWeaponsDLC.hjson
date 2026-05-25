@@ -324,7 +324,7 @@ Items: {
 
 	ArckaneStaff: {
 		DisplayName: 奥谬法杖
-		Tooltip: 
+		Tooltip:
 			'''
 			释放一枚过载的元素能量弹
 			汲取5点生命值，并施加以下减益：
