@@ -2,12 +2,12 @@ EnterWorldText: 感谢使用 诸神黄昏：炼狱蚀光汉化补丁，反馈交
 
 Configs: {
 	PatchConfig: {
-		// DisplayName: Patch Config
-		// Headers.InfernalEclipseArsenal: Infernal Eclipse Arsenal Header
+		DisplayName: 额外设置
+		Headers.InfernalEclipseArsenal: 炼狱蚀光武器库
 
 		RemovePipeSound: {
-			// Label: Remove Pipe Sound
-			// Tooltip: ""
+			Label: 移除钢管掉落声音
+			Tooltip: 移除 神域音场 衍生弹幕的钢管掉落声音
 		}
 	}
 }
