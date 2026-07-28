@@ -48,11 +48,50 @@ UI: {
 	NoticeHomewardJourney:
 		'''
 		注意：检测到已启用旅人归途！
-		在继续游玩前，我们强烈建议你安装“旅人黄昏”模组，以确保这些模组之间的兼容性！
+		在继续游玩前，我们强烈建议你安装“Homeward Ragnarok 旅人黄昏”模组，以确保这些模组之间的兼容性！
 		旅人黄昏还会为旅人归途添加新内容和其他可选的重置内容！
 		你可以在诸神黄昏：炼狱蚀光的模组配置中的“旅人归途配置”里关闭此弹窗。
 		'''
 	DevNoticeCampsiteFix: 已应用旗杆崩溃修复
+	WarningHelheim:
+		'''
+		注意：检测到已启用瑟银！
+		在继续游玩前，强烈建议你安装“Thorium Helheim 瑟银冥界”模组，以启用预设的瑟银Boss AI，再继续游戏！
+		若您希望在未安装该模组的情况下继续，可在诸神黄昏：炼狱蚀光的模组配置中关闭此弹窗。
+		'''
+	WarningRagnarok:
+		'''
+		注意：检测到已启用瑟银！
+		在继续游玩前，强烈建议你安装“Ragnarok 诸神黄昏”模组，以启用预设的瑟银Boss AI，再继续游戏！
+		若您希望在未安装该模组的情况下继续，可在诸神黄昏：炼狱蚀光的模组配置中关闭此弹窗。
+		'''
+	WarningOverhaul:
+		'''
+		警告：检测到已启用灾厄大修！
+		该模组存在较多漏洞，并会引发一些问题。我们强烈建议您将其禁用。
+		'''
+	WarningRemnants:
+		'''
+		警告：检测到已启用Remnants！
+		该模组与灾厄炼狱及整合包中的许多其他模组均不兼容。
+		若该世界是在启用此模组时生成的，请禁用本模组并重新创建世界。
+		'''
+	NoticeMasterPatch:
+		'''
+		注意：检测到已启用Infernum Master Patch！
+		此模组与诸神黄昏模式功能重复，建议禁用。
+		'''
+	NoticeCalMinus:
+		'''
+		注意：检测到已启用Calamity Minus！
+		若已启用本模组的“灾厄配方调整”配置选项，则该模组功能重复，可以将其禁用。
+		'''
+	NoticeCalBalance:
+		'''
+		注意：检测到已启用Calamity Balance Changes！
+		该模组加入了大量未注明的改动，可能会使您的游玩体验比预期更糟。
+		我们强烈建议您禁用该模组。
+		'''
 }
 
 DifficultyUI: {
@@ -75,20 +114,12 @@ DifficultyUI: {
 
 WelcomeMessage: {
 	Welcome: 感谢游玩《诸神黄昏：炼狱蚀光》模组包！
-	TBRNotice: 注意：检测到已启用 Thorium Bosses Reworked，请在兼容性配置中将生命、伤害与速度倍率均设为 1（除非你想要更高难度），该模组会根据当前难度自动调整瑟银 Boss 属性。
-	TBRWarning: 警告：检测到未启用 Thorium Bosses Reworked！我们强烈建议您启用该模组，它重新平衡了瑟银模组的Boss，使其机制更贴合炼狱模式及灾厄模组的整体进程。
-	RagWarning: 警告：检测到未启用 Ragnarok！若未启用此模组，瑟银与灾厄可能无法良好协同。强烈建议启用此模组，以获得更完整、更平衡的游戏体验。
-	EventTrophyNotice: 注意：检测到您未启用更多圣物和纪念章和传颂之物!如果缺少此模组，任何非原版、灾厄或炼狱模式的 Boss 可能缺失传颂之物或炼狱开场动画。强烈建议您启用此模组，以获得更完整、更平滑的游戏体验。
+	TBRNotice:注意：检测到已启用瑟银冥界，请在兼容性配置中将生命、伤害与速度倍率均设为 1（除非你想要更高难度），该模组会根据当前难度自动调整瑟银 Boss 属性。
 	SoulsWarning:
 		'''
 		警告：检测到您已启用 Fargo魂石模组！
 		请注意，炼狱模式与永恒模式不兼容，同时启用可能会导致严重错误。
 		'''
-	OverhaulWarning: 警告：检测到您已启用灾厄大修模组！此模组有较多漏洞且会发生多种错误。我们强烈建议您关闭此模组。
-	RemnantsWarning: 警告：检测到您已启用古迹残存模组！此模组不兼容炼狱，如果该世界是在启用此模组的情况下生成的，请关闭本模组后重新生成世界，否则请不要提交任何有关世界生成的错误报告。
-	MasterPatchNotice: 注意：检测到您已启用 Infernum Master Patch 大师炼狱补丁 模组！此模组是多余的，可以禁用它。
-	CalMinusNotice: 注意：检测到您已启用 Calamity Minus 模组！在《诸神黄昏：炼狱蚀光》配置中开启 “灾厄平衡修改” 后，该模组的所有功能已经被包含在内。
-	CalBalNotice: 注意：检测到您已启用 Calamity Balance Changes 模组！在《诸神黄昏：炼狱蚀光》配置中开启 “灾厄平衡修改” 后，该模组已包含其创意工坊页面上列出的绝大多数功能。此外，Calamity Balance Changes 还添加了大量未列出的改动，可能会使您的游戏体验比预期更差。
 	InfernumActive: 身负异兆之人归来，再度直面炼狱蚀光……
 	MPConnect: 一位异兆之人再度降临炼狱……
 	InfernumForced: 炼狱能量已注入此界……
@@ -113,6 +144,27 @@ BossCheesePrevention: {
 	TheDestroyer: 我不会让你轻易摧毁我的造物。
 	Plantera: 远古力量正阻止你使用该物品……
 	Yharon: 远古力量正阻止你使用该物品……
+}
+
+ItemBalance: {
+	Modified: 已被诸神黄昏：炼狱蚀光修改
+	Modified2: 按住{0}以查看修改
+	DamageUpGeneric: "    伤害增加[c/00A36C:{0}%]"
+	DamageDownGeneric: "    伤害降低[c/FF0000:{0}%]"
+	ShootSpeedUpGeneric: "    发射速度降低[c/FF0000:{0}%]"
+	ShootSpeedDownGeneric: "    发射速度增加[c/00A36C:{0}%]"
+	UseTimeUpGeneric: "    使用时间降低[c/00A36C:{0}%]"
+	UseTimeDownGeneric: "    使用时间增加[c/FF0000:{0}%]"
+	UseAnimationUpGeneric: "    使用动画减少[c/00A36C:{0}%]"
+	UseAnimationDownGeneric: "    使用动画增加[c/FF0000:{0}%]"
+	UseSpeedUpGeneric: "    使用速度增加[c/00A36C:{0}%]"
+	UseSpeedDownGeneric: "    使用速度降低[c/FF0000:{0}%]"
+	PickUpGeneric: "    镐力增加[c/FF0000:{0}%]"
+	PickDownGeneric: "    镐力降低[c/FF0000:{0}%]"
+	CritUpGeneric: "    暴击率增加[c/00A36C:{0}%]"
+	CritDownGeneric: "    暴击率降低[c/FF0000:{0}%]"
+	DefenseUpGeneric: "    防御增加{0}"
+	DefenseDownGeneric: "    防御降低{0}"
 }
 
 ItemTooltip: {
@@ -476,6 +528,7 @@ ItemTooltip: {
 	DoesNotStack: 不与下位效果叠加
 	NoBoss: Boss存活时不生效
 	Disabled: "[禁用] "
+	DisabledTooltip: 此物品目前已被禁用，不推荐在当前版本的炼狱蚀光中使用
 	DauntlessBuff: +2%光辉伤害
 	DedTo: -献给{0}-
 
@@ -2016,6 +2069,17 @@ Items: {
 		Major: 精美毛绒玩具
 	}
 
+	AuricBratwurst: {
+		DisplayName: 圣金源德式香肠
+		Tooltip: ""
+		DynamicTooltip:
+			'''
+			所有属性提升{0}{1}
+			“请忽略这是用鸡块做的……猪肉肠”
+			'''
+		VoidTooltip: 恢复75点虚空值
+	}
+
 	SingularityCore: {
 		DisplayName: 奇异核心
 		Tooltip:
@@ -2068,18 +2132,14 @@ Items: {
 	}
 
 	TyrantYharimsUltisword: {
-		DisplayName: 暴政穿杀
+		DisplayName: 神陨
 		Tooltip:
 			'''
-			投出一把金源巨剑，刺穿、焚烧并减速敌人
-			同一敌人身上最多可同时刺入五把剑，继续命中会将先前刺入的剑击飞
-			按下右键进入架势，期间可用左键施展毁天灭地的巨型斩击
-			处于架势时，你会获得生命恢复与飞行时间恢复，且冲刺冷却更短
-			巨型斩击在使用后需要充能
-			用巨型斩击命中被刺穿的敌人时，会发射所有剑刃并立即准备好下一次斩击
-			被巨型斩击最后命中的敌人会被施加死亡标记
-			退出架势时，死亡标记会爆炸并造成巨额伤害
-			“成为寻神者的奖赏……”
+			挥舞一柄缓慢而沉重的巨刃，造成强力击退，并发射炽焰、极速与日光刃影
+			按住右键开始为强化斩击蓄力
+			完全蓄力后松开右键，释放必定暴击的毁灭性斩击
+			命中敌人时造成[cbuff:CalamityMod/AuricRebuke]减益
+			“愿幸运垂青于你。除此之外，皆不足恃。”
 			'''
 	}
 
@@ -2172,7 +2232,7 @@ Items: {
 
 	AlloyofEden: {
 		DisplayName: 伊甸合金
-		Tooltip: 由多个宇宙中最强材料凝聚而成的合金
+		Tooltip: 由多个宇宙中最强材料熔铸而成的合金
 	}
 
 	SolynsSpellbook: {
@@ -2333,6 +2393,35 @@ Items: {
 			不消耗
 			'''
 		Name: 混沌构造体
+	}
+
+	BloodHeart: {
+		DisplayName: 血之心
+		Tooltip:
+			'''
+			在鲜血密室使用以召唤蝙蝠子爵
+			不消耗
+			'''
+	}
+
+	EldritchBattleHorn: {
+		DisplayName: 诡异号角
+		Tooltip:
+			'''
+			在深海使用以召唤遗忘之主
+			不消耗
+			'''
+	}
+
+	InfernalArsenalPainting: {
+		DisplayName: 蚀光武库
+		Tooltip:
+			'''
+			恭喜所有完成 Low% 或 Boss Rush 的挑战者！
+			这幅画的空间不足以容纳每一位胜者
+			胜者将按完成挑战的先后顺序列出
+			长按SHIFT键以查看完整致谢名单
+			'''
 	}
 }
 
@@ -2723,6 +2812,11 @@ Configs: {
 		CnidrionMusic: {
 			Label: 卧龙海马音乐
 			Tooltip: 切换卧龙海马存活时是否播放“Seahorse Scrutiny (Rebirth)” 作者：Brimston Premium
+		}
+
+		DisableUnnecessaryContent: {
+			Label: 禁用不必要的物品
+			Tooltip: ""
 		}
 	}
 
@@ -3278,7 +3372,7 @@ Cooldowns.FireWave: 火浪正在冷却！
 HeadphonesText.1: 正在播放 {0}！
 
 BossName: {
-	// DO NOT change the - to any other symbol or the code that displays "Now playing X" won't work
+	DO NOT change the - to any other symbol or the code that displays "Now playing X" won't work
 	TitleScreen: Teardrops of Dragonfire - Infernal Eclipse of Ragnarok Title
 	BereftVassal: Dead Kingdom's Champion - Bereft Vassal (Ragnarok Mode)
 	DoG: Last Battle (Ballos Mix) - Devourer of Gods (Phase 3)
