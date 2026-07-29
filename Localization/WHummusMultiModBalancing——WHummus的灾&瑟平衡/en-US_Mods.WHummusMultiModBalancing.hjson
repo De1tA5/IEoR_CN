@@ -8,6 +8,51 @@ Buffs: {
 		DisplayName: Default Summon Tag
 		Description: Mods.WHummusMultiModBalancing.Buffs.DefaultSummonTag.Description
 	}
+
+	BlossomsBlessingTag: {
+		DisplayName: Blossoms Blessing Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.BlossomsBlessingTag.Description
+	}
+
+	CatharsisTag: {
+		DisplayName: Catharsis Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.CatharsisTag.Description
+	}
+
+	CoralCrusherTag: {
+		DisplayName: Coral Crusher Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.CoralCrusherTag.Description
+	}
+
+	ResonantStrikerTag: {
+		DisplayName: Resonant Striker Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.ResonantStrikerTag.Description
+	}
+
+	UnrelentingTormentTag: {
+		DisplayName: Unrelenting Torment Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.UnrelentingTormentTag.Description
+	}
+
+	CongeledDuoWhipTag: {
+		DisplayName: Congeled Duo Whip Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.CongeledDuoWhipTag.Description
+	}
+
+	PrismBreakTag: {
+		DisplayName: Prism Break Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.PrismBreakTag.Description
+	}
+
+	SandstoneReignsTag: {
+		DisplayName: Sandstone Reigns Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.SandstoneReignsTag.Description
+	}
+
+	UnderBiteTag: {
+		DisplayName: Under Bite Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.UnderBiteTag.Description
+	}
 }
 
 Configs: {
@@ -98,6 +143,11 @@ Configs: {
 			Label: Duplicate Armor Ecto Mist
 			Tooltip: Favors Unofficial Calamity Bard/Healer helmets over the Ragnarok versions, the Ragnarok ones are still availible through ecto mist.
 		}
+
+		CalamityBardHealerWarningMessage: {
+			Label: Show Unofficial Calamity Bard & Healer Conflicting Balancing Message
+			Tooltip: Toggles whether the warning in chat shows on joining a world.
+		}
 	}
 }
 
@@ -119,12 +169,12 @@ ItemTooltips: {
 		'''
 	PhoenixStaff:
 		'''
-		Right Click to spew a stream of flames that inflict 'Holy Glare'
+		Right Click to spew a stream of flames that inflict [cbuff:ThoriumMod/HolyGlare]
 		All damage done against holy glared enemies is increased by 15%
 		'''
 	HolyGlare:
 		'''
-		Enemies hit with the scythe will be inflicted with 'Holy Glare'
+		Enemies hit with the scythe will be inflicted with [cbuff:ThoriumMod/HolyGlare]
 		All damage done against holy glared enemies is increased by 15%
 		'''
 	ChampionWing: 10% increased damage
@@ -139,9 +189,15 @@ Projectiles: {
 	RadioMicPro.DisplayName: Radio Mic Pro
 	RadioMicShadowBurst.DisplayName: Radio Mic Shadow Burst
 	TidalWaveWhirlpool.DisplayName: Tidal Wave Whirlpool
-	FireAxeSS.DisplayName: Fire Axe S S
+	FireAxeSS.DisplayName: Fire Axe SS
 	PlayerBrimstoneGigablast.DisplayName: Player Brimstone Gigablast
 	ThoriumHeavyScytheSpark.DisplayName: Thorium Heavy Scythe Spark
 }
 
 Conditions.ArmsDealerNearNurse: With the Nurse nearby
+
+WelcomeMessage: {
+	TBRNotice: NOTICE: Make sure the Health, Damage, & Speed multipliers are set to 1 (default) in the compatibility config of Thorium Bosses Reworked (unless you want a harder experience), as this mod automatically adjusts the Thorium bosses depending on the current difficulty.
+	RagnarokBalance: NOTICE: For the Balancing of weapons to be as intended, set the Ragnarok mod config of 'Generic Weapon Tweaks' to OFF, as otherwise the changes will stack and weapons will be far stronger than intended.
+	CalamityBardHealerBalance: NOTICE: For the Balancing of weapons to be as intended, set the Unofficial Calamity Bard & Healer mod config of 'General Item Balance Changes' to OFF, as otherwise the changes will stack and weapons will be far stronger than intended.
+}
