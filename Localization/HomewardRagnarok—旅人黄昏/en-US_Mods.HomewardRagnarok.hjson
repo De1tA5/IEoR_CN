@@ -662,11 +662,6 @@ Mods: {
 				Creation of darkness
 				Wall of Shadow
 				'''
-			SlimeGod:
-				'''
-				Primordial Slime
-				Slime God: Rematch
-				'''
 			TheOverwatcher:
 				'''
 				Watcher of Reality
@@ -694,7 +689,7 @@ Mods: {
 				'''
 			TheSon:
 				'''
-				Holy Christ
+				Source of Hallow
 				The Son
 				'''
 		}
@@ -852,6 +847,7 @@ ItemTooltips: {
 	"Remove'range'": range
 	SpikyCoverRework: Whip tips deal 1.5x damage and cause bleeding
 	ColdBloodRework: Decreases debuff time and damage by 25%
+	FungusJacket: Increases your max number of minions by 1
 	WhaleBoneCharmRework:
 		'''
 		Gives 20% damage reduction
