@@ -11,6 +11,8 @@ using Terraria.ModLoader.IO;
 
 namespace IEoR_CN.Core
 {
+    [JITWhenModsEnabled("SOTS", "InfernalEclipseAPI")]
+    [ExtendsFromMod("SOTS", "InfernalEclipseAPI")]
     public class ReaperToothTweak : GlobalItem
     {
         public override bool InstancePerEntity => true;
