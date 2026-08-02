@@ -16,6 +16,7 @@ WHummus' Calamity/Thorium Balancing——WHummus的灾厄&瑟银平衡模组
 Infernal Eclipse of Ragnarok: Weapon DLC——诸神黄昏：炼狱蚀光 武器DLC
 Thrower Unification——跨模组投手融合
 Homeward Ragnarok——旅人黄昏
+Ragnarok of Redemption——蚀光救赎
 Infernum SOTS Sanctuary WorldGen Adjuster——暗影奥秘世界生成调整
 
 

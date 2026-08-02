@@ -1,37 +1,69 @@
 Items: {
 	ArchmageMutagen: {
 		DisplayName: 大法师诱变器
-		Tooltip: 增加25%魔法伤害与15%魔法暴击率
+		Tooltip:
+			'''
+			增加25%魔法伤害
+			增加15%魔法暴击率
+			'''
 	}
 
 	AssassinsMutagen: {
 		DisplayName: 刺客诱变器
-		Tooltip: 增加25%投掷伤害与15%投掷暴击率
+		Tooltip:
+			'''
+			增加25%投掷伤害
+			增加15%投掷暴击率
+			最大技巧值增加 1
+			'''
 	}
 
 	BullseyeMutagen: {
 		DisplayName: 神射诱变器
-		Tooltip: 增加25%远程伤害与15%远程暴击率
+		Tooltip:
+			'''
+			25%远程伤害
+			增加15%远程暴击率
+			'''
 	}
 
 	CounsellorMutagen: {
 		DisplayName: 谋士诱变器
-		Tooltip: 增加25%召唤伤害与15%仆从暴击率
+		Tooltip:
+			'''
+			增加25%召唤伤害
+			鞭子攻击范围扩大15%
+			仆从获得7%基础暴击率
+			'''
 	}
 
 	MaestroMutagen: {
 		DisplayName: 乐圣诱变器
-		Tooltip: 增加25%音波伤害与15%音波暴击率
+		Tooltip:
+			'''
+			增加25%音波伤害
+			增加15%音波暴击率
+			最大灵感值增加5点
+			'''
 	}
 
 	PriestsMutagen: {
 		DisplayName: 神职诱变器
-		Tooltip: 增加25%光辉伤害与15%光辉暴击率
+		Tooltip:
+			'''
+			增加25%光辉伤害
+			增加15%光辉暴击率
+			治疗法术会额外治疗5点生命值
+			'''
 	}
 
 	SwordmasterMutagen: {
 		DisplayName: 剑圣诱变器
-		Tooltip: 增加25%近战伤害与15%近战暴击率
+		Tooltip:
+			'''
+			增加25%近战伤害
+			增加15%近战暴击率
+			'''
 	}
 
 	AkkaRelic: {
@@ -179,17 +211,22 @@ Items: {
 	Omega1DataTablet: {
 		DisplayName: 欧米伽数据面板I
 		Tooltip: 一个安装了吉鲁斯解码器的密码破译器能将其解密
+		Decrypted: 已解密
+		UnlockedRecipes: 已解锁配方
 
 		Weapon: {
 			TinyCleaver: 微型斩切刃
 			PulseBlade: 脉冲之刃
 			CorruptedDoubleRifle: 腐化双管步枪
+			CorruptedSentryBase: 欧米伽哨兵支架
 		}
 	}
 
 	Omega2DataTablet: {
 		DisplayName: 欧米伽数据面板II
 		Tooltip: 一个安装了吉鲁斯解码器的密码破译器能将其解密
+		Decrypted: 已解密
+		UnlockedRecipes: 已解锁配方
 
 		Weapon: {
 			CorruptedDAN: 腐化D.A.N
@@ -206,6 +243,8 @@ Items: {
 	Omega3DataTablet: {
 		DisplayName: 欧米伽数据面板III
 		Tooltip: 一个安装了吉鲁斯解码器的密码破译器能将其解密
+		Decrypted: 已解密
+		UnlockedRecipes: 已解锁配方
 
 		Weapon: {
 			SunInThePalm: 掌中日
@@ -225,7 +264,7 @@ Items: {
 				'''
 				为征伐栖居此世的众神，我已远行万里。
 				我曾直面诡诈之徒与嗜杀之辈——从自封正义的英雄，到毫不掩饰残虐的暴君。
-			    这一路上，我曾迎战战士、野兽、恶魔，以及形形色色的敌手。到了如今，此生已少有我未曾见识之事。
+				这一路上，我曾迎战战士、野兽、恶魔，以及形形色色的敌手。到了如今，此生已少有我未曾见识之事。
 				归根结底，我想说的是……
 				这啥玩意？！
 				'''
@@ -431,7 +470,7 @@ Items: {
 				林木向你呼救，你却把那些替它们剪除藤蔓的人也当成祸害，一并斩倒。
 				如今，已没有林木可向你求救。因为在你移开目光时，它们的家园早已沦亡。
 				最后留下的，只有那些你口口声声称要清剿的野兽。”
-				……我总觉得那番话是她预先想好的。其实还能再打磨打磨。
+				……我总觉得那番话是她预先想好的。真要细究，其实还能再打磨打磨。
 				但这并不减损它的真实。
 				'''
 		}
@@ -522,15 +561,41 @@ Buffs: {
 Tiles.GirusDecoderTile.MapEntry: 吉鲁斯解码器
 
 Conditions: {
-	OmegaTier2Decrypted: 已解密欧米伽数据面板II
-	OmegaTier1Decrypted: 已解密欧米伽数据面板I
-	OmegaTier3Decrypted: 已解密欧米伽数据面板III
+	OmegaLocked: {
+		Tier1:
+			'''
+			你没有足够的知识去制作这个
+			必须先破译欧米伽数据面板I
+			'''
+		Tier2:
+			'''
+			你没有足够的知识去制作这个
+			必须先破译欧米伽数据面板II
+			'''
+		Tier3:
+			'''
+			你没有足够的知识去制作这个
+			必须先破译欧米伽数据面板III
+			'''
+	}
+
+	OmegaTier2Decrypted: 解密欧米伽数据面板II
+	OmegaTier1Decrypted: 解密欧米伽数据面板I
+	OmegaTier3Decrypted: 解密欧米伽数据面板III
 }
 
 Messages: {
 	OmegaTier1Decrypted: 欧米伽数据面板I 已解密！
 	OmegaTier2Decrypted: 欧米伽数据面板II 已解密！
 	OmegaTier3Decrypted: 欧米伽数据面板III 已解密！
+}
+
+ItemTooltips: {
+	SoulCandle: {
+		ThoriumBonus: 也可使敌人掉落更多困境之魂
+		CalamityBonus: 也可使敌人掉落更多冰川、混乱和日光精华
+		JourneyBonus: 也可使敌人掉落更多黑暗、生命、物质和时光精华
+	}
 }
 
 Mods: {
@@ -596,7 +661,7 @@ Mods: {
 				不幸科学家
 				辐射巨兽
 				'''
-			BlisteredFish.Text:
+			Blisterface.Text:
 				'''
 				不幸金鱼
 				脓疱疮脸
