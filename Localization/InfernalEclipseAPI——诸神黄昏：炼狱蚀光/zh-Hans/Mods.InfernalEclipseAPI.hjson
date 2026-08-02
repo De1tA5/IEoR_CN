@@ -115,7 +115,7 @@ DifficultyUI: {
 
 WelcomeMessage: {
 	Welcome: 感谢游玩《诸神黄昏：炼狱蚀光》模组包！
-	TBRNotice:注意：检测到已启用瑟银冥界，请在兼容性配置中将生命、伤害与速度倍率均设为 1（除非你想要更高难度），该模组会根据当前难度自动调整瑟银 Boss 属性。
+	TBRNotice: 注意：检测到已启用瑟银冥界，请在兼容性配置中将生命、伤害与速度倍率均设为 1（除非你想要更高难度），该模组会根据当前难度自动调整瑟银 Boss 属性。
 	SoulsWarning:
 		'''
 		警告：检测到您已启用 Fargo魂石模组！
@@ -171,6 +171,7 @@ ItemBalance: {
 ItemTooltip: {
 	BasicDamage: 基本伤害
 	OmniShield: -至高神盾-
+	Donor: -捐赠者物品-
 	Playtester: -测试者物品-
 	Contributor: -贡献者物品-
 	NamelessDowned: 你必须通过考验
@@ -552,6 +553,7 @@ ItemTooltip: {
 		Puzzles: Mr. Puzzles
 		cat: StarlightCat
 		Arkangel: Arkangel
+		Minesky: Mineskye
 	}
 
 	MergedCraftingTreeTooltip: {
@@ -641,7 +643,7 @@ ItemTooltip: {
 			被召唤师鞭尖端命中的敌怪会受到{0}%额外伤害并被诅咒，生成至多[c/{1}:{2}]个微粒
 			手持鞭时<right>将微粒送向你的光标处，伤害附近的敌怪
 			击杀被诅咒的敌怪或持续伤害Boss会释放一只造成40点伤害的爆炸鬼魂，也会诅咒敌怪
-			''' 
+			'''
 		CyanPearl: 减半哨兵受到的召唤伤害惩罚
 		Watch: 你的哨兵会永久存在，并在两分钟内增加最多15%伤害
 
@@ -1493,7 +1495,7 @@ Items: {
 
 	GolemMusicBox: {
 		DisplayName: 音乐盒 (石巨人 - 炼狱模式)
-		Tooltip: 播放“Icon of the Sun“ 作者：PinpinNeon
+		Tooltip: 播放“Icon of the Sun” 作者：PinpinNeon
 	}
 
 	GrandThunderBirdRelic: {
@@ -2425,6 +2427,49 @@ Items: {
 			长按SHIFT键以查看完整致谢名单
 			'''
 	}
+
+	BlixerCore: {
+		DisplayName: Blixer核心
+		Tooltip:
+			'''
+			召唤Blixer手臂保护你
+			使用4个仆从栏并且只能召唤一个
+			<right>切换两种模式
+			'''
+		DefaultMode:
+			'''
+			默认模式：
+			两只手和两个加农炮会附着在手臂上
+			手会自动攻击附近距离内的敌怪
+			加农炮会在使用任意物品时朝你的光标方向射击
+			'''
+		LaserMode:
+			'''
+			激光模式：
+			四个加农炮会附着在手臂上
+			加农炮在使用任意物品时朝你的光标方向精准发射激光
+			'''
+	}
+
+	InterludeFourMusicBox: {
+		DisplayName: 音乐盒 (插曲4)
+		Tooltip: 播放“Calamity before the cynosure” 作者：theforge129
+	}
+
+	LastBattleMusicBox: {
+		DisplayName: 音乐盒 (神明吞噬者 - 最终阶段)
+		Tooltip: 播放“Last Battle (Ballos Mix)” 作者：DM DOKURO
+	}
+
+	PlanteraMusicBox: {
+		DisplayName: 音乐盒 (世纪之花 - 炼狱模式)
+		Tooltip: 播放“Floral Animosity” 作者：PinpinNeon
+	}
+
+	QueenSlimeMusicBox: {
+		DisplayName: 音乐盒 (史莱姆皇后 - 炼狱模式)
+		Tooltip: 播放“Crowned Before One's End” 作者：PinpinNeon
+	}
 }
 
 Projectiles: {
@@ -2475,6 +2520,9 @@ Projectiles: {
 	SplitFirebrandProjectile.DisplayName: 分裂火印弹幕
 	SplitFirebrandFlailProjectile.DisplayName: 分裂火印链枷弹幕
 	SplitFirebrandExplosion.DisplayName: 分裂火印爆炸
+	BlixerArm.DisplayName: Blixer手臂
+	BlixerHand.DisplayName: Blixer手
+	BlixerCannonPro.DisplayName: Blixer子弹
 }
 
 DiaryTooltip:
@@ -2819,6 +2867,15 @@ Configs: {
 		DisableUnnecessaryContent: {
 			Label: 禁用不必要的物品
 			Tooltip: ""
+		}
+
+		EnableCodebreakerInterlude: {
+			Label: 密码破译器插曲
+			Tooltip:
+				'''
+				切换密码破译器插曲
+				插曲会在你第一次安装密码破译器的最终组件时播放
+				'''
 		}
 	}
 
@@ -3321,6 +3378,11 @@ Buffs: {
 		DisplayName: 碎晶鞭标记
 		Description: Mods.InfernalEclipseAPI.Buffs.PrismBreakTag.Description
 	}
+
+	BlixerBuff: {
+		DisplayName: Blixer
+		Description: “我没设计这个！:(”
+	}
 }
 
 Tiles: {
@@ -3332,6 +3394,10 @@ Tiles: {
 	ProphecyMusicBoxTile.MapEntry: 音乐盒
 	MenuMusicBoxTile.MapEntry: 音乐盒
 	FinalFractalMusicBoxTile.MapEntry: 音乐盒
+	InterludeFourMusicBoxTile.MapEntry: 音乐盒
+	LastBattleMusicBoxTile.MapEntry: 音乐盒
+	PlanteraMusicBoxTile.MapEntry: 音乐盒
+	QueenSlimeMusicBoxTile.MapEntry: 音乐盒
 }
 
 NPCs: {
@@ -3388,6 +3454,7 @@ BossName: {
 	LittleCat: Coming Soon... - ???
 	ProvidenceNight: Unholy Finality - Providence (Night)
 	Seahorse: Seahorse Scrutiny (Rebirth) - Cnidrion
+	Arsenal: Arsenal - Codebreaker Interlude
 }
 
 PetDialog.DoGDSPTip: 激光网格会在他冲刺的同时生成！优先冲撞神吞，然后移动到安全位置——但别忘了那些火球！
