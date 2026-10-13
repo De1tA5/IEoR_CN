@@ -847,17 +847,18 @@ ItemTooltips: {
 	"Remove'range'": 远程
 	SpikyCoverRework: 鞭子尖端造成1.5倍伤害并施加流血
 	ColdBloodRework: 降低25%减益持续时间和伤害
+	WhaleBoneCharmRework: 该效果仅在与世末·永落鲸战斗时生效
 	FungusJacket: 增加1个最大仆从栏
-	WhaleBoneCharmRework:
-		'''
-		给予你20%伤害减免
-		如果一个攻击造成超过你最大生命值1/4的伤害，你会获得一个根据承受伤害量恢复你生命值的增益
-		'''
 	StarQuiver:
 		'''
 		增加15%箭矢伤害
 		将木箭转化为圣箭
 		敌人将不太可能瞄准你
+		'''
+	DeadshotBrooch:
+		'''
+		按下 “饰品能力” 键会自动交换弹药槽中弹药的顺序
+		交换的弹药类型取决于你手持武器的弹药类型
 		'''
 	CrossbowScopeSOTS:
 		'''
@@ -898,11 +899,7 @@ ItemTooltips: {
 	TheSwitch: {
 		HoldShift: 在物品栏中按住Shift右键点击切换模式
 		ColdBlood: 减少40%减益持续时间和伤害
-		WhaleBoneCharm:
-			'''
-			给予你30%伤害减免
-			如果一个攻击造成超过你最大生命值1/4的伤害，你会获得一个根据承受伤害量恢复你生命值的增益
-			'''
+		WhaleBoneCharm: 所受伤害不会超过最大生命值的 40%
 	}
 
 	Horizon: {
@@ -1103,4 +1100,32 @@ ItemTooltips: {
 		BuffOrigTooltip: 近战攻击
 		Replace: 近战、鞭子和盗贼攻击
 	}
+}
+
+ArmorTooltips: {
+	BiologicalBreastplate: {
+		Orig: 远程伤害和暴击率提高 24%
+		Replace:
+			'''
+			远程伤害提高 15%
+			暴击率提升 10%
+			'''
+	}
+
+	ForestBreastplate: {
+		Orig: 远程伤害和暴击率提高 27%
+		Replace:
+			'''
+			远程伤害提高 10%
+			暴击率提升 8%
+			'''
+	}
+
+	HeliologyMaskRemove: 最大仆从数量减少 4 个
+	HeliologyMinionArmorBonus: 最大仆从数量增加 20%
+	HeliologySentryArmorBonus:
+		'''
+		增加 18% 鞭子范围和攻速
+		最大哨兵数量增加 20%
+		'''
 }

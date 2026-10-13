@@ -47,3 +47,20 @@ Items: {
 			'''
 	}
 }
+
+Buffs: {
+	LunarEmpowermentBuff: {
+		DisplayName: 月华赐福
+		Description: 月亮将些许幸运赐予了你
+	}
+
+	MintyFreshnessBuff: {
+		DisplayName: 薄荷清新
+		Description: 薄荷月光提高了伤害和移动速度
+	}
+
+	MoonsRingBuff: {
+		DisplayName: 月华和鸣
+		Description: 所有附魔之月的力量庇佑着你
+	}
+}

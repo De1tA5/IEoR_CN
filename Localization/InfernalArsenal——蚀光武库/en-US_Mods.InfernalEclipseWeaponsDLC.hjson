@@ -74,9 +74,10 @@ Items: {
 		DisplayName: Necrotic Chorus
 		Tooltip:
 			'''
-			Summons up to 10 wisps that home onto foes
-			<right> for an alternate blood spit attack 
+			Summons up to 10 wisps that home onto foes and last for 5 seconds
+			<right> for an alternate blood spit attack
 			Blood spit inflicts [cbuff:CalamityMod/ArmorCrunch] and [cbuff:CalamityMod/BurningBlood]
+			Using either function resets the lifetime of all active wisps
 			'''
 	}
 
@@ -116,8 +117,8 @@ Items: {
 	GrandThunderWhip: {
 		Tooltip:
 			'''
+			{$CommonItemTooltip.Whips}
 			3 summon tag damage
-			Inflicts [rbuff:Electrified] on hit
 			'''
 		DisplayName: Grand Thunder Whip
 	}
@@ -328,7 +329,7 @@ Items: {
 			[iabuff:Ichor], [iabuff:Confused], [iabuff:OnFire], [iabuff:Frostburn],
 			[iabuff:Poisoned], [iabuff:ShadowFlame], [iabuff:CursedInferno],
 			[iabuff:CalamityMod/Crumbling], [iabuff:CalamityMod/CrushDepth], [iabuff:CalamityMod/AstralInfectionDebuff],
-			[iabuff:CalamityMod/Plague], [iabuff:CalamityMod/BrimstoneFlames], [iabuff:ThoriumMod/MagickStaffDebuff],
+			[iabuff:CalamityMod/Plague], [iabuff:CalamityMod/BrimstoneFlames],
 			[iabuff:ThoriumMod/Stunned] and [iabuff:ThoriumMod/Charmed]
 			'''
 	}
@@ -345,8 +346,8 @@ Items: {
 			[iabuff:CalamityMod/MiracleBlight], [iabuff:Confused], [iabuff:OnFire], [iabuff:Frostburn],
 			[iabuff:Poisoned], [iabuff:ShadowFlame], [iabuff:CursedInferno],
 			[iabuff:CalamityMod/Crumbling], [iabuff:CalamityMod/CrushDepth], [iabuff:CalamityMod/AstralInfectionDebuff],
-			[iabuff:CalamityMod/Plague], [iabuff:CalamityMod/BrimstoneFlames], [iabuff:ThoriumMod/MagickStaffDebuff],
-			[iabuff:Ichor], [iabuff:ThoriumMod/Stunned] and [iabuff:ThoriumMod/Charmed]
+			[iabuff:CalamityMod/Plague], [iabuff:CalamityMod/BrimstoneFlames], [iabuff:Ichor], 
+			[iabuff:ThoriumMod/Stunned] and [iabuff:ThoriumMod/Charmed]
 			'How much more do you need!?'
 			'''
 	}
@@ -633,9 +634,9 @@ Items: {
 		DisplayName: Grand Amplifier
 		Tooltip:
 			'''
-			<left> to fire a small thunderbolt that inflicts [rbuff:Electrified]
-			<right> to summon lightning above all nearby enemies with the [rbuff:Electrified] debuff
-			This lightning will remove the [rbuff:Electrified] debuff but deal a burst of high damage
+			<left> to fire a small thunderbolt that inflicts [cbuff:Electrified]
+			<right> to summon lightning above all nearby enemies with an Electric type debuff
+			This lightning will remove Electric debuffs but deal a burst of high damage that scales depending on the debuff
 			'''
 	}
 
@@ -657,7 +658,7 @@ Items: {
 		DisplayName: C-GSS Gamma Knife
 		Tooltip:
 			'''
-			Ignores 15 points of defence
+			Ignores 15 points of defense
 			<left> to swing the knife directionally, firing a high intensity slash of gamma radiation
 			The slash will deal heavy damage at close range but dissipate as it travels
 			<right> to throw the knife, which will explode and return on collision with an enemy or tile
@@ -705,12 +706,10 @@ Items: {
 		Tooltip:
 			'''
 			10% increased critical strike chance
-			Increases critical strike damage
 			Increases your max number of sentries by 2
-			Grants a greater zoom passively
-			Zoom effect can disabled with accessory visability
-			Pressing the '{$Keybinds.AccessoryAbility.DisplayName}' key will freeze the camera in place
-			'I see a unbreakable fortress in your future'
+			Allows sentries to be able to hit critical strikes
+			Pressing the '{$ThoriumMod.Keybinds.AccessoryAbility.DisplayName}' key will toggle an greatly increased range of view
+			'It sees you becoming an unbreakable fortress in your future'
 			'''
 	}
 
@@ -930,6 +929,39 @@ Items: {
 			This effect must recharge for 15 seconds after protecting you
 			'''
 	}
+
+	RGBMurasama: {
+		DisplayName: RGB Murasama
+		Tooltip:
+			'''
+			A high-frequency blade that can cleanly slice through even the mightiest foe
+			Every third swing deals immense damage
+			Prove your worth by slaying The Devourer of Gods to unsheath this sword
+			'I spent three thousand dollars.'
+			'''
+	}
+
+	EvilPumpkin: {
+		DisplayName: Evil Pumpkin Staff
+		Tooltip: Summons a regrowing evil pumpkin minion that explodes on enemy contact
+	}
+
+	JollyTune: {
+		DisplayName: Jolly Tune
+		Tooltip:
+			'''
+			Summons music notes that will begin to orbit around you
+			Upon summoning the 8th, the music notes will be fired out before homing onto foes
+			Successfully timing hits will steadily increase its damage and empowerment level
+			Mistiming these hits will decrease these bonuses greatly and cost 10 inspiration
+			These bonuses will stay between weapon swaps, but gradually fade when not your active weapon
+			'''
+	}
+
+	PrismaGorgon: {
+		DisplayName: Prisma Gorgon
+		Tooltip: "{$CommonItemTooltip.PercentChanceToSaveAmmo}"
+	}
 }
 
 ItemTooltip: {
@@ -958,7 +990,7 @@ ItemTooltip: {
 		You are perfect with yourself.
 		'''
 	SearingSpearTip: 150% basic damage
-	ArcticSpearTip: 115% basic damage
+	ArcticSpearTip: 100% basic damage
 	VerveineItem: "'An item from the orchid's blessing...'"
 	EngineGatling:
 		'''
@@ -1007,6 +1039,7 @@ ItemTooltip: {
 		cat: StarlightCat
 		Goldsock: Goldsockz2
 		paradox: Imagiknight_Parad0xical
+		orpheus: Imagiknight Orpheus
 		Arkangel: Arkangel
 	}
 
@@ -1170,6 +1203,14 @@ Projectiles: {
 	HolyFlailCorePro.DisplayName: Holy Flail Core
 	HolyFlailFire.DisplayName: Holy Fire
 	TerraOrb.DisplayName: Terra Orb
+	ArckaneStaffHoldout.DisplayName: Arckane Staff
+	ArckaneGemPro.DisplayName: Arckane Gem
+	ArckaneScythe1Pro.DisplayName: Arckane Scythe
+	ArckaneScythe2Pro.DisplayName: Arckane Scythe
+	EvilPumpkinMinion.DisplayName: Evil Pumpkin Minion
+	JollyTunePro.DisplayName: Jolly Tune Pro
+	PrismaGorgonExplosion.DisplayName: Prisma Gorgon Explosion
+	PrismaGorgonLaser.DisplayName: Prisma Gorgon Laser
 }
 
 Buffs: {
@@ -1229,6 +1270,11 @@ Buffs: {
 			Heat - 50 DPS
 			Lowers Enemy Speed by 7.5%
 			'''
+	}
+
+	EvilPumpkinBuff: {
+		DisplayName: Evil Pumpkins
+		Description: A dubious harvest attacks your enemies
 	}
 }
 

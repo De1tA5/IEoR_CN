@@ -23,7 +23,7 @@ Items: {
 		'''
 	UnrelentingTorment.Tooltip:
 		'''
-		10% summon tag damage
+		12% summon tag damage
 		{$Mods.CatalystMod.Tooltips.WhipTooltip}
 		Releases a cascade of otherworldly claws to tear at foes
 		'''
@@ -37,6 +37,7 @@ Items: {
 		[c/c61b40:The purifying light, forsaken and consumed by pain,]
 		[c/c61b40:Returned to this realm as obliterating shadow.]
 		'''
+	AstrageldonRelic.DisplayName: Platinum Astrageldon Relic
 }
 
 ArmorSetBonus.IntergelacticRanged:
